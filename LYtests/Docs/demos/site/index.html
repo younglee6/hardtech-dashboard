@@ -211,7 +211,7 @@
     <section class="card header">
       <div>
         <h1 class="title">硬科技全域日报 · 小红书看板</h1>
-        <div class="subtitle">AI / 芯片 / 机器人 / 新能源汽车科技 | 实时模式</div>
+        <div class="subtitle">AI / 芯片 / 机器人 / 新能源汽车科技 | 每天08:00自动更新</div>
         <div class="badge-row">
           <span class="badge">10 条高价值资讯</span>
           <span class="badge">内容洞察信息图</span>
@@ -227,7 +227,7 @@
           </div>
           <label class="check-row"><input id="includeLinksExport" type="checkbox" checked />导出时附来源链接（前5条）</label>
           <div class="action-row">
-            <button class="export-btn" id="refreshBtn" type="button">实时刷新数据</button>
+            <button class="export-btn" id="refreshBtn" type="button">手动刷新获取最新</button>
             <button class="export-btn" id="exportBtn" type="button">一键导出长图 PNG</button>
           </div>
           <div class="live-tip" id="liveStatus"></div>
@@ -275,9 +275,7 @@
 
   <script>
     const LIVE_DATA_URL = './hardtech-live-data.json';
-    const AUTO_REFRESH_MS = 5 * 60 * 1000;
-
-    const dailyBaseNews = [
+        const dailyBaseNews = [
       { tag: 'AI应用', title: 'Claude Code 语音模式推进，开发交互升级。', summary: 'AI 编程从键盘输入转向更自然的语音协作，工具体验继续抬升，开发者生产效率和交互体验都在同步提升。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/' },
       { tag: 'AI组织', title: 'Qwen 组织变动引发行业对连续性的讨论。', summary: '模型竞争从参数扩展到组织稳定与生态执行力评估，企业客户在选型时越来越重视路线图稳定性与长期支持能力。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/' },
       { tag: 'AI治理', title: 'OpenAI 与国防相关条款引发边界讨论。', summary: 'AI 商业化进入“性能+治理”双线推进阶段，技术能力之外，合规透明和使用边界定义正在成为市场信任的关键变量。', source: 'The Guardian', link: 'https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt' },
@@ -522,7 +520,7 @@
 
     const refreshLiveData = async (silent = false) => {
       const prevDate = dateSelectEl.value || currentDateKey;
-      if (!silent) liveStatusEl.textContent = '正在拉取实时数据...';
+      if (!silent) liveStatusEl.textContent = '正在获取最新数据...';
       try {
         const url = `${LIVE_DATA_URL}?t=${Date.now()}`;
         const res = await fetch(url, { cache: 'no-store' });
@@ -532,10 +530,10 @@
         boardArchive = json;
         lastLiveSyncAt = new Date().toLocaleTimeString('zh-CN', { hour12: false });
         rebindDateOptions(prevDate);
-        liveStatusEl.textContent = `实时数据已更新（${lastLiveSyncAt}）`;
+        liveStatusEl.textContent = `数据已更新（${lastLiveSyncAt}）`;
       } catch (err) {
         if (!silent) {
-          liveStatusEl.textContent = '实时拉取失败，已回退到本地数据（建议用本地服务器打开页面）';
+          liveStatusEl.textContent = '获取失败，已回退到本地数据';
         }
       }
     };
@@ -720,7 +718,8 @@
 
     initDateFilter();
     refreshLiveData(true);
-    setInterval(() => refreshLiveData(true), AUTO_REFRESH_MS);
+    liveStatusEl.textContent = "自动更新：每天 08:00（支持手动刷新）";
+    // polling disabled by request: no realtime loop
   </script>
 </body>
 </html>
