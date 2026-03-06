@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>硬科技全域日报 · 实时看板</title>
+  <style>
+    :root {
+      --bg: #050b16;
+      --card: rgba(12, 24, 48, 0.78);
+      --line: rgba(143, 170, 212, 0.22);
+      --text: #e8f0ff;
+      --muted: #9db1d8;
+      --accent: #6ee7ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: "Space Grotesk", "Avenir Next", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(900px 500px at -15% -20%, rgba(57, 194, 255, 0.16), transparent 60%),
+        radial-gradient(900px 500px at 120% -10%, rgba(139, 147, 255, 0.18), transparent 56%),
+        linear-gradient(180deg, #040914, #081224 36%, #050b16);
+      min-height: 100vh;
+      padding: 22px;
+    }
+    .grain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(255, 255, 255, 0.04) 0.5px, transparent 0.5px);
+      background-size: 3px 3px;
+      opacity: 0.18;
+    }
+    .wrap { max-width: 1260px; margin: 0 auto; display: grid; gap: 16px; position: relative; z-index: 1; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+    .header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      background: linear-gradient(120deg, rgba(13, 25, 52, 0.95), rgba(17, 38, 74, 0.85));
+    }
+    .title { margin: 0; font-size: clamp(22px, 2.9vw, 36px); }
+    .subtitle { margin-top: 8px; color: var(--muted); font-size: 14px; }
+    .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+    .badge {
+      padding: 5px 10px;
+      border: 1px solid rgba(157, 177, 216, 0.35);
+      border-radius: 999px;
+      font-size: 12px;
+      color: #c9d8f6;
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .meta {
+      min-width: 280px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      color: #d5e3ff;
+      font-size: 13px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .actions { margin-top: 10px; display: grid; gap: 8px; }
+    .date-row { display: grid; gap: 6px; }
+    .date-label { color: #b9c9e9; font-size: 12px; }
+    .date-select {
+      width: 100%; appearance: none;
+      border: 1px solid rgba(157, 177, 216, 0.45);
+      background: rgba(9, 21, 43, 0.9);
+      color: #dff0ff; border-radius: 10px;
+      padding: 8px 10px; font-size: 12px; font-weight: 600; outline: none;
+    }
+    .check-row { display: flex; gap: 8px; align-items: center; font-size: 12px; color: #cbe0ff; }
+    .check-row input { accent-color: #6ee7ff; }
+    .action-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .export-btn {
+      appearance: none;
+      border: 1px solid rgba(110, 231, 255, 0.55);
+      background: linear-gradient(120deg, rgba(56, 189, 248, 0.18), rgba(110, 231, 255, 0.12));
+      color: #dff8ff;
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .export-btn:disabled { opacity: .55; cursor: not-allowed; }
+    .export-tip { color: #9cd9ea; font-size: 12px; min-height: 16px; }
+    .live-tip { color: #91f7d0; font-size: 12px; min-height: 16px; }
+
+    .grid { display: grid; gap: 16px; grid-template-columns: 1.2fr 1fr; }
+    .pane { padding: 16px; }
+    .section-head { margin: 0; font-size: 16px; font-weight: 700; }
+
+    .breakthroughs { display: grid; gap: 10px; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 12px; }
+    .kpi { border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.01)); }
+    .kpi h3 { margin: 0; font-size: 13px; color: #ffe08a; }
+    .kpi p { margin: 8px 0 0; font-size: 13px; line-height: 1.5; color: #d8e5ff; }
+    .insight { margin-top: 14px; padding: 12px; border-radius: 12px; border: 1px dashed rgba(110, 231, 255, 0.35); color: #bce9ff; line-height: 1.6; font-size: 14px; }
+
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+    .pie {
+      width: 190px; height: 190px; border-radius: 50%; margin: 10px auto;
+      position: relative;
+      background: conic-gradient(#39c2ff 0 40%, #8b93ff 40% 65%, #42d392 65% 83%, #ffb347 83% 100%);
+    }
+    .pie::after {
+      content: "赛道\A占比"; white-space: pre;
+      position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%);
+      width: 90px; height: 90px; border-radius: 50%; background: #09152b; border: 1px solid var(--line);
+      display: grid; place-items: center; font-size: 14px; color: #deebff; text-align: center;
+    }
+    .legend { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+    .legend li { display: flex; align-items: center; justify-content: space-between; font-size: 13px; color: #cfe0ff; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px; }
+    .heatmap { width: 100%; border-collapse: separate; border-spacing: 6px; margin-top: 6px; color: #e5eeff; font-size: 12px; }
+    .heatmap th { color: #9eb4dd; font-weight: 600; }
+    .heatmap td { text-align: center; padding: 10px 6px; border-radius: 10px; border: 1px solid rgba(255,255,255,.08); }
+
+    .news-focus-section { padding: 18px; }
+    .news-focus-head { display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .news-focus-head .section-head { font-size: 20px; }
+    .news-focus-head .note { color: #9fc0ed; font-size: 12px; }
+
+    .news-infocard { margin-top: 12px; border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: rgba(255,255,255,.02); display: grid; gap: 10px; }
+    .info-title { font-size: 13px; color: #b9ccee; font-weight: 700; }
+    .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .info-block { border: 1px solid rgba(143,170,212,.22); border-radius: 10px; padding: 10px; background: rgba(255,255,255,.02); }
+    .insight-kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+    .insight-kpi { border: 1px solid rgba(143,170,212,.24); border-radius: 10px; padding: 8px; background: rgba(9,21,43,.52); }
+    .insight-kpi .k { font-size: 12px; color: #b9ccee; }
+    .insight-kpi .v { font-size: 18px; color: #d9ecff; font-weight: 800; margin-top: 2px; }
+    .trend-list { margin: 0; padding-left: 18px; display: grid; gap: 6px; color: #d6e7ff; font-size: 13px; }
+    .keywords { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .kw-chip { border-radius: 999px; padding: 4px 8px; font-size: 12px; color: #d5e7ff; border: 1px solid rgba(143,170,212,.28); background: rgba(9,21,43,.65); }
+    .io-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .io-card { border: 1px dashed rgba(143,170,212,.3); border-radius: 10px; padding: 8px; background: rgba(255,255,255,.01); color: #cfe0ff; font-size: 12px; line-height: 1.6; }
+    .io-card b { color: #e0efff; }
+
+    .news-wrap {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+      max-height: none;
+      overflow: visible;
+      padding-right: 0;
+    }
+    .news-item {
+      border: 1px solid rgba(143,170,212,.35);
+      border-radius: 14px;
+      padding: 14px;
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+    }
+    .news-item.top-news {
+      border-color: rgba(110,231,255,.72);
+      box-shadow: 0 0 0 1px rgba(110,231,255,.2), 0 10px 24px rgba(8,25,53,.35);
+      background: linear-gradient(180deg, rgba(110,231,255,.09), rgba(255,255,255,.03));
+    }
+    .meta-line {
+      color: #9fb8e0;
+      font-size: 12px;
+      margin-bottom: 7px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .news-rank {
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #08253f;
+      background: #6ee7ff;
+    }
+    .headline { margin: 0; font-weight: 800; font-size: 15px; line-height: 1.45; }
+    .news-quote { margin: 9px 0; padding: 9px 10px; border-left: 3px solid rgba(110,231,255,.65); border-radius: 8px; background: rgba(110,231,255,.06); color: #d2e8ff; font-size: 12px; line-height: 1.68; }
+    .news-quote b { color: #e7f4ff; }
+    .sum { margin: 8px 0; color: #d7e5ff; font-size: 13px; line-height: 1.6; }
+    .news-item a { color: var(--accent); text-decoration: none; font-size: 12px; }
+
+    .copy-block { padding: 16px; line-height: 1.8; }
+    .copy-bottom { margin-top: 2px; }
+    .copy-title { font-size: 20px; margin: 0 0 10px; }
+    .copy-open { color: #d8e8ff; margin: 0 0 10px; }
+    .source-links { margin-top: 10px; padding: 10px; border-radius: 10px; border: 1px dashed rgba(143,170,212,.35); background: rgba(255,255,255,.02); font-size: 12px; line-height: 1.7; color: #bcd2f5; word-break: break-all; }
+    .source-links b { color: #d7e8ff; }
+    .source-links.hidden { display: none; }
+    .tagline { margin-top: 10px; color: #88f0ff; font-size: 14px; }
+
+    @media (max-width: 980px) {
+      .grid, .breakthroughs, .split, .info-grid, .io-grid, .action-row { grid-template-columns: 1fr; }
+      .news-wrap { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="grain"></div>
+  <main class="wrap">
+    <section class="card header">
+      <div>
+        <h1 class="title">硬科技全域日报 · 小红书看板</h1>
+        <div class="subtitle">AI / 芯片 / 机器人 / 新能源汽车科技 | 实时模式</div>
+        <div class="badge-row">
+          <span class="badge">10 条高价值资讯</span>
+          <span class="badge">内容洞察信息图</span>
+          <span class="badge">支持一键导出长图</span>
+        </div>
+      </div>
+      <div class="meta">
+        <div id="metaTime">更新时间：--</div>
+        <div class="actions">
+          <div class="date-row">
+            <label class="date-label" for="dateSelect">查看日期</label>
+            <select class="date-select" id="dateSelect"></select>
+          </div>
+          <label class="check-row"><input id="includeLinksExport" type="checkbox" checked />导出时附来源链接（前5条）</label>
+          <div class="action-row">
+            <button class="export-btn" id="refreshBtn" type="button">实时刷新数据</button>
+            <button class="export-btn" id="exportBtn" type="button">一键导出长图 PNG</button>
+          </div>
+          <div class="live-tip" id="liveStatus"></div>
+          <div class="export-tip" id="exportTip"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card pane">
+        <h2 class="section-head">今日 3 大突破点</h2>
+        <div class="breakthroughs" id="breakthroughs"></div>
+        <div class="insight"><strong>一句话判断：</strong>硬科技竞争正在从“单点技术参数”，切换到“系统化协同能力”（技术 + 组织 + 合规 + 基础设施）。</div>
+      </article>
+      <article class="card pane">
+        <h2 class="section-head">赛道热度与趋势分布</h2>
+        <div class="split">
+          <div>
+            <div class="pie"></div>
+            <ul class="legend" id="legend"></ul>
+          </div>
+          <div><table class="heatmap" id="heatmap"></table></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="card pane news-focus-section">
+      <div class="news-focus-head">
+        <h2 class="section-head">10 条精选新闻（重点展示）</h2>
+        <div class="note">建议：先看 TOP1-TOP3，再按赛道快速浏览</div>
+      </div>
+      <div class="news-infocard" id="newsInfographic"></div>
+      <div class="news-wrap" id="newsList"></div>
+    </section>
+
+    <section class="card copy-block copy-bottom">
+      <h2 class="section-head">小红书爆款笔记（置底展示）</h2>
+      <h3 class="copy-title" id="copyTitle"></h3>
+      <p class="copy-open" id="copyOpen"></p>
+      <div id="copyInsights"></div>
+      <div class="source-links hidden" id="copySources"></div>
+      <div class="tagline">#AI #芯片 #硬科技 #科技早报 #机器人 #新能源车</div>
+    </section>
+  </main>
+
+  <script>
+    const LIVE_DATA_URL = './hardtech-live-data.json';
+    const AUTO_REFRESH_MS = 5 * 60 * 1000;
+
+    const dailyBaseNews = [
+      { tag: 'AI应用', title: 'Claude Code 语音模式推进，开发交互升级。', summary: 'AI 编程从键盘输入转向更自然的语音协作，工具体验继续抬升，开发者生产效率和交互体验都在同步提升。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/' },
+      { tag: 'AI组织', title: 'Qwen 组织变动引发行业对连续性的讨论。', summary: '模型竞争从参数扩展到组织稳定与生态执行力评估，企业客户在选型时越来越重视路线图稳定性与长期支持能力。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/' },
+      { tag: 'AI治理', title: 'OpenAI 与国防相关条款引发边界讨论。', summary: 'AI 商业化进入“性能+治理”双线推进阶段，技术能力之外，合规透明和使用边界定义正在成为市场信任的关键变量。', source: 'The Guardian', link: 'https://www.theguardian.com/technology/2026/mar/03/openai-pentagon-ceo-sam-altman-chatgpt' },
+      { tag: '芯片', title: 'Apple M5 系列提升端侧 AI 计算能力。', summary: '本地推理和高性能创作场景的体验天花板继续提高，终端设备在 AI 时代的角色从入口逐渐进化为本地算力节点。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/' },
+      { tag: '通信+芯片', title: 'AI-Native 6G 路线推进。', summary: '通信网络开始向“连接+算力”一体化底座演进，产业链关注点从单一设备能力转向系统级协同与软件定义网络能力。', source: 'NVIDIA', link: 'https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Global-Telecom-Leaders-Commit-to-Build-6G-on-Open-and-Secure-AI-Native-Platforms/default.aspx' },
+      { tag: '机器人', title: '具身智能标准化持续推进。', summary: '标准体系降低协同摩擦，机器人商业化基础增强，行业有望从概念展示过渡到可复制的工程化交付阶段。', source: 'China.org.cn', link: 'https://www.china.org.cn/2026-03/01/content_118353416.shtml' },
+      { tag: '机器人+消费电子', title: '消费电子品牌持续加码机器人形态。', summary: 'C 端具身入口争夺升温，场景化能力成分水岭，硬件与模型结合方式将成为用户体验差异化的核心。', source: 'HONOR', link: 'https://www.honor.com/global/news/honor-mwc2026-launch/' },
+      { tag: '新能源车', title: 'XPENG 强调 VLA 智驾迭代节奏。', summary: '智能驾驶竞争重点转向数据闭环和算法更新效率，产品迭代频率与线上能力更新速度成为新的竞争分水岭。', source: 'Nasdaq', link: 'https://www.nasdaq.com/press-release/xpeng-announces-vehicle-delivery-results-february-2026-2026-03-01' },
+      { tag: '新能源车', title: 'BYD 技术发布前瞻聚焦快充能力。', summary: '补能基础设施升级预期抬升，车端系统战加速，用户对补能效率和网络覆盖的感知将直接影响品牌竞争力。', source: 'CnEVPost', link: 'https://cnevpost.com/2026/03/02/byd-teases-disruptive-tech-launch-mar-5/' },
+      { tag: 'AI政策', title: '科技从业者就 AI 风险标签展开讨论。', summary: '政策叙事开始影响采购与商业化路径判断，企业在推进速度之外需要同步建立更强的治理与沟通机制。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/02/tech-workers-urge-dod-congress-to-withdraw-anthropic-label-as-a-supply-chain-risk/' }
+    ];
+
+    const defaultArchive = {
+      '2026-03-06': {
+        updatedAt: '2026-03-06 09:00 (Asia/Shanghai)',
+        breakthroughs: [
+          { title: '交互突破', text: '语音驱动编码进入实际工作流。' },
+          { title: '基建突破', text: 'AI-Native 6G 路线明确。' },
+          { title: '车端突破', text: '智驾迭代与补能升级并行。' }
+        ],
+        sectors: [
+          { name: 'AI', ratio: 40, color: '#39c2ff' },
+          { name: 'Chip', ratio: 25, color: '#8b93ff' },
+          { name: 'Robotics', ratio: 18, color: '#42d392' },
+          { name: 'EV', ratio: 17, color: '#ffb347' }
+        ],
+        heatmap: {
+          cols: ['近1季度', '中期1年', '长期3年'],
+          rows: [
+            { name: 'AI', scores: [9, 8, 7] },
+            { name: 'Chip', scores: [8, 8, 9] },
+            { name: 'Robotics', scores: [7, 8, 8] },
+            { name: 'EV', scores: [8, 9, 8] }
+          ]
+        },
+        news: dailyBaseNews,
+        copy: {
+          title: '震惊！硬科技一夜变天🤯 10条干货看完直接领先同行半个月（建议收藏）',
+          open: '今天科技圈开倍速：AI 在卷交互与治理，芯片在卷端侧算力，机器人补齐标准，车圈把智驾和补能一起拉满。',
+          insights: [
+            '🤖 AI：从参数竞赛升级为组织与合规协同竞赛。',
+            '🧠 芯片：终端设备本地推理能力持续上探。',
+            '🦾 机器人：标准化就是规模化交付的前提。',
+            '🚗 EV：竞争核心转向“车+云+能源网络”。'
+          ]
+        }
+      }
+    };
+
+    let boardArchive = structuredClone(defaultArchive);
+    let currentDateKey = '';
+    let currentData = null;
+    let lastLiveSyncAt = '';
+
+    const metaTimeEl = document.getElementById('metaTime');
+    const dateSelectEl = document.getElementById('dateSelect');
+    const breakthroughsEl = document.getElementById('breakthroughs');
+    const legendEl = document.getElementById('legend');
+    const heatmapEl = document.getElementById('heatmap');
+    const newsListEl = document.getElementById('newsList');
+    const newsInfographicEl = document.getElementById('newsInfographic');
+    const copyTitleEl = document.getElementById('copyTitle');
+    const copyOpenEl = document.getElementById('copyOpen');
+    const copyInsightsEl = document.getElementById('copyInsights');
+    const copySourcesEl = document.getElementById('copySources');
+    const pieEl = document.querySelector('.pie');
+    const exportBtn = document.getElementById('exportBtn');
+    const refreshBtn = document.getElementById('refreshBtn');
+    const exportTip = document.getElementById('exportTip');
+    const liveStatusEl = document.getElementById('liveStatus');
+    const includeLinksExportEl = document.getElementById('includeLinksExport');
+
+    const toHeatColor = (score) => `rgba(66, 211, 146, ${(0.25 + score / 14).toFixed(2)})`;
+    const topN = (obj, n) => Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, n);
+    const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
+
+    const extractQuote = (text) => {
+      const cleaned = (text || '').trim();
+      if (!cleaned) return '暂无可提炼摘录';
+      const parts = cleaned.split(/[。！？!?；;]/).map((s) => s.trim()).filter(Boolean);
+      if (!parts.length) return cleaned;
+      let picked = '';
+      for (let i = 0; i < parts.length; i += 1) {
+        picked += (picked ? '。' : '') + parts[i];
+        if (picked.length >= 50) break;
+      }
+      return picked.length >= 50 ? `${picked}。` : cleaned;
+    };
+
+    const themeRules = [
+      { key: '技术演进', keys: ['语音', '大模型', '模型', '算力', '芯片', '6G', '推理', '标准', '机器人', '智驾'] },
+      { key: '商业化落地', keys: ['发布', '上线', '交付', '应用', '生态', '补能', '快充', '用户', '场景'] },
+      { key: '治理与风险', keys: ['治理', '条款', '争议', '合规', '风险', '政策', '国防', '供应链', '边界'] }
+    ];
+
+    const buildInfographicStats = (news) => {
+      const themeCount = { '技术演进': 0, '商业化落地': 0, '治理与风险': 0 };
+      const keywordCounts = {};
+      const focusWords = ['语音', '算力', '6G', '标准化', '快充', '智驾', '治理', '合规', '组织稳定', '端侧'];
+      const textAll = news.map((n) => `${n.title} ${n.summary}`).join('。');
+
+      news.forEach((n) => {
+        const text = `${n.title} ${n.summary}`;
+        themeRules.forEach((rule) => {
+          if (rule.keys.some((k) => text.includes(k))) themeCount[rule.key] += 1;
+        });
+        focusWords.forEach((w) => {
+          if (text.includes(w)) keywordCounts[w] = (keywordCounts[w] || 0) + 1;
+        });
+      });
+
+      const trendPower = clamp(Math.round((themeCount['技术演进'] / news.length) * 100), 40, 95);
+      const commercialization = clamp(Math.round((themeCount['商业化落地'] / news.length) * 100), 35, 92);
+      const riskLevel = clamp(Math.round((themeCount['治理与风险'] / news.length) * 100), 20, 88);
+
+      const trendTop = topN(themeCount, 3).map(([name, val]) => ({ name, val, pct: Math.round((val / news.length) * 100) }));
+      const hotWords = topN(keywordCounts, 6).map(([k, v]) => `${k}×${v}`);
+
+      const opportunities = [];
+      if (textAll.includes('语音') || textAll.includes('大模型')) opportunities.push('多模态交互工具（语音+代码）');
+      if (textAll.includes('6G') || textAll.includes('算力')) opportunities.push('端云协同与网络算力基础设施');
+      if (textAll.includes('快充') || textAll.includes('补能')) opportunities.push('补能网络与车端服务生态');
+      if (textAll.includes('标准') || textAll.includes('机器人')) opportunities.push('机器人标准适配与平台型方案');
+
+      const risks = [];
+      if (textAll.includes('治理') || textAll.includes('合规') || textAll.includes('条款')) risks.push('政策与合规不确定性');
+      if (textAll.includes('组织') || textAll.includes('离任')) risks.push('核心团队变动导致的路线波动');
+      if (textAll.includes('供应链') || textAll.includes('风险')) risks.push('供应链与地缘风险外溢');
+
+      const watchlist = [
+        '模型能力是否继续向交互体验迁移',
+        '6G/边缘算力项目是否出现规模化试点',
+        '快充与智驾能力是否转化为用户感知',
+        '机器人标准是否落到商用交付指标'
+      ];
+
+      return {
+        trendPower,
+        commercialization,
+        riskLevel,
+        trendTop,
+        hotWords,
+        opportunities: (opportunities.length ? opportunities : ['端云协同基础设施']).slice(0, 3),
+        risks: (risks.length ? risks : ['跨区域合规成本上升']).slice(0, 3),
+        watchlist: watchlist.slice(0, 3)
+      };
+    };
+
+    const renderNewsInfographic = (news) => {
+      const stats = buildInfographicStats(news);
+      const trendHtml = stats.trendTop.map((x) => `<li>${x.name}：覆盖 ${x.pct}%（${x.val}/10）</li>`).join('');
+      const kwHtml = stats.hotWords.map((x) => `<span class="kw-chip">${x}</span>`).join('');
+      newsInfographicEl.innerHTML = `
+        <div class="info-title">内容洞察信息图（基于当日 10 条新闻自动分析）</div>
+        <div class="insight-kpis">
+          <div class="insight-kpi"><div class="k">趋势强度</div><div class="v">${stats.trendPower}</div></div>
+          <div class="insight-kpi"><div class="k">商业落地温度</div><div class="v">${stats.commercialization}</div></div>
+          <div class="insight-kpi"><div class="k">风险关注度</div><div class="v">${stats.riskLevel}</div></div>
+        </div>
+        <div class="info-grid">
+          <div class="info-block"><div class="info-title">三大趋势主题</div><ol class="trend-list">${trendHtml}</ol></div>
+          <div class="info-block"><div class="info-title">关键词热度</div><div class="keywords">${kwHtml}</div></div>
+        </div>
+        <div class="io-grid">
+          <div class="io-card"><b>机会点</b><br>${stats.opportunities.join('<br>')}</div>
+          <div class="io-card"><b>风险点</b><br>${stats.risks.join('<br>')}</div>
+          <div class="io-card" style="grid-column: 1 / -1;"><b>明日观察</b><br>${stats.watchlist.join('<br>')}</div>
+        </div>
+      `;
+    };
+
+    const buildPieGradient = (sectors) => {
+      let start = 0;
+      const stops = sectors.map((s) => {
+        const end = start + s.ratio;
+        const seg = `${s.color} ${start}% ${end}%`;
+        start = end;
+        return seg;
+      });
+      return `conic-gradient(${stops.join(', ')})`;
+    };
+
+    const renderBoard = (dateKey) => {
+      currentDateKey = dateKey;
+      currentData = boardArchive[dateKey];
+      const liveSuffix = lastLiveSyncAt ? ` | 数据拉取：${lastLiveSyncAt}` : '';
+      metaTimeEl.textContent = `更新时间：${currentData.updatedAt}${liveSuffix}`;
+      pieEl.style.background = buildPieGradient(currentData.sectors);
+
+      breakthroughsEl.innerHTML = currentData.breakthroughs.map((item) => `
+        <article class="kpi"><h3>${item.title}</h3><p>${item.text}</p></article>
+      `).join('');
+
+      legendEl.innerHTML = currentData.sectors.map((item) => `
+        <li><span><i class="dot" style="background:${item.color}"></i>${item.name}</span><strong>${item.ratio}%</strong></li>
+      `).join('');
+
+      const headRow = `<tr><th></th>${currentData.heatmap.cols.map((c) => `<th>${c}</th>`).join('')}</tr>`;
+      const rows = currentData.heatmap.rows.map((r) => `
+        <tr><th>${r.name}</th>${r.scores.map((s) => `<td style="background:${toHeatColor(s)}">${s}</td>`).join('')}</tr>
+      `).join('');
+      heatmapEl.innerHTML = headRow + rows;
+
+      newsListEl.innerHTML = currentData.news.map((n, idx) => {
+        const isTop = idx < 3;
+        const rank = isTop ? `<span class="news-rank">TOP ${idx + 1}</span>` : `<span class="news-rank" style="background:#2e4f7a;color:#d4e7ff;">NO.${idx + 1}</span>`;
+        return `
+        <article class="news-item ${isTop ? 'top-news' : ''}">
+          <div class="meta-line">${rank}<span>${n.tag}</span></div>
+          <h3 class="headline">${n.title}</h3>
+          <div class="news-quote"><b>摘录：</b>${n.quote || extractQuote(n.summary)}</div>
+          <p class="sum">${n.summary}</p>
+          <a href="${n.link}" target="_blank" rel="noopener noreferrer">来源：${n.source}</a>
+        </article>
+      `;
+      }).join('');
+      renderNewsInfographic(currentData.news);
+
+      copyTitleEl.textContent = currentData.copy.title;
+      copyOpenEl.textContent = currentData.copy.open;
+      copyInsightsEl.innerHTML = currentData.copy.insights.map((line) => `<div>${line}</div>`).join('');
+      copySourcesEl.classList.add('hidden');
+      copySourcesEl.innerHTML = `<b>原文链接（前5条）</b><br>${currentData.news.slice(0, 5).map((n, i) => `${i + 1}. ${n.source}：<a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.link}</a>`).join('<br>')}`;
+      exportTip.textContent = '';
+    };
+
+    const rebindDateOptions = (preferredDate) => {
+      const dates = Object.keys(boardArchive).sort((a, b) => b.localeCompare(a));
+      dateSelectEl.innerHTML = dates.map((d) => `<option value="${d}">${d}</option>`).join('');
+      const target = preferredDate && boardArchive[preferredDate] ? preferredDate : dates[0];
+      dateSelectEl.value = target;
+      renderBoard(target);
+    };
+
+    const validateArchive = (data) => {
+      if (!data || typeof data !== 'object') return false;
+      const keys = Object.keys(data);
+      if (!keys.length) return false;
+      const sample = data[keys[0]];
+      return !!(sample && sample.updatedAt && Array.isArray(sample.news) && Array.isArray(sample.breakthroughs));
+    };
+
+    const refreshLiveData = async (silent = false) => {
+      const prevDate = dateSelectEl.value || currentDateKey;
+      if (!silent) liveStatusEl.textContent = '正在拉取实时数据...';
+      try {
+        const url = `${LIVE_DATA_URL}?t=${Date.now()}`;
+        const res = await fetch(url, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const json = await res.json();
+        if (!validateArchive(json)) throw new Error('数据结构不符合预期');
+        boardArchive = json;
+        lastLiveSyncAt = new Date().toLocaleTimeString('zh-CN', { hour12: false });
+        rebindDateOptions(prevDate);
+        liveStatusEl.textContent = `实时数据已更新（${lastLiveSyncAt}）`;
+      } catch (err) {
+        if (!silent) {
+          liveStatusEl.textContent = '实时拉取失败，已回退到本地数据（建议用本地服务器打开页面）';
+        }
+      }
+    };
+
+    const initDateFilter = () => {
+      rebindDateOptions();
+      dateSelectEl.addEventListener('change', (e) => renderBoard(e.target.value));
+    };
+
+    const waitForNextFrame = () => new Promise((resolve) => requestAnimationFrame(() => resolve()));
+
+    const downloadCanvas = (canvas) => {
+      const link = document.createElement('a');
+      link.download = `hardtech-dashboard-${currentDateKey}.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    };
+
+    const roundRect = (ctx, x, y, w, h, r) => {
+      const radius = Math.min(r, w / 2, h / 2);
+      ctx.beginPath();
+      ctx.moveTo(x + radius, y);
+      ctx.arcTo(x + w, y, x + w, y + h, radius);
+      ctx.arcTo(x + w, y + h, x, y + h, radius);
+      ctx.arcTo(x, y + h, x, y, radius);
+      ctx.arcTo(x, y, x + w, y, radius);
+      ctx.closePath();
+    };
+
+    const drawTextBlock = (ctx, text, x, y, maxWidth, lineHeight, maxLines) => {
+      const chars = Array.from(text || '');
+      const lines = [];
+      let line = '';
+      for (let i = 0; i < chars.length; i += 1) {
+        const test = line + chars[i];
+        if (ctx.measureText(test).width > maxWidth && line) {
+          lines.push(line);
+          line = chars[i];
+        } else {
+          line = test;
+        }
+      }
+      if (line) lines.push(line);
+      const limited = typeof maxLines === 'number' ? lines.slice(0, maxLines) : lines;
+      limited.forEach((l, idx) => ctx.fillText(l, x, y + idx * lineHeight));
+      return y + limited.length * lineHeight;
+    };
+
+    const exportFallbackCanvas = (includeLinks) => {
+      const width = 1240;
+      const height = 2100;
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      const ctx = canvas.getContext('2d');
+
+      const bg = ctx.createLinearGradient(0, 0, 0, height);
+      bg.addColorStop(0, '#040914');
+      bg.addColorStop(1, '#050b16');
+      ctx.fillStyle = bg;
+      ctx.fillRect(0, 0, width, height);
+
+      ctx.fillStyle = '#e8f0ff';
+      ctx.font = 'bold 42px sans-serif';
+      ctx.fillText('硬科技全域日报 · 小红书看板', 60, 90);
+      ctx.fillStyle = '#9db1d8';
+      ctx.font = '20px sans-serif';
+      ctx.fillText(`日期：${currentDateKey}  更新时间：${currentData.updatedAt}`, 60, 126);
+
+      ctx.fillStyle = 'rgba(255,255,255,0.05)';
+      roundRect(ctx, 50, 160, width - 100, 270, 14);
+      ctx.fill();
+      ctx.fillStyle = '#cde4ff';
+      ctx.font = 'bold 24px sans-serif';
+      ctx.fillText('内容洞察信息图', 70, 200);
+      const info = buildInfographicStats(currentData.news);
+      ctx.font = '18px sans-serif';
+      ctx.fillText(`趋势强度 ${info.trendPower} | 商业落地温度 ${info.commercialization} | 风险关注度 ${info.riskLevel}`, 70, 234);
+      info.trendTop.forEach((x, i) => {
+        ctx.fillText(`${i + 1}. ${x.name} 覆盖 ${x.pct}%`, 70, 270 + i * 32);
+      });
+      drawTextBlock(ctx, `热词：${info.hotWords.join(' / ')}`, 70, 370, width - 150, 24, 3);
+
+      let y = 470;
+      currentData.news.slice(0, 8).forEach((n, i) => {
+        ctx.fillStyle = '#9ab1d9';
+        ctx.font = '17px sans-serif';
+        ctx.fillText(`${String(i + 1).padStart(2, '0')} · ${n.tag}`, 70, y);
+        ctx.fillStyle = '#dbe8ff';
+        ctx.font = 'bold 18px sans-serif';
+        y = drawTextBlock(ctx, n.title, 70, y + 28, 760, 26, 2);
+        ctx.fillStyle = '#b9cdef';
+        ctx.font = '16px sans-serif';
+        y = drawTextBlock(ctx, n.quote || extractQuote(n.summary), 70, y + 6, 760, 23, 2);
+        y += 12;
+      });
+
+      let cy = 470;
+      ctx.fillStyle = '#7fe4ff';
+      ctx.font = 'bold 22px sans-serif';
+      cy = drawTextBlock(ctx, currentData.copy.title, 860, cy, 320, 30, 3) + 8;
+      ctx.fillStyle = '#d6e6ff';
+      ctx.font = '17px sans-serif';
+      cy = drawTextBlock(ctx, currentData.copy.open, 860, cy, 320, 24, 8) + 8;
+      currentData.copy.insights.forEach((line) => {
+        cy = drawTextBlock(ctx, line, 860, cy, 320, 24, 3) + 5;
+      });
+
+      if (includeLinks) {
+        cy += 8;
+        ctx.fillStyle = '#9cc4ff';
+        ctx.font = '15px sans-serif';
+        cy = drawTextBlock(ctx, '原文链接（前5条）', 860, cy, 320, 22, 1) + 6;
+        currentData.news.slice(0, 5).forEach((n, i) => {
+          const short = n.link.length > 45 ? `${n.link.slice(0, 45)}...` : n.link;
+          cy = drawTextBlock(ctx, `${i + 1}. ${n.source} ${short}`, 860, cy, 320, 22, 2) + 4;
+        });
+      }
+
+      downloadCanvas(canvas);
+    };
+
+    const exportBoardAsPng = async () => {
+      exportBtn.disabled = true;
+      exportTip.textContent = '正在生成长图...';
+      await waitForNextFrame();
+
+      const shouldShowLinks = !!includeLinksExportEl.checked;
+      if (shouldShowLinks) {
+        copySourcesEl.classList.remove('hidden');
+        await waitForNextFrame();
+      }
+
+      const target = document.querySelector('.wrap');
+      const rect = target.getBoundingClientRect();
+      const width = Math.ceil(rect.width);
+      const height = Math.ceil(rect.height);
+      const styleText = Array.from(document.querySelectorAll('style')).map((s) => s.textContent).join('\n');
+      const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml"><style>${styleText}</style>${target.outerHTML}</div>
+  </foreignObject>
+</svg>`;
+
+      const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      try {
+        const img = await new Promise((resolve, reject) => {
+          const image = new Image();
+          image.onload = () => resolve(image);
+          image.onerror = reject;
+          image.src = url;
+        });
+        const ratio = Math.min(window.devicePixelRatio || 1, 2);
+        const canvas = document.createElement('canvas');
+        canvas.width = Math.floor(width * ratio);
+        canvas.height = Math.floor(height * ratio);
+        const ctx = canvas.getContext('2d');
+        ctx.scale(ratio, ratio);
+        ctx.fillStyle = '#050b16';
+        ctx.fillRect(0, 0, width, height);
+        ctx.drawImage(img, 0, 0, width, height);
+        downloadCanvas(canvas);
+        exportTip.textContent = '导出成功，PNG 已开始下载。';
+      } catch (err) {
+        try {
+          exportFallbackCanvas(shouldShowLinks);
+          exportTip.textContent = '已切换兼容模式导出成功（Canvas 重绘）。';
+        } catch (fallbackErr) {
+          exportTip.textContent = '导出失败：请刷新页面后重试。';
+        }
+      } finally {
+        URL.revokeObjectURL(url);
+        if (shouldShowLinks) copySourcesEl.classList.add('hidden');
+        exportBtn.disabled = false;
+      }
+    };
+
+    refreshBtn.addEventListener('click', () => refreshLiveData(false));
+    exportBtn.addEventListener('click', exportBoardAsPng);
+
+    initDateFilter();
+    refreshLiveData(true);
+    setInterval(() => refreshLiveData(true), AUTO_REFRESH_MS);
+  </script>
+</body>
+</html>

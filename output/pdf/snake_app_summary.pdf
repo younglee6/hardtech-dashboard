@@ -1,0 +1,170 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2788 >>
+stream
+BT
+/F2 16 Tf
+1 0 0 1 44 760 Tm
+(Snake Web App - One-Page Repo Summary) Tj
+ET
+BT
+/F2 10.5 Tf
+1 0 0 1 44 731 Tm
+(What it is) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 717 Tm
+(A browser-based Snake game implemented with plain HTML, CSS, and JavaScript modules.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 705 Tm
+(Gameplay runs on a fixed-interval loop with DOM rendering for a 20x20 board and HUD.) Tj
+ET
+BT
+/F2 10.5 Tf
+1 0 0 1 44 688 Tm
+(Who it's for) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 674 Tm
+(Primary user/persona: someone who wants a lightweight, no-build Snake game in a local browser,) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 662 Tm
+(including keyboard input and on-screen directional controls on small screens.) Tj
+ET
+BT
+/F2 10.5 Tf
+1 0 0 1 44 645 Tm
+(What it does) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 631 Tm
+( - Renders a 20x20 grid board and paints snake/food cells each tick.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 619 Tm
+( - Supports Arrow keys and WASD direction controls.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 607 Tm
+( - Shows mobile directional buttons for touch input \(under 700px CSS breakpoint\).) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 595 Tm
+( - Tracks and displays score and status \(Running, Paused, Game over\).) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 583 Tm
+( - Pauses/resumes via Space key and Pause/Resume button.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 571 Tm
+( - Restarts game state from a dedicated Restart button.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 559 Tm
+( - Applies Snake rules: no instant reverse, wall/self collision ends game, food grows snake.) Tj
+ET
+BT
+/F2 10.5 Tf
+1 0 0 1 44 542 Tm
+(How it works \(repo-evidence architecture\)) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 528 Tm
+( - UI layer: index.html defines board/HUD/buttons; styles.css defines layout/theme/responsive controls.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 516 Tm
+( - Runtime/controller: src/game.js binds DOM events, maps inputs, runs setInterval\(140ms\), and renders.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 504 Tm
+( - Logic module: src/snake.js exports pure state functions for init, movement, collisions, and food.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 492 Tm
+( - Data flow: input -> setDirection/togglePause -> step\(state\) per tick -> state -> DOM + HUD update.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 52 480 Tm
+( - Tests: tests/snake.test.mjs validates movement, growth, collisions, reverse rule, and food placement.) Tj
+ET
+BT
+/F2 10.5 Tf
+1 0 0 1 44 463 Tm
+(How to run \(minimal\)) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 449 Tm
+(1. Run `npm start` from the repo root.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 437 Tm
+(2. Open `http://localhost:5173` in a browser.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 425 Tm
+(3. Optional: run `npm test` for logic tests.) Tj
+ET
+BT
+/F2 10.5 Tf
+1 0 0 1 44 408 Tm
+(Not found in repo) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 44 394 Tm
+(Production deployment pipeline, backend/API services, persistence/database, auth, analytics, and telemetry.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3236
+%%EOF

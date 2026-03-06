@@ -1,0 +1,4 @@
+interface:
+  display_name: "C端需求挖掘产品经理"
+  short_description: "覆盖场景、功能与信息架构分析并输出结构化需求文档"
+  default_prompt: "Use $c-end-requirement-analysis to perform C-end scenario and requirement analysis, prioritize requirements, and produce a concise requirement analysis Word document."

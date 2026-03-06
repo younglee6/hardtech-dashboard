@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>牛市顶部监测看板</title>
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+  <style>
+    :root {
+      --bg-0: #f4f1ea;
+      --bg-1: #fdf9f2;
+      --ink-1: #182127;
+      --ink-2: #51606d;
+      --line: #d9e1e8;
+      --card: #ffffff;
+      --good: #1f9d55;
+      --mid: #f59e0b;
+      --warn: #e9730c;
+      --danger: #dc2626;
+      --accent: #0057b8;
+      --accent-soft: #e8f1ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink-1);
+      font-family: "Avenir Next", "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(1000px 520px at -6% -16%, #e9d9bf 0%, transparent 60%),
+        radial-gradient(980px 460px at 112% -12%, #d6e7ff 0%, transparent 64%),
+        linear-gradient(180deg, var(--bg-0), var(--bg-1));
+      padding: 22px;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+
+    .header {
+      background: linear-gradient(125deg, #0c223d, #0c2d56 56%, #164f8f 100%);
+      border-radius: 22px;
+      color: #fff;
+      padding: 20px 22px;
+      box-shadow: 0 16px 40px rgba(12, 34, 61, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: clamp(22px, 3.2vw, 34px);
+      line-height: 1.1;
+      letter-spacing: 0.3px;
+    }
+
+    .sub {
+      margin-top: 6px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .time-box {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 14px;
+      padding: 10px 12px;
+      font-size: 13px;
+      min-width: 210px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: 0 10px 20px rgba(15, 31, 46, 0.06);
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+
+    .score-top {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .dial {
+      width: 112px;
+      height: 112px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      position: relative;
+      background: conic-gradient(var(--dial-color, var(--good)) var(--dial-rot, 0%), #e8edf2 0);
+    }
+
+    .dial::after {
+      content: "";
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid #e9eef3;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .dial span {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      line-height: 1.1;
+      font-weight: 700;
+    }
+
+    .dial strong {
+      display: block;
+      font-size: 28px;
+    }
+
+    .phase {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 6px 11px;
+      font-size: 13px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .pill.phase-good { color: var(--good); background: #ebf8ef; border-color: #bfe8cf; }
+    .pill.phase-mid { color: #b56d06; background: #fff6e8; border-color: #ffd89f; }
+    .pill.phase-warn { color: #a34f05; background: #fff0e4; border-color: #ffc697; }
+    .pill.phase-danger { color: #a91d1d; background: #feeaea; border-color: #f6b8b8; }
+
+    .advice {
+      font-size: 26px;
+      font-weight: 800;
+      margin: 6px 0;
+    }
+
+    .hint {
+      color: var(--ink-2);
+      font-size: 13px;
+    }
+
+    .signals {
+      display: grid;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .signal-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      border: 1px dashed #d6dfe8;
+      border-radius: 12px;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .tag-on,
+    .tag-off {
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 4px 10px;
+    }
+
+    .tag-on { color: #981b1b; background: #fee2e2; }
+    .tag-off { color: #386147; background: #eaf8ee; }
+
+    .risk-lamp {
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 12px;
+      border: 1px solid #d7e0e8;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: #f8fbff;
+    }
+
+    .lamp {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      box-shadow: 0 0 0 5px rgba(0,0,0,0.03);
+      background: #2fb56d;
+    }
+
+    .lamp.risk {
+      background: #dc2626;
+      box-shadow: 0 0 0 5px rgba(220, 38, 38, 0.18);
+    }
+
+    .score-list {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(120px, 1fr));
+      gap: 8px;
+    }
+
+    .score-item {
+      border: 1px solid #dbe3ea;
+      border-radius: 10px;
+      padding: 9px;
+      display: grid;
+      gap: 4px;
+      background: #fff;
+      align-content: center;
+    }
+
+    .score-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .score-item strong {
+      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    .score-item small {
+      display: block;
+      color: var(--ink-2);
+      font-size: 11px;
+      line-height: 1.2;
+    }
+
+    .point {
+      font-weight: 800;
+      min-width: 34px;
+      text-align: center;
+      border-radius: 7px;
+      padding: 4px 7px;
+      font-size: 12px;
+    }
+
+    .point.hit { background: #ffe4e4; color: #b32020; }
+    .point.safe { background: #e8f7ee; color: #197a43; }
+
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(140px, 1fr));
+      gap: 10px;
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+      font-size: 12px;
+      color: var(--ink-2);
+    }
+
+    .field input,
+    .field select {
+      border: 1px solid #cfd9e3;
+      border-radius: 10px;
+      padding: 8px 9px;
+      font-size: 14px;
+      color: var(--ink-1);
+      outline: none;
+      font-family: inherit;
+      background: #fff;
+    }
+
+    .field input:focus,
+    .field select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .switch-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .switch {
+      border: 1px solid #d6e0e9;
+      border-radius: 11px;
+      padding: 9px;
+      font-size: 12px;
+      color: #425264;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: #fbfdff;
+    }
+
+    .switch input {
+      margin: 0;
+      accent-color: #0d5cc2;
+    }
+
+    .mini-note {
+      margin-top: 10px;
+      color: #607080;
+      font-size: 12px;
+    }
+
+    .fetch-row {
+      margin-top: 12px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .fetch-btn {
+      border: 1px solid #0d5cc2;
+      background: linear-gradient(135deg, #0f63ca, #0b4f9b);
+      color: #fff;
+      border-radius: 10px;
+      padding: 8px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .fetch-btn:disabled {
+      opacity: .65;
+      cursor: not-allowed;
+    }
+
+    .fetch-status {
+      font-size: 12px;
+      color: #3b4f61;
+      background: #eef5fc;
+      border: 1px solid #d1e2f1;
+      border-radius: 999px;
+      padding: 5px 10px;
+    }
+
+    .footer {
+      color: #657888;
+      text-align: center;
+      font-size: 12px;
+      padding: 4px;
+    }
+
+    @media (max-width: 980px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .controls {
+        grid-template-columns: repeat(2, minmax(130px, 1fr));
+      }
+
+      .switch-row {
+        grid-template-columns: repeat(2, minmax(130px, 1fr));
+      }
+
+      .score-list {
+        grid-template-columns: repeat(3, minmax(120px, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      body { padding: 12px; }
+      .header { padding: 16px; border-radius: 16px; }
+      .card { padding: 13px; border-radius: 14px; }
+      .score-top { grid-template-columns: 1fr; }
+      .dial { margin: 0 auto; }
+      .controls, .switch-row { grid-template-columns: 1fr; }
+      .advice { font-size: 22px; }
+      .score-list { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div>
+        <h1>牛市顶部监测看板</h1>
+        <div class="sub">目标：每天 1 分钟判断市场阶段</div>
+      </div>
+      <div class="time-box">
+        <div>今日：<strong id="todayDate">-</strong></div>
+        <div>最近刷新：<strong id="updateTime">-</strong></div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>数据输入（实时联动）</h2>
+      <div class="controls">
+        <label class="field">恐慌贪婪指数
+          <input id="fearGreed" type="number" value="82" min="0" max="100" />
+        </label>
+        <label class="field">标普500 PE
+          <input id="spxPe" type="number" value="26.1" step="0.1" />
+        </label>
+        <label class="field">10Y收益率（%）
+          <input id="us10y" type="number" value="4.35" step="0.01" />
+        </label>
+        <label class="field">10Y MA5（%）
+          <input id="us10yMa5" type="number" value="4.28" step="0.01" />
+        </label>
+        <label class="field">SPX RSI(日线)
+          <input id="spxRsi" type="number" value="71.5" step="0.1" min="0" max="100" />
+        </label>
+        <label class="field">单日涨跌幅（小数）
+          <input id="spxReturn" type="number" value="0.012" step="0.001" />
+        </label>
+      </div>
+
+      <div class="switch-row">
+        <label class="switch"><input type="checkbox" id="divergence" checked />指数涨但个股跌</label>
+        <label class="switch"><input type="checkbox" id="hotSector" />热门板块连续拉升</label>
+        <label class="switch"><input type="checkbox" id="fomoNews" />全民讨论投资</label>
+        <label class="switch"><input type="checkbox" id="ipoBoom" />IPO/新币爆发</label>
+      </div>
+      <div class="fetch-row">
+        <button type="button" class="fetch-btn" id="autoFetchBtn">自动抓取公开数据</button>
+        <span class="fetch-status" id="fetchStatus">尚未抓取</span>
+      </div>
+      <div class="mini-note">输入后会立即刷新总分、阶段、风险灯和五项触发状态。</div>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <h2>① 总评分 + ④ 操作建议</h2>
+        <div class="score-top">
+          <div class="dial" id="scoreDial"><span><strong id="totalScore">0</strong>/5</span></div>
+          <div>
+            <div class="phase">
+              <span id="phasePill" class="pill phase-good">正常</span>
+              <span class="pill" style="color:#34536e;background:#eef5fc;border-color:#cfe0f0;">实时判读</span>
+            </div>
+            <div class="advice" id="actionText">持有</div>
+            <div class="hint" id="phaseHint">0-2 分：正常阶段，维持持仓节奏。</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>③ 风险信号灯</h2>
+        <div class="risk-lamp">
+          <div>
+            <strong id="riskLabel">风险信号正常</strong>
+            <div class="hint">出现任一项触发即转红色</div>
+          </div>
+          <div class="lamp" id="riskLamp" aria-label="风险状态"></div>
+        </div>
+        <div class="signals" id="riskList"></div>
+      </section>
+    </div>
+
+    <section class="card">
+      <h2>② 五大指标（精简触发视图）</h2>
+      <div class="score-list" id="scoreList"></div>
+    </section>
+
+    <div class="footer">Dashboard Prototype · Bull Top Monitor</div>
+  </div>
+
+  <script>
+    const el = {
+      todayDate: document.getElementById('todayDate'),
+      updateTime: document.getElementById('updateTime'),
+      totalScore: document.getElementById('totalScore'),
+      phasePill: document.getElementById('phasePill'),
+      actionText: document.getElementById('actionText'),
+      phaseHint: document.getElementById('phaseHint'),
+      riskLamp: document.getElementById('riskLamp'),
+      riskLabel: document.getElementById('riskLabel'),
+      scoreDial: document.getElementById('scoreDial'),
+      scoreList: document.getElementById('scoreList'),
+      riskList: document.getElementById('riskList'),
+      fearGreed: document.getElementById('fearGreed'),
+      spxPe: document.getElementById('spxPe'),
+      us10y: document.getElementById('us10y'),
+      us10yMa5: document.getElementById('us10yMa5'),
+      spxRsi: document.getElementById('spxRsi'),
+      spxReturn: document.getElementById('spxReturn'),
+      divergence: document.getElementById('divergence'),
+      hotSector: document.getElementById('hotSector'),
+      fomoNews: document.getElementById('fomoNews'),
+      ipoBoom: document.getElementById('ipoBoom')
+    };
+    el.autoFetchBtn = document.getElementById('autoFetchBtn');
+    el.fetchStatus = document.getElementById('fetchStatus');
+
+    const phaseMap = {
+      normal: { label: '正常', action: '持有', hint: '0-2 分：正常阶段，维持持仓节奏。', cls: 'phase-good', color: '#1f9d55' },
+      mid: { label: '中后期', action: '观察', hint: '3 分：进入中后期，收紧风险敞口。', cls: 'phase-mid', color: '#f59e0b' },
+      high: { label: '高风险', action: '减仓30%', hint: '4 分：高风险区，建议执行纪律化减仓。', cls: 'phase-warn', color: '#e9730c' },
+      top: { label: '顶部', action: '减仓50%', hint: '5 分：顶部信号聚集，优先保护本金。', cls: 'phase-danger', color: '#dc2626' }
+    };
+
+    function formatNow() {
+      const now = new Date();
+      const date = now.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+      const time = now.toLocaleTimeString('zh-CN', { hour12: false });
+      el.todayDate.textContent = date;
+      el.updateTime.textContent = time;
+    }
+
+    function getNumber(input, fallback = 0) {
+      const n = Number(input.value);
+      return Number.isFinite(n) ? n : fallback;
+    }
+
+    function scoreEngine() {
+      const fearGreed = getNumber(el.fearGreed);
+      const pe = getNumber(el.spxPe);
+      const tenY = getNumber(el.us10y);
+      const tenYMa5 = getNumber(el.us10yMa5);
+      const rsi = getNumber(el.spxRsi);
+      const oneDayReturn = getNumber(el.spxReturn);
+      const divergence = el.divergence.checked;
+
+      const scoreSentiment = fearGreed > 80 ? 1 : 0;
+      const scoreValuation = pe > 25 ? 1 : 0;
+      const scoreLiquidity = tenY > tenYMa5 ? 1 : 0;
+      const scoreStructure = divergence ? 1 : 0;
+      const scoreTechnical = rsi > 70 ? 1 : 0;
+
+      const total = scoreSentiment + scoreValuation + scoreLiquidity + scoreStructure + scoreTechnical;
+
+      let phaseKey = 'normal';
+      if (total === 3) phaseKey = 'mid';
+      if (total === 4) phaseKey = 'high';
+      if (total === 5) phaseKey = 'top';
+
+      const riskSignals = [
+        { name: '单日暴涨 > 2%', on: oneDayReturn > 0.02 },
+        { name: '热门板块连续拉升（AI/币圈）', on: el.hotSector.checked },
+        { name: '全民讨论投资（FOMO）', on: el.fomoNews.checked },
+        { name: 'IPO/新币爆发', on: el.ipoBoom.checked }
+      ];
+
+      return {
+        total,
+        phaseKey,
+        riskOn: riskSignals.some((s) => s.on),
+        riskSignals,
+        items: [
+          { name: '情绪', desc: `恐慌贪婪=${fearGreed}，阈值 > 80`, score: scoreSentiment },
+          { name: '估值', desc: `标普PE=${pe}，阈值 > 25`, score: scoreValuation },
+          { name: '流动性', desc: `10Y=${tenY}% vs MA5=${tenYMa5}%`, score: scoreLiquidity },
+          { name: '市场结构', desc: divergence ? '指数涨但多数个股不涨' : '尚未出现结构背离', score: scoreStructure },
+          { name: '技术面', desc: `RSI=${rsi}，阈值 > 70`, score: scoreTechnical }
+        ]
+      };
+    }
+
+    function render() {
+      formatNow();
+      const data = scoreEngine();
+      const phase = phaseMap[data.phaseKey];
+
+      el.totalScore.textContent = data.total;
+      el.actionText.textContent = phase.action;
+      el.phaseHint.textContent = phase.hint;
+      el.phasePill.textContent = phase.label;
+      el.phasePill.className = `pill ${phase.cls}`;
+
+      el.scoreDial.style.setProperty('--dial-color', phase.color);
+      el.scoreDial.style.setProperty('--dial-rot', `${(data.total / 5) * 100}%`);
+
+      if (data.riskOn) {
+        el.riskLamp.classList.add('risk');
+        el.riskLabel.textContent = '风险信号触发';
+      } else {
+        el.riskLamp.classList.remove('risk');
+        el.riskLabel.textContent = '风险信号正常';
+      }
+
+      el.scoreList.innerHTML = data.items.map((item) => `
+        <div class="score-item">
+          <div class="score-head">
+            <strong>${item.name}</strong>
+            <span class="point ${item.score ? 'hit' : 'safe'}">${item.score ? '+1' : '+0'}</span>
+          </div>
+          <small>${item.desc}</small>
+        </div>
+      `).join('');
+
+      el.riskList.innerHTML = data.riskSignals.map((item) => `
+        <div class="signal-row">
+          <span>${item.name}</span>
+          <span class="${item.on ? 'tag-on' : 'tag-off'}">${item.on ? '触发' : '未触发'}</span>
+        </div>
+      `).join('');
+    }
+
+    function parseCsvRows(csvText) {
+      const lines = csvText.trim().split(/\r?\n/).filter(Boolean);
+      if (lines.length < 2) return [];
+      const headers = lines[0].split(',');
+      return lines.slice(1).map((line) => {
+        const cols = line.split(',');
+        return headers.reduce((acc, key, idx) => {
+          acc[key.trim()] = (cols[idx] || '').trim();
+          return acc;
+        }, {});
+      });
+    }
+
+    function calcRSI(closes, period = 14) {
+      if (!Array.isArray(closes) || closes.length <= period) return null;
+      let gains = 0;
+      let losses = 0;
+
+      for (let i = 1; i <= period; i += 1) {
+        const delta = closes[i] - closes[i - 1];
+        if (delta >= 0) gains += delta;
+        else losses += Math.abs(delta);
+      }
+
+      let avgGain = gains / period;
+      let avgLoss = losses / period;
+
+      for (let i = period + 1; i < closes.length; i += 1) {
+        const delta = closes[i] - closes[i - 1];
+        const gain = delta > 0 ? delta : 0;
+        const loss = delta < 0 ? Math.abs(delta) : 0;
+        avgGain = ((avgGain * (period - 1)) + gain) / period;
+        avgLoss = ((avgLoss * (period - 1)) + loss) / period;
+      }
+
+      if (avgLoss === 0) return 100;
+      const rs = avgGain / avgLoss;
+      return 100 - (100 / (1 + rs));
+    }
+
+    async function fetchViaProxy(url) {
+      const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+      const response = await fetch(proxyUrl);
+      if (!response.ok) throw new Error(`抓取失败: ${response.status}`);
+      return response.text();
+    }
+
+    function setFetchStatus(text) {
+      el.fetchStatus.textContent = text;
+    }
+
+    async function autoFetchMarketData() {
+      el.autoFetchBtn.disabled = true;
+      setFetchStatus('抓取中...');
+
+      const result = { ok: [], fail: [] };
+
+      try {
+        const cnnText = await fetchViaProxy('https://production.dataviz.cnn.io/index/fearandgreed/graphdata');
+        const cnnData = JSON.parse(cnnText);
+        const fg = Number(cnnData?.fear_and_greed?.score);
+        if (Number.isFinite(fg)) {
+          el.fearGreed.value = Math.round(fg);
+          result.ok.push('恐慌贪婪');
+        } else {
+          result.fail.push('恐慌贪婪');
+        }
+      } catch (_) {
+        result.fail.push('恐慌贪婪');
+      }
+
+      try {
+        const peHtml = await fetchViaProxy('https://www.multpl.com/s-p-500-pe-ratio');
+        const m = peHtml.match(/Current\\s+S&P\\s*500\\s+PE\\s+Ratio:\\s*([0-9]+(?:\\.[0-9]+)?)/i);
+        if (m && m[1]) {
+          el.spxPe.value = Number(m[1]).toFixed(2);
+          result.ok.push('标普PE');
+        } else {
+          result.fail.push('标普PE');
+        }
+      } catch (_) {
+        result.fail.push('标普PE');
+      }
+
+      try {
+        const dgsText = await fetchViaProxy('https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10');
+        const dgsRows = parseCsvRows(dgsText);
+        const valid = dgsRows
+          .map((r) => Number(r.DGS10))
+          .filter((v) => Number.isFinite(v));
+        if (valid.length >= 5) {
+          const latest = valid[valid.length - 1];
+          const ma5 = valid.slice(-5).reduce((s, v) => s + v, 0) / 5;
+          el.us10y.value = latest.toFixed(2);
+          el.us10yMa5.value = ma5.toFixed(2);
+          result.ok.push('10Y/MA5');
+        } else {
+          result.fail.push('10Y/MA5');
+        }
+      } catch (_) {
+        result.fail.push('10Y/MA5');
+      }
+
+      try {
+        const spxText = await fetchViaProxy('https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500');
+        const spxRows = parseCsvRows(spxText);
+        const closes = spxRows
+          .map((r) => Number(r.SP500))
+          .filter((v) => Number.isFinite(v));
+        if (closes.length >= 20) {
+          const rsi = calcRSI(closes.slice(-60), 14);
+          const last = closes[closes.length - 1];
+          const prev = closes[closes.length - 2];
+          if (Number.isFinite(rsi)) {
+            el.spxRsi.value = rsi.toFixed(1);
+            result.ok.push('RSI');
+          } else {
+            result.fail.push('RSI');
+          }
+          if (Number.isFinite(last) && Number.isFinite(prev) && prev !== 0) {
+            el.spxReturn.value = ((last - prev) / prev).toFixed(3);
+            result.ok.push('单日涨跌');
+          } else {
+            result.fail.push('单日涨跌');
+          }
+        } else {
+          result.fail.push('RSI');
+          result.fail.push('单日涨跌');
+        }
+      } catch (_) {
+        result.fail.push('RSI');
+        result.fail.push('单日涨跌');
+      }
+
+      render();
+
+      const now = new Date().toLocaleTimeString('zh-CN', { hour12: false });
+      const okText = result.ok.length ? `成功: ${result.ok.join('、')}` : '未成功抓取';
+      const failText = result.fail.length ? `；失败: ${[...new Set(result.fail)].join('、')}` : '';
+      setFetchStatus(`${now} ${okText}${failText}`);
+      el.autoFetchBtn.disabled = false;
+    }
+
+    document.querySelectorAll('input').forEach((node) => {
+      node.addEventListener('input', render);
+      node.addEventListener('change', render);
+    });
+
+    el.autoFetchBtn.addEventListener('click', autoFetchMarketData);
+
+    render();
+    autoFetchMarketData();
+    setInterval(formatNow, 1000);
+  </script>
+</body>
+</html>

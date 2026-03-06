@@ -1,0 +1,4 @@
+interface:
+  display_name: "C端增长产品经理"
+  short_description: "结合行为运营与反馈数据，快速识别增长异常并给出优先动作"
+  default_prompt: "Use $c-end-growth-pm to diagnose C-end growth anomalies from behavior, operations, and user feedback, then return prioritized actions."
