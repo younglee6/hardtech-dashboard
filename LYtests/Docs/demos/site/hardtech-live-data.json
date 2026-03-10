@@ -1,29 +1,29 @@
 {
-  "2026-03-09": {
-    "updatedAt": "2026-03-09 02:12 (Asia/Shanghai)",
+  "2026-03-10": {
+    "updatedAt": "2026-03-10 02:04 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "模型与应用突破",
-        "text": "AI 工具形态和交互方式持续升级，实用性进一步提升。"
-      },
       {
         "title": "芯片与算力突破",
         "text": "先进制程与算力供给成为产业链核心关注变量。"
       },
       {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能向标准化和商业化推进。"
+        "title": "模型与应用突破",
+        "text": "AI 工具形态和交互方式持续升级，实用性进一步提升。"
+      },
+      {
+        "title": "新能源车技术突破",
+        "text": "电池、快充与智驾能力继续推动整车体验升级。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 60,
+        "ratio": 30,
         "color": "#39c2ff"
       },
       {
         "name": "Chip",
-        "ratio": 20,
+        "ratio": 40,
         "color": "#8b93ff"
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "name": "EV",
-        "ratio": 10,
+        "ratio": 20,
         "color": "#ffb347"
       }
     ],
@@ -80,89 +80,89 @@
     },
     "news": [
       {
+        "tag": "AI",
+        "title": "春招AI人才成争夺焦点：岗位量暴涨12倍、平均月薪超6万 - 东方财富",
+        "summary": "春招AI人才成争夺焦点：岗位量暴涨12倍、平均月薪超6万&nbsp;&nbsp;东方财富",
+        "quote": "春招AI人才成争夺焦点：岗位量暴涨12倍、平均月薪超6万&nbsp;&nbsp;东方财富",
+        "source": "东方财富",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BUnhfd05OTkhJX2tTdXJkT0YzSVV1cXhYRkhEX3E0VkVwVW5mTlNUWElWM3lneEU1TlQ2VjlIQXBadk8tV3F4MWZOdVZ0ejRRSDJuMzZLMHdiSHllbV9tSWFBTE95UQ?oc=5"
+      },
+      {
         "tag": "机器人",
-        "title": "夏克青专访：李政道先生发起的CUSPEA项目， 掀起中国历史上第二波留学大潮 - 虎嗅网",
-        "summary": "夏克青专访：李政道先生发起的CUSPEA项目， 掀起中国历史上第二波留学大潮&nbsp;&nbsp;虎嗅网",
-        "quote": "夏克青专访：李政道先生发起的CUSPEA项目， 掀起中国历史上第二波留学大潮&nbsp;&nbsp;虎嗅网",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LMFdUMlZlQXp0VVV1eE1zSVVLWFJBSG9NT05jNVBsSFlVMjYxaGFjVVVjX05kcEFodFZvR25sQWJqRnR2cjVjal92RV90c3c3WjFLbw?oc=5"
+        "title": "交银国际助力国内工业机器人龙头埃斯顿成功登陆港交所 - 手机网易网",
+        "summary": "交银国际助力国内工业机器人龙头埃斯顿成功登陆港交所&nbsp;&nbsp;手机网易网",
+        "quote": "交银国际助力国内工业机器人龙头埃斯顿成功登陆港交所&nbsp;&nbsp;手机网易网",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10TDBULV8yZExfQzd5Z2t1akI4aE5IbzZLX053YVo5cWRSWEg5Q0szczFxV3ctQ3FGY1ZlNnphcHRiemIwenItaHFVSS05MDZWZjI2aE9lZHdSUFlTSk5uYTVR?oc=5"
       },
       {
         "tag": "新能源车",
-        "title": "胖东来披露近40亿资产分配方案，胖东来八成员工拒绝降薪增假。 - 虎嗅网",
-        "summary": "胖东来披露近40亿资产分配方案，胖东来八成员工拒绝降薪增假。&nbsp;&nbsp;虎嗅网",
-        "quote": "胖东来披露近40亿资产分配方案，胖东来八成员工拒绝降薪增假。&nbsp;&nbsp;虎嗅网",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWQnFHWS1aSE9VVmt4eE52S2xMUW9CYzNISk1GMkxiZXZXMmZudzJxc1NBUTlZTFdIWGlqcXNDY2pyZ24tcmJZbTZ5cUtaMGxnWlZj?oc=5"
+        "title": "我国牵头制定11项新能源汽车领域国际标准 - 手机网易网",
+        "summary": "我国牵头制定11项新能源汽车领域国际标准&nbsp;&nbsp;手机网易网",
+        "quote": "我国牵头制定11项新能源汽车领域国际标准&nbsp;&nbsp;手机网易网",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOVFl4WmpydEt0S0FVY0x1RnhTeGoxZWk3RXFBQWtWUWRVTkJORTRVa3ViclRDVDNvWU1qRU5nRXRZTGhIaGtUQVNxZDZfSXpMTzRmUVFIejQtX1E4OE5jYm1n?oc=5"
+      },
+      {
+        "tag": "新能源车",
+        "title": "宁德时代股价涨5.03%，国新国证基金旗下1只基金重仓，持有3500股浮盈赚取6.3万元 - 手机网易网",
+        "summary": "宁德时代股价涨5.03%，国新国证基金旗下1只基金重仓，持有3500股浮盈赚取6.3万元&nbsp;&nbsp;手机网易网",
+        "quote": "宁德时代股价涨5.03%，国新国证基金旗下1只基金重仓，持有3500股浮盈赚取6.3万元&nbsp;&nbsp;手机网易网",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VV0p2SXVLOE9tM0E1MFkxb3dFYkpIWUtsMENoWFJ0cC1rN3hLMzZ6cHZzd1ByMXBUZmw5UnNpdTZFTEVMZlhQa3V1c0pYNHpqdzFnR01hVXd0U2gwam5UY1p3?oc=5"
       },
       {
         "tag": "芯片",
-        "title": "3月9日半导体板块跌幅达5% - 东方财富网",
-        "summary": "3月9日半导体板块跌幅达5%&nbsp;&nbsp;东方财富网",
-        "quote": "3月9日半导体板块跌幅达5%&nbsp;&nbsp;东方财富网",
-        "source": "东方财富网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Cc1UzUjBfUEo1QkM2WW16VVduSTRKdEMxYS1feHZtVU5FeVE2VGdkTXhaWTJPNHpraS1nWGZWTTZCSm1USWVKWW5McFNFRDVWMWc5alhBU2xPOURnU2MtY2tB?oc=5"
+        "title": "首次年度盈利 寒武纪价值爆发挡不住了？ - 财经号",
+        "summary": "首次年度盈利 寒武纪价值爆发挡不住了？&nbsp;&nbsp;财经号",
+        "quote": "首次年度盈利 寒武纪价值爆发挡不住了？&nbsp;&nbsp;财经号",
+        "source": "财经号",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OVm56QU42eW5EQ1I0c052bUpIVTEyc1FaSG82RDJQdW9YQmMtWDRVRlJZMTd5cGhZMEt2azU4c0pfRTVNYzcyQlg4SWl2TG1DUkxVeUViQm5mQXFmY2JlS1YzNVdyTVlwRTFn?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "伊朗战事结束预期提振亚太市场，韩股飙涨6%、日股反弹3%、油价大幅回落 - 华尔街见闻",
+        "summary": "伊朗战事结束预期提振亚太市场，韩股飙涨6%、日股反弹3%、油价大幅回落&nbsp;&nbsp;华尔街见闻",
+        "quote": "伊朗战事结束预期提振亚太市场，韩股飙涨6%、日股反弹3%、油价大幅回落&nbsp;&nbsp;华尔街见闻",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XaG1TZ0JjU2JKT3BDLWN2VzU0eWNYc1pUVmZlUDVMeXk0TWpsX0xNS3pfWHJVSkI5SnRGMEszaXJZREFjdVhaWEMxa25LQm1nSUtv?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "港股AI应用股走强 智谱涨近13% - 东方财富",
+        "summary": "港股AI应用股走强 智谱涨近13%&nbsp;&nbsp;东方财富",
+        "quote": "港股AI应用股走强 智谱涨近13%&nbsp;&nbsp;东方财富",
+        "source": "东方财富",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Idkl4MjhYVVF3N21ZU3RfcnA1NEZtekZDRnFLLTV6Y2JZbGZ3OFdoM3A2M1lJSmxEanpnV3FXOEE5bUY5bHFPcTg3NnF5Tkh5Sk45R3ZRVUFieVVNQ1lwYjhVWGZCZw?oc=5"
       },
       {
         "tag": "芯片",
-        "title": "售100.8万起/综合续航为1205公里 2026仰望U8新配色内饰官图_新车上市 - 中金在线",
-        "summary": "售100.8万起/综合续航为1205公里 2026仰望U8新配色内饰官图_新车上市&nbsp;&nbsp;中金在线",
-        "quote": "售100.8万起/综合续航为1205公里 2026仰望U8新配色内饰官图_新车上市&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OZlB6WkN1RmpmaXRMLXhGNE9UVXFlWHctNWwzWG5UMXhrSXRpYnpQeEFXbE9OekhEZlVvZ3pPVS1uOWt3WUlZYXVIX0RyeHJNOEc2LUNQaWJMR0VRWW1uUnJLbFlsSktaX3VSUQ?oc=5"
+        "title": "惠升优势企业一年持有期混合基金经理变动：严迪超不再担任该基金基金经理_股市要闻_市场_中金在线 - cnfol",
+        "summary": "惠升优势企业一年持有期混合基金经理变动：严迪超不再担任该基金基金经理_股市要闻_市场_中金在线&nbsp;&nbsp;cnfol",
+        "quote": "惠升优势企业一年持有期混合基金经理变动：严迪超不再担任该基金基金经理_股市要闻_市场_中金在线&nbsp;&nbsp;cnfol",
+        "source": "cnfol",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBySUlGVFpQbEZIMzRTYlVydFlrYTZNYnFudlY2LVF5YmVmNE5LbXRQemVNMlpweTM0QlZsX2FBME9FRktVdTMxdVJEUEVzOVQtVGJvRklXUDdpV0t1YUNYVTdUZTJFaFVDdl92VWVn?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "异动快报：金富科技（003018）3月9日9点52分触及跌停板_股市要闻_市场 - 中金在线",
-        "summary": "异动快报：金富科技（003018）3月9日9点52分触及跌停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "quote": "异动快报：金富科技（003018）3月9日9点52分触及跌停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14VTNHRWEydVg0cEY0dVQxQkRMdGF4UHJQZGJhS295Nm5Pd1B6cGVlc000MUVRN1dHV1Fuc2ZPeUJYY3VQVHB2djFEVUI0dlBDWS1mcW1UY21LdURqZEQ0Nzl0OHA5d2tMRE1tVXhn?oc=5"
+        "tag": "芯片",
+        "title": "浙商汇金量化精选混合A基金经理变动：庞雅菁不再担任该基金基金经理_股市要闻_市场_中金在线 - cnfol",
+        "summary": "浙商汇金量化精选混合A基金经理变动：庞雅菁不再担任该基金基金经理_股市要闻_市场_中金在线&nbsp;&nbsp;cnfol",
+        "quote": "浙商汇金量化精选混合A基金经理变动：庞雅菁不再担任该基金基金经理_股市要闻_市场_中金在线&nbsp;&nbsp;cnfol",
+        "source": "cnfol",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OQ3lVczdrZDRrQ0Q3WEhnejQzWUhEeWtyeWdxUEhSNGxiUTRrdVJ1WXlaR0ZRQmtUX1RXMlY2RTdYb0RNMHVjanVScVNzSTcxdjNucnJuREFnT19QTWhKSGVHMERMZS1wN2pzNXZR?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "异动快报：华北制药（600812）3月9日9点54分触及涨停板_股市要闻_市场 - 中金在线",
-        "summary": "异动快报：华北制药（600812）3月9日9点54分触及涨停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "quote": "异动快报：华北制药（600812）3月9日9点54分触及涨停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyT2ljanJIUVJwMUM4clNiMUo2c2d1VDdwX2IydnZ5YnpJbjlrRVJzUGdXb0VyNWdubjVkbllucjlRTWY1aXZvSEVVaWQydUpVZWoyOXpCTTQ0SGZYYnhnYTA5WnVrNUZFQXJhTFBB?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "异动快报：*ST国华（000004）3月9日9点53分触及跌停板_股市要闻_市场 - 中金在线",
-        "summary": "异动快报：*ST国华（000004）3月9日9点53分触及跌停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "quote": "异动快报：*ST国华（000004）3月9日9点53分触及跌停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8wbW5QM1pfaU1VcFR3Z0g0QnhVNEVlZFAwWTVxLTd5MFNQYUw5U0pIdk0zcDNHNmxLTlFIVUNtRTJURmpMVkZnLVBTejlhcWlUNkJmeV85YnUxRDJiYlBJQUxYTDdDTXNVbTNSVDBR?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "异动快报：ST晨鸣（000488）3月9日9点50分触及涨停板_股市要闻_市场 - 中金在线",
-        "summary": "异动快报：ST晨鸣（000488）3月9日9点50分触及涨停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "quote": "异动快报：ST晨鸣（000488）3月9日9点50分触及涨停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PbTI3ZS02Z1dLYUdWWm5EMEZNQnpLTWtROTV5c2tmRzdKT1B4MzFKcUlfb3hqbVJNX20yalFwSGl3ajZwX2xYUWdITU9VeFNCTjZUcERqWkF6OWRMdWt3NXc4WWJRbGVpa0xNOGNR?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "异动快报：博睿数据（688229）3月9日9点53分触及涨停板_股市要闻_市场 - 中金在线",
-        "summary": "异动快报：博睿数据（688229）3月9日9点53分触及涨停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "quote": "异动快报：博睿数据（688229）3月9日9点53分触及涨停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBEU1VyenRwVzFhQTVEelhWdDZIZVdMR2dfVG5iS3licXVEcFVEWlFVZUlDdlA1TGZLSTBMcUpWSTN6WnNEMG13aDJaTmRQVkZWRGZJNlpGWmNTekZ5MmRPTXlydmdCX3FBbXJNQXd3?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "异动快报：科瑞技术（002957）3月9日9点54分触及跌停板_股市要闻_市场 - 中金在线",
-        "summary": "异动快报：科瑞技术（002957）3月9日9点54分触及跌停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "quote": "异动快报：科瑞技术（002957）3月9日9点54分触及跌停板_股市要闻_市场&nbsp;&nbsp;中金在线",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5QSngxMnVhd1VvWWNYcHlPNlZiaFpCTlRHRkR3eDhVQVZhMHZwZjN3MHdXU0JfWWRfWXY4dlBxaWxSSFUwQkZMR2M3alJKMzB0WmRRUUcwT0NGZGtuYXVHNmlMbW16TzVRRlk2LXFn?oc=5"
+        "tag": "芯片",
+        "title": "浙商智选先锋一年持有混合A基金经理变动：平舒宇不再担任该基金基金经理_股市要闻_市场_中金在线 - cnfol",
+        "summary": "浙商智选先锋一年持有混合A基金经理变动：平舒宇不再担任该基金基金经理_股市要闻_市场_中金在线&nbsp;&nbsp;cnfol",
+        "quote": "浙商智选先锋一年持有混合A基金经理变动：平舒宇不再担任该基金基金经理_股市要闻_市场_中金在线&nbsp;&nbsp;cnfol",
+        "source": "cnfol",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9mLTlVZm9qSk9fZEE3Ni1rRUxJTEM1a2J2c1VBWkZwN3c3VVJ3VFJES0cxSG1lZTdtQUlQYUY2THRPeGNVb3JtY3FqR3VlVzA4MUVfX00zdDZvaDhmcGM3VDZXdFhWWGVsOXpYTkdn?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今日高能速览🤯 10条干货建议收藏",
-      "open": "今天硬科技的核心变化是：AI 应用进入效率与治理并重阶段。 从单点技术走向系统化能力比拼。",
+      "open": "今天硬科技的核心变化是：芯片与先进制程持续牵引行业预期。 从单点技术走向系统化能力比拼。",
       "insights": [
         "🤖 AI：应用体验、组织稳定与治理要求同步上升。",
         "🧠 芯片：先进制程与供给能力仍是产业主线。",
