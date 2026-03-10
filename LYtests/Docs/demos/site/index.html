@@ -187,7 +187,9 @@
     .headline { margin: 0; font-weight: 800; font-size: 15px; line-height: 1.45; }
     .news-quote { margin: 9px 0; padding: 9px 10px; border-left: 3px solid rgba(110,231,255,.65); border-radius: 8px; background: rgba(110,231,255,.06); color: #d2e8ff; font-size: 12px; line-height: 1.68; }
     .news-quote b { color: #e7f4ff; }
-    .sum { margin: 8px 0; color: #d7e5ff; font-size: 13px; line-height: 1.6; }
+    .sum { margin: 8px 0; display: grid; gap: 6px; }
+    .sum-line { color: #d7e5ff; font-size: 13px; line-height: 1.68; padding-left: 12px; position: relative; }
+    .sum-line::before { content: "•"; position: absolute; left: 0; color: #86e9ff; }
     .news-item a { color: var(--accent); text-decoration: none; font-size: 12px; }
 
     .copy-block { padding: 16px; line-height: 1.8; }
@@ -365,6 +367,21 @@
       return picked.length >= 50 ? `${picked}。` : cleaned;
     };
 
+    const buildSummaryHtml = (text) => {
+      const cleaned = (text || '').trim();
+      if (!cleaned) return '<div class="sum-line">暂无摘要</div>';
+      const parts = cleaned.split(/(?<=[。！？!?；;])/).map((s) => s.trim()).filter(Boolean);
+      const picked = [];
+      let totalLen = 0;
+      for (let i = 0; i < parts.length; i += 1) {
+        picked.push(parts[i]);
+        totalLen += parts[i].length;
+        if (picked.length >= 3 || totalLen >= 150) break;
+      }
+      const lines = (picked.length ? picked : [cleaned]).map((line) => `<div class="sum-line">${line}</div>`);
+      return lines.join('');
+    };
+
     const themeRules = [
       { key: '技术演进', keys: ['语音', '大模型', '模型', '算力', '芯片', '6G', '推理', '标准', '机器人', '智驾'] },
       { key: '商业化落地', keys: ['发布', '上线', '交付', '应用', '生态', '补能', '快充', '用户', '场景'] },
@@ -462,7 +479,7 @@
       currentDateKey = dateKey;
       currentData = boardArchive[dateKey];
       const liveSuffix = lastLiveSyncAt ? ` | 数据拉取：${lastLiveSyncAt}` : '';
-      metaTimeEl.textContent = `更新时间：${currentData.updatedAt}${liveSuffix}`;
+      metaTimeEl.textContent = `查看日期：${currentDateKey} | 更新时间：${currentData.updatedAt}${liveSuffix}`;
       pieEl.style.background = buildPieGradient(currentData.sectors);
 
       breakthroughsEl.innerHTML = currentData.breakthroughs.map((item) => `
@@ -487,7 +504,7 @@
           <div class="meta-line">${rank}<span>${n.tag}</span></div>
           <h3 class="headline">${n.title}</h3>
           <div class="news-quote"><b>摘录：</b>${n.quote || extractQuote(n.summary)}</div>
-          <p class="sum">${n.summary}</p>
+          <div class="sum">${buildSummaryHtml(n.summary)}</div>
           <a href="${n.link}" target="_blank" rel="noopener noreferrer">来源：${n.source}</a>
         </article>
       `;
@@ -530,7 +547,7 @@
         boardArchive = json;
         lastLiveSyncAt = new Date().toLocaleTimeString('zh-CN', { hour12: false });
         rebindDateOptions(prevDate);
-        liveStatusEl.textContent = `数据已更新（${lastLiveSyncAt}）`;
+        liveStatusEl.textContent = `数据已更新（${lastLiveSyncAt}），可切换查看历史日期`; 
       } catch (err) {
         if (!silent) {
           liveStatusEl.textContent = '获取失败，已回退到本地数据';

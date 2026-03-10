@@ -22,21 +22,24 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Generate live data JSON from whitelisted sites
+      - name: Generate archive JSON from whitelisted sites
         run: |
           python3 "LYtests/Docs/demos/scripts/generate_live_data_from_whitelist.py" \
-            --out "LYtests/Docs/demos/site/hardtech-live-data.json" \
-            --limit 10
+            --out "LYtests/Docs/demos/hardtech-live-data.json" \
+            --limit 10 \
+            --backfill-days 5 \
+            --archive-days 7
+          cp "LYtests/Docs/demos/hardtech-live-data.json" "LYtests/Docs/demos/site/hardtech-live-data.json"
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- "LYtests/Docs/demos/site/hardtech-live-data.json"; then
+          if git diff --quiet -- "LYtests/Docs/demos/hardtech-live-data.json" "LYtests/Docs/demos/site/hardtech-live-data.json"; then
             echo "No changes in JSON."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "LYtests/Docs/demos/site/hardtech-live-data.json"
+          git add "LYtests/Docs/demos/hardtech-live-data.json" "LYtests/Docs/demos/site/hardtech-live-data.json"
           git commit -m "chore: update hardtech live data"
           git push
