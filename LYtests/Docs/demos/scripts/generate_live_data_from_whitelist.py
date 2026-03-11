@@ -666,6 +666,18 @@ def prune_archive(archive: dict, keep_days: int) -> dict:
     return {key: archive[key] for key in keep}
 
 
+def ensure_target_date_key(archive: dict, target_date: dt.date) -> dict:
+    target_key = target_date.strftime("%Y-%m-%d")
+    if target_key in archive or not archive:
+        return archive
+
+    latest_key = sorted(archive.keys(), reverse=True)[0]
+    latest_payload = json.loads(json.dumps(archive[latest_key]))
+    latest_payload["updatedAt"] = dt.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d %H:%M") + " (Asia/Shanghai)"
+    archive[target_key] = latest_payload
+    return archive
+
+
 def generate_for_date(target_date: dt.date, limit: int) -> dict | None:
     all_items: list[NewsItem] = []
     for sector in TOPIC_KEYWORDS:
@@ -711,6 +723,7 @@ def main() -> None:
     if not updated_dates and not archive:
         raise SystemExit("No news found from whitelist. Check network or site coverage.")
 
+    archive = ensure_target_date_key(archive, target_date)
     archive = prune_archive(archive, args.archive_days)
     out_path.write_text(json.dumps(archive, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Generated: {out_path} | updated_dates={','.join(updated_dates) or 'none'} | archive_days={len(archive)}")

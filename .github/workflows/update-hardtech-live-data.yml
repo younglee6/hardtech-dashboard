@@ -23,9 +23,13 @@ jobs:
           python-version: '3.11'
 
       - name: Generate archive JSON from whitelisted sites
+        env:
+          TZ: Asia/Shanghai
         run: |
+          REPORT_DATE=$(date +%F)
           python3 "LYtests/Docs/demos/scripts/generate_live_data_from_whitelist.py" \
             --out "LYtests/Docs/demos/hardtech-live-data.json" \
+            --date "$REPORT_DATE" \
             --limit 10 \
             --backfill-days 5 \
             --archive-days 7
