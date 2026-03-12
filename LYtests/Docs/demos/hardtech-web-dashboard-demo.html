@@ -277,6 +277,7 @@
 
   <script>
     const LIVE_DATA_URL = './hardtech-live-data.json';
+    const RAW_DATA_URL = 'https://raw.githubusercontent.com/younglee6/hardtech-dashboard/main/LYtests/Docs/demos/site/hardtech-live-data.json';
         const dailyBaseNews = [
       { tag: 'AI应用', title: 'Claude Code 语音模式推进，开发交互升级。', summary: 'AI 编程从键盘输入转向更自然的语音协作，工具体验继续抬升，开发者生产效率和交互体验都在同步提升。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/claude-code-rolls-out-a-voice-mode-capability/' },
       { tag: 'AI组织', title: 'Qwen 组织变动引发行业对连续性的讨论。', summary: '模型竞争从参数扩展到组织稳定与生态执行力评估，企业客户在选型时越来越重视路线图稳定性与长期支持能力。', source: 'TechCrunch', link: 'https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/' },
@@ -535,22 +536,60 @@
       return !!(sample && sample.updatedAt && Array.isArray(sample.news) && Array.isArray(sample.breakthroughs));
     };
 
+    const shanghaiToday = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai' }).format(new Date());
+
+    const getArchiveTopKey = (archive) => Object.keys(archive || {}).sort((a, b) => b.localeCompare(a))[0] || '';
+
+    const chooseFresherArchive = (archives) => {
+      const valid = archives.filter((item) => validateArchive(item));
+      if (!valid.length) return null;
+      return valid.sort((a, b) => {
+        const ak = getArchiveTopKey(a);
+        const bk = getArchiveTopKey(b);
+        if (ak !== bk) return bk.localeCompare(ak);
+        const au = (a[ak] && a[ak].updatedAt) || '';
+        const bu = (b[bk] && b[bk].updatedAt) || '';
+        return bu.localeCompare(au);
+      })[0];
+    };
+
+    const ensureTodayArchive = (archive) => {
+      if (!validateArchive(archive)) return archive;
+      const today = shanghaiToday();
+      if (archive[today]) return archive;
+      const latestKey = getArchiveTopKey(archive);
+      if (!latestKey) return archive;
+      const cloned = structuredClone(archive);
+      cloned[today] = structuredClone(cloned[latestKey]);
+      return cloned;
+    };
+
     const refreshLiveData = async (silent = false) => {
       const prevDate = dateSelectEl.value || currentDateKey;
+      const beforeTopKey = getArchiveTopKey(boardArchive);
+      const beforeSignature = beforeTopKey && boardArchive[beforeTopKey] ? JSON.stringify(boardArchive[beforeTopKey].news || []) : '';
       if (!silent) liveStatusEl.textContent = '正在获取最新数据...';
       try {
-        const url = `${LIVE_DATA_URL}?t=${Date.now()}`;
-        const res = await fetch(url, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const json = await res.json();
-        if (!validateArchive(json)) throw new Error('数据结构不符合预期');
-        boardArchive = json;
+        const stamp = Date.now();
+        const requests = [LIVE_DATA_URL, RAW_DATA_URL].map((base) => fetch(`${base}?t=${stamp}`, { cache: 'no-store' }).then(async (res) => res.ok ? res.json() : null).catch(() => null));
+        const results = await Promise.all(requests);
+        const freshest = chooseFresherArchive(results);
+        if (!freshest) throw new Error('无可用数据源');
+        boardArchive = ensureTodayArchive(freshest);
         lastLiveSyncAt = new Date().toLocaleTimeString('zh-CN', { hour12: false });
         rebindDateOptions(prevDate);
-        liveStatusEl.textContent = `数据已更新（${lastLiveSyncAt}），可切换查看历史日期`; 
+        const afterTopKey = getArchiveTopKey(boardArchive);
+        const afterSignature = afterTopKey && boardArchive[afterTopKey] ? JSON.stringify(boardArchive[afterTopKey].news || []) : '';
+        if (afterTopKey === beforeTopKey && afterSignature === beforeSignature) {
+          liveStatusEl.textContent = `已检查（${lastLiveSyncAt}），暂时没有更晚的新数据`;
+        } else {
+          liveStatusEl.textContent = `数据已更新（${lastLiveSyncAt}），可切换查看历史日期`;
+        }
       } catch (err) {
+        boardArchive = ensureTodayArchive(boardArchive);
+        rebindDateOptions(prevDate);
         if (!silent) {
-          liveStatusEl.textContent = '获取失败，已回退到本地数据';
+          liveStatusEl.textContent = '获取失败，已展示最近一期内容';
         }
       }
     };
