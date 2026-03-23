@@ -1,18 +1,18 @@
 {
   "2026-03-23": {
-    "updatedAt": "2026-03-23 10:26 (Asia/Shanghai)",
+    "updatedAt": "2026-03-23 11:23 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
-        "title": "新能源车技术突破",
-        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
-      },
-      {
         "title": "机器人落地突破",
         "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
+      {
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       }
     ],
     "sectors": [
@@ -28,12 +28,12 @@
       },
       {
         "name": "Robotics",
-        "ratio": 20,
+        "ratio": 30,
         "color": "#42d392"
       },
       {
         "name": "EV",
-        "ratio": 20,
+        "ratio": 10,
         "color": "#ffb347"
       }
     ],
@@ -80,6 +80,14 @@
     },
     "news": [
       {
+        "tag": "机器人",
+        "title": "2026北京亦庄半程马拉松将设人形机器人组别 300余台机器人参赛",
+        "summary": "2026北京亦庄半程马拉松将设人形机器人组别 300余台机器人参赛 虎嗅。",
+        "quote": "2026北京亦庄半程马拉松将设人形机器人组别 300余台机器人参赛 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yaWstUDFib1U4b1JYSUhvbXVOWHpINnM0ZlVDSlgwN2VSY0NWMnhWZmxicWVoM2d4LTRHdU9oZnk4bHVmS0gtMnZnLUt1SGl4X0lB?oc=5"
+      },
+      {
         "tag": "新能源车",
         "title": "比亚迪与宁德时代补能路线差异分析：闪充与换电的战略选择",
         "summary": "比亚迪与宁德时代补能路线差异分析：闪充与换电的战略选择 虎嗅。",
@@ -106,26 +114,18 @@
       {
         "tag": "AI",
         "title": "扎克伯格开发AI智能体辅助CEO工作，提升信息获取效率",
-        "summary": "扎克伯格开发AI智能体辅助CEO工作，提升信息获取效率 虎嗅。",
-        "quote": "扎克伯格开发AI智能体辅助CEO工作，提升信息获取效率 虎嗅。",
+        "summary": "扎克伯格开发AI智能体辅助CEO工作，提升信息获取效率 虎嗅",
+        "quote": "",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oLUN3Uk9nUDhPSjJ0QnVTdnhhNUdDX3NqbjdleDNadWYzOGxvWU1QOFMwT1NiTjEzbjNUd0RVMm1HM3VDZVVYQVRfRjBFQUxOc0FV?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "AI与机器人盘前速递丨中国大模型调用量持续超越美国，小鹏机器人官宣年底将量产",
-        "summary": "AI与机器人盘前速递丨中国大模型调用量持续超越美国，小鹏机器人官宣年底将量产 手机网易网",
+        "tag": "机器人",
+        "title": "浙商证券：人形机器人量产渐近爆发在即 核心零部件有望随起量而爆发",
+        "summary": "浙商证券：人形机器人量产渐近爆发在即 核心零部件有望随起量而爆发 手机网易网",
         "quote": "",
         "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fQXJXWlFRM0tsYmZvb1p3RXJwMkg1YmxDSjJfT3JOOWM5QmZqa3UzZzBvaks5U1I1SEQ1S1BxLWhIT3JpbDRSeGlsT0F3blVSMnhwblVhQVBMS2lTNXg1VS1R?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "中国人寿投资法奥机器人 领投C轮融资",
-        "summary": "中国人寿投资法奥机器人 领投C轮融资",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFTktfaDlRMW5HNE4wTjZUTjRyMTRLT1BIVk9jM0cxanBBNWR4djVzNEZ4Vjk5VjFNay1lenFHN0F0ZTJXcl9WVkVOOV9WOFFZT0dj?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wVTI1M2IzRlpWdFpfYk9CTHcwcjhFSy1fSlpDVW1iWGRINzk3NC1WMkxjSi1POEk3N0hlWXd5dndTU3h6ZEZiNHNqOGxucmQzcHE1b0JkbEtwamZZdVZYbHln?oc=5"
       },
       {
         "tag": "芯片",
@@ -136,6 +136,14 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RSFdXZExhZWxmR2dMUW9DYlYtWmRqb3JuOHBuWmlCaGxzc21zTjNvYjkwRmxST1NfTlJIcV9aUzRiMWRYcDRFWnhNZzhUNnoxMW9z?oc=5"
       },
       {
+        "tag": "芯片",
+        "title": "详解Terafab--马斯克为何一定要做“芯片厂”",
+        "summary": "详解Terafab--马斯克为何一定要做“芯片厂” 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zcjBLRTJfNDZ6M0RlZlphZHhTMEhrbWNobDRfcGxoVHBSNUtwdURhOVl6SkpveXFBZVN0WHVoMjY3ZksyRFJxS3gtaWMtQUFTcUFZ?oc=5"
+      },
+      {
         "tag": "AI",
         "title": "AI开始侵入各行各业：“编程自动化”之后，AI巨头奔向“一切自动化”",
         "summary": "AI开始侵入各行各业：“编程自动化”之后，AI巨头奔向“一切自动化” 华尔街见闻",
@@ -144,20 +152,12 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wZnlmNmZ6c05uMXRIM1Z1NXFJU1Utc1A5Zjl4ZjRBRHd3ZWQxUXVsdUdRSUFXTFBrM0RwM05VNFFEbm40VVRqUmJScUVyNjlKdUpR?oc=5"
       },
       {
-        "tag": "新能源车",
-        "title": "刀片电池+闪充，比亚迪宋Ultra油车挑战来袭",
-        "summary": "刀片电池+闪充，比亚迪宋Ultra油车挑战来袭 手机网易网",
+        "tag": "AI",
+        "title": "AI与机器人盘前速递丨中国大模型调用量持续超越美国，小鹏机器人官宣年底将量产",
+        "summary": "AI与机器人盘前速递丨中国大模型调用量持续超越美国，小鹏机器人官宣年底将量产 手机网易网",
         "quote": "",
         "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FTmlMdENKQmVWTEZjbHducWczdUllU0JPYjlEVDhGRjRmX0t4ZHNrUUxvN1VONUJSWWthdGtTdk8xMUt0NFV1S29NcHNhaFJyV0lxaA?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "马斯克正式宣战：自建2nm芯片工厂，造太空算力中心",
-        "summary": "马斯克正式宣战：自建2nm芯片工厂，造太空算力中心 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wbVRiMGxFSmFIWGExTF9TMng3WUlWUjczb0pVRDFaVDJxSWZZNmYxWVVib0Rzby1FX0JDazNkSVJQS0R0TS1tMDZwcVdGa1VxTFJ6S3g1SjNlMzZxa3lNOHVB?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fQXJXWlFRM0tsYmZvb1p3RXJwMkg1YmxDSjJfT3JOOWM5QmZqa3UzZzBvaks5U1I1SEQ1S1BxLWhIT3JpbDRSeGlsT0F3blVSMnhwblVhQVBMS2lTNXg1VS1R?oc=5"
       }
     ],
     "copy": {
@@ -172,7 +172,7 @@
     }
   },
   "2026-03-22": {
-    "updatedAt": "2026-03-23 10:26 (Asia/Shanghai)",
+    "updatedAt": "2026-03-23 11:23 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -260,20 +260,20 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CWHU5V004YmdwVVo3SEVYS2FLWTNUODdJYm5lVURVbWRoQVhFWEtobk81bl9JYzV6dWdqOVBuV3ViTGtRZ1VTdTh1TEU2S3dXa2c?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "中国AI大模型周调用量达4.69万亿Token 首次超越美国",
-        "summary": "中国AI大模型周调用量达4.69万亿Token 首次超越美国 虎嗅。",
-        "quote": "中国AI大模型周调用量达4.69万亿Token 首次超越美国 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kWFEzS1B1U05kRjYzcll0Z3VXeEhnbWdtX2ZiTl9RS29ESHdzd3ZJQ1dVV1lLS1FXdGZXUUtaaGMwSUx5RGhlSDR4TDg4Z0JfS2Zr?oc=5"
-      },
-      {
         "tag": "芯片",
         "title": "华为发布新一代算力芯片，单卡算力达H20的2.87倍，国内唯一支持FP4推理产品",
         "summary": "华为发布新一代算力芯片，单卡算力达H20的2.87倍，国内唯一支持FP4推理产品 华尔街见闻。",
         "quote": "华为发布新一代算力芯片，单卡算力达H20的2.87倍，国内唯一支持FP4推理产品 华尔街见闻。",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VY1BCVU5OM3M0SlAxRmN2NkFIckhYWGs3ajNJME1FbTJNd1YwNVRjSVhocWl5SEFiMUVRdlFyWWQ2MHZQTGphSWdmR1JCMElXN2Nr?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "中国AI大模型周调用量达4.69万亿Token 首次超越美国",
+        "summary": "中国AI大模型周调用量达4.69万亿Token 首次超越美国 虎嗅。",
+        "quote": "中国AI大模型周调用量达4.69万亿Token 首次超越美国 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kWFEzS1B1U05kRjYzcll0Z3VXeEhnbWdtX2ZiTl9RS29ESHdzd3ZJQ1dVV1lLS1FXdGZXUUtaaGMwSUx5RGhlSDR4TDg4Z0JfS2Zr?oc=5"
       },
       {
         "tag": "芯片",
@@ -325,11 +325,11 @@
       },
       {
         "tag": "AI",
-        "title": "Grow Therapy获1.5亿美元融资，高盛、红杉押注AI心理健康平台",
-        "summary": "Grow Therapy获1.5亿美元融资，高盛、红杉押注AI心理健康平台 虎嗅",
+        "title": "大模型应用需回归业务本质，明确能力边界与适用场景",
+        "summary": "大模型应用需回归业务本质，明确能力边界与适用场景",
         "quote": "",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40NkFPM1RERXluX2dSQktrN3lpWGVnVmFsR0ZIdmM0WmIxQzJ6YkJxREhkQmZESF9UMmlvTWF3TGhWVk92cDNnZkJaMk5HbFg0?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSUTlnT2Q5Vmd5T1VYZENCTnZRaTRiZjNWbXZ0OVc5WmtMeE45VXE5dm5CLVpMaDlxeU5CVmo4eElBWXhaUmhlLU04RVA3dDFHNFE?oc=5"
       }
     ],
     "copy": {
@@ -344,7 +344,7 @@
     }
   },
   "2026-03-21": {
-    "updatedAt": "2026-03-23 10:26 (Asia/Shanghai)",
+    "updatedAt": "2026-03-23 11:23 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -516,7 +516,7 @@
     }
   },
   "2026-03-20": {
-    "updatedAt": "2026-03-23 10:26 (Asia/Shanghai)",
+    "updatedAt": "2026-03-23 11:22 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -598,8 +598,8 @@
       {
         "tag": "AI",
         "title": "OpenClaw AI 智能体引发全球热潮，但高成本与存储问题凸显",
-        "summary": "OpenClaw AI 智能体引发全球热潮，但高成本与存储问题凸显 虎嗅。2026年初，腾讯、百度等企业推广OpenClaw AI智能体引发安装热潮，但用户面临高Token消耗和存储空间不足问题。IDC预测到2027年中国推理算力占比将超70%，存储硬件需求激增。",
-        "quote": "OpenClaw AI 智能体引发全球热潮，但高成本与存储问题凸显 虎嗅。2026年初，腾讯、百度等企业推广OpenClaw AI智能体引发安装热潮，但用户面临高Token消耗和存储空间不足问题。",
+        "summary": "OpenClaw AI 智能体引发全球热潮，但高成本与存储问题凸显 虎嗅。",
+        "quote": "OpenClaw AI 智能体引发全球热潮，但高成本与存储问题凸显 虎嗅。",
         "source": "虎嗅",
         "link": "https://www.huxiu.com/article/4843865.html"
       },
@@ -617,7 +617,7 @@
         "summary": "2026年春晚人形机器人亮相，揭示中国机器人产业现状与挑战 虎嗅。",
         "quote": "2026年春晚人形机器人亮相，揭示中国机器人产业现状与挑战 虎嗅。",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Vcm9xS0I3dy16SEZpQlBERXlzV0JFS2lvNjlQS0pLTzMxN1ZJUG92WHNIWk1kSU5peVVxa2ZqN0I3Q1Y1ajdGSFFjTEFuanZ0T1BPcQ?oc=5"
+        "link": "https://www.huxiu.com/article/4843767.html"
       },
       {
         "tag": "AI",
@@ -657,7 +657,7 @@
         "summary": "315晚会曝光AI数据投毒产业链，虚假信息可操控大模型输出 虎嗅。",
         "quote": "315晚会曝光AI数据投毒产业链，虚假信息可操控大模型输出 虎嗅。",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QVk13Sjhubl94YklCaHg1bkUtS2VRZHFoTnJDVnhURndzaG9MV3hhazZldWpFcVA0b3Jvanc0MG5ISDR1bGJaMExDX3QyZ0FieGlGRg?oc=5"
+        "link": "https://www.huxiu.com/article/4843683.html"
       },
       {
         "tag": "机器人",
@@ -688,7 +688,7 @@
     }
   },
   "2026-03-19": {
-    "updatedAt": "2026-03-23 10:25 (Asia/Shanghai)",
+    "updatedAt": "2026-03-23 11:21 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -794,8 +794,8 @@
       {
         "tag": "AI",
         "title": "开源AI智能体OpenClaw快速普及，安全风险引发行业关注",
-        "summary": "开源AI智能体OpenClaw快速普及，安全风险引发行业关注 虎嗅。",
-        "quote": "开源AI智能体OpenClaw快速普及，安全风险引发行业关注 虎嗅。",
+        "summary": "开源AI智能体OpenClaw快速普及，安全风险引发行业关注 虎嗅。开源AI智能体OpenClaw获腾讯、阿里等云厂商支持快速普及，但国家互联网应急中心发出红色预警指出其存在数据泄露风险。",
+        "quote": "开源AI智能体OpenClaw快速普及，安全风险引发行业关注 虎嗅。开源AI智能体OpenClaw获腾讯、阿里等云厂商支持快速普及，但国家互联网应急中心发出红色预警指出其存在数据泄露风险。",
         "source": "虎嗅",
         "link": "https://www.huxiu.com/article/4843335.html"
       },
