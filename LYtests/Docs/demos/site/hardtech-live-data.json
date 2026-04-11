@@ -1,18 +1,18 @@
 {
   "2026-04-11": {
-    "updatedAt": "2026-04-11 10:25 (Asia/Shanghai)",
+    "updatedAt": "2026-04-11 11:17 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "芯片与算力突破",
         "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       },
       {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
-      },
-      {
         "title": "新能源车技术突破",
         "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
+      },
+      {
+        "title": "机器人落地突破",
+        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
       }
     ],
     "sectors": [
@@ -23,12 +23,12 @@
       },
       {
         "name": "Chip",
-        "ratio": 30,
+        "ratio": 40,
         "color": "#8b93ff"
       },
       {
         "name": "Robotics",
-        "ratio": 30,
+        "ratio": 20,
         "color": "#42d392"
       },
       {
@@ -81,19 +81,19 @@
     "news": [
       {
         "tag": "芯片",
+        "title": "半导体又迎来利好消息，三星发布全球首款，2nm智能手机芯片",
+        "summary": "半导体又迎来利好消息，三星发布全球首款，2nm智能手机芯片 网易。",
+        "quote": "半导体又迎来利好消息，三星发布全球首款，2nm智能手机芯片 网易。",
+        "source": "网易",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jcVJKTVYtdEdLSjFfVHZ4V1hpTDFjWC1ZaU0xZ0N3TkNfNFRqVThocG0zZDFhaG9XX3RmRkVmV0cyMGpoTy1zdks2OEhtX2NRTmdkRQ?oc=5"
+      },
+      {
+        "tag": "芯片",
         "title": "大摩：苹果悄然囤积台积电产能，或为自研AI服务器芯片",
         "summary": "大摩：苹果悄然囤积台积电产能，或为自研AI服务器芯片 华尔街见闻。",
         "quote": "大摩：苹果悄然囤积台积电产能，或为自研AI服务器芯片 华尔街见闻。",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kdEEyR0hBYWN0ZGNFcjlaNDZKY0lsRERWTzVjdmt2SHZBaDFKc2xBZW1tNG5Hc1pLSFZxakVDNmtTaWVBNWltcFR4VHlHT2xONWlj?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "全球媒体聚焦 | 美媒：中国人形机器人实现量产意味着什么？",
-        "summary": "全球媒体聚焦 | 美媒：中国人形机器人实现量产意味着什么？网易。",
-        "quote": "全球媒体聚焦 | 美媒：中国人形机器人实现量产意味着什么？网易。",
-        "source": "网易",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kWld4WDNpYWRrRGZkY0hVeEZOTGlnWFVCSld4eHJYNnZEU2xXSk0xU2JEc1l4Y2xnRy1kRnRUY29ZeFFvdEFZanNSd1U1UVc4QS1vNjhkekRMUlFfS1YxcTJ3?oc=5"
       },
       {
         "tag": "新能源车",
@@ -172,15 +172,15 @@
     }
   },
   "2026-04-10": {
-    "updatedAt": "2026-04-11 10:24 (Asia/Shanghai)",
+    "updatedAt": "2026-04-11 11:17 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "芯片与算力突破",
-        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
-      },
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
+      },
+      {
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       },
       {
         "title": "新能源车技术突破",
@@ -190,7 +190,7 @@
     "sectors": [
       {
         "name": "AI",
-        "ratio": 30,
+        "ratio": 40,
         "color": "#39c2ff"
       },
       {
@@ -200,7 +200,7 @@
       },
       {
         "name": "Robotics",
-        "ratio": 20,
+        "ratio": 10,
         "color": "#42d392"
       },
       {
@@ -253,14 +253,6 @@
     "news": [
       {
         "tag": "芯片",
-        "title": "台积电一季度销售额增长35%达1.13万亿元台币，AI芯片需求强劲",
-        "summary": "台积电一季度销售额增长35%达1.13万亿元台币，AI芯片需求强劲 虎嗅。台积电2024年第一季度营收达1.13万亿元台币（356亿美元），同比增长35%，超出分析师预期。3月销售额同比增长45%，表明中东冲突未影响AI芯片及电子产品需求。",
-        "quote": "台积电一季度销售额增长35%达1.13万亿元台币，AI芯片需求强劲 虎嗅。台积电2024年第一季度营收达1.13万亿元台币（356亿美元），同比增长35%，超出分析师预期。",
-        "source": "虎嗅",
-        "link": "https://www.huxiu.com/moment/1234872.html"
-      },
-      {
-        "tag": "芯片",
         "title": "台积电Q1营收突破万亿大关，3月单月同比激增45%，中东战事未撼动AI芯片需求",
         "summary": "台积电Q1营收突破万亿大关，3月单月同比激增45%，中东战事未撼动AI芯片需求 华尔街见闻。",
         "quote": "台积电Q1营收突破万亿大关，3月单月同比激增45%，中东战事未撼动AI芯片需求 华尔街见闻。",
@@ -268,12 +260,20 @@
         "link": "https://wallstreetcn.com/articles/3769659"
       },
       {
+        "tag": "芯片",
+        "title": "台积电一季度销售额增长35%达1.13万亿元台币，AI芯片需求强劲",
+        "summary": "台积电一季度销售额增长35%达1.13万亿元台币，AI芯片需求强劲 虎嗅。",
+        "quote": "台积电一季度销售额增长35%达1.13万亿元台币，AI芯片需求强劲 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://www.huxiu.com/moment/1234872.html"
+      },
+      {
         "tag": "AI",
         "title": "Semianalysis：智能体火爆，CPU成为新的“AI瓶颈”",
         "summary": "Semianalysis：智能体火爆，CPU成为新的“AI瓶颈” 华尔街见闻。",
         "quote": "Semianalysis：智能体火爆，CPU成为新的“AI瓶颈” 华尔街见闻。",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SWHF6eFdQVlB2VlU2TmxqUlFSTHNTMmJmWEJxSGlDM2dpTnRMWjg3YVlSNUsyUW5GU0dSM3RyajNKbzJsRXFjUTlkcTE2X2VIQnFZ?oc=5"
+        "link": "https://wallstreetcn.com/articles/3769581"
       },
       {
         "tag": "新能源车",
@@ -281,7 +281,15 @@
         "summary": "比亚迪腾势N8L闪充版预售：35万元-40万元，第二代刀片电池 网易新闻客户端。",
         "quote": "比亚迪腾势N8L闪充版预售：35万元-40万元，第二代刀片电池 网易新闻客户端。",
         "source": "网易新闻客户端",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBibXJfYWRxWGNFNzNDRUF4ck1YcDJBcGdmOTQ0VEJMMjk2RFZwcnpNYWY5ODkxeXY5Qng5SFRpUnFLWHBmMkdRNWhrRnRQWXVyaG8wZUktd254ZEFT?oc=5"
+        "link": "https://c.m.163.com/news/a/KQ5JNCSA0511B8LM.html"
+      },
+      {
+        "tag": "AI",
+        "title": "无惧产能瓶颈！亚马逊一季度AI年化营收超150亿美元，自研芯片规模翻倍至200亿",
+        "summary": "无惧产能瓶颈！亚马逊一季度AI年化营收超150亿美元，自研芯片规模翻倍至200亿 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DalhpeWlIWTJQOVdTdGxyYWpIWGRLaENxSDk3cWtHbGJ6OEJId08zRXRYTmw5TU5Dd1VCNWRaM1l3UFRYdTdUMEEzUDN6aXhkMHpR?oc=5"
       },
       {
         "tag": "新能源车",
@@ -301,14 +309,6 @@
       },
       {
         "tag": "AI",
-        "title": "无惧产能瓶颈！亚马逊一季度AI年化营收超150亿美元，自研芯片规模翻倍至200亿",
-        "summary": "无惧产能瓶颈！亚马逊一季度AI年化营收超150亿美元，自研芯片规模翻倍至200亿 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DalhpeWlIWTJQOVdTdGxyYWpIWGRLaENxSDk3cWtHbGJ6OEJId08zRXRYTmw5TU5Dd1VCNWRaM1l3UFRYdTdUMEEzUDN6aXhkMHpR?oc=5"
-      },
-      {
-        "tag": "AI",
         "title": "大模型本地化、RAG、智能体：AI应用工程师的三大核心能力，一次讲透",
         "summary": "大模型本地化、RAG、智能体：AI应用工程师的三大核心能力，一次讲透 网易",
         "quote": "",
@@ -324,17 +324,17 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9pajBUYWZBcEFXSXdvVjd6cDNhOHRhT2tnZW93SXByWFkwbUdqSndwMHc3UFVkb2NRcDBHa2t6c2xQeWFldk5QSmRKa0E4cHNPN0tzV0U2RnBhRHct?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "科学家实现蟑螂机器人量产，68秒完成一只混合昆虫改造",
-        "summary": "科学家实现蟑螂机器人量产，68秒完成一只混合昆虫改造 虎嗅",
+        "tag": "AI",
+        "title": "视觉AI公司Elorian完成5500万美元融资 估值达3亿美元",
+        "summary": "视觉AI公司Elorian完成5500万美元融资 估值达3亿美元 虎嗅",
         "quote": "",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80c0poNE4tdTZoWVlIVHNJUTVSYzRVUWh3T3p6R3J2UWhYSkVka2UwUHFoX0dlZHRyR1FmbExVMFgwcXBzN3N6bl95WHNKcTVESnU4dg?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aQ1ZDVEFQd2l4ZUtIQkRyN2Q0S1JFOXFUNjZRUWhGeGFTZXlrMWw1VEh2YUJvQThkeUI3Q0F2Sk1pRFVzanZVbEZSVE93X3Zwcld3?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天最硬的信号来自芯片链，先进制程、器件价格和算力供给一起在抬高行业预期。",
+      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
@@ -344,7 +344,7 @@
     }
   },
   "2026-04-09": {
-    "updatedAt": "2026-04-11 10:24 (Asia/Shanghai)",
+    "updatedAt": "2026-04-11 11:17 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -516,7 +516,7 @@
     }
   },
   "2026-04-08": {
-    "updatedAt": "2026-04-11 10:24 (Asia/Shanghai)",
+    "updatedAt": "2026-04-11 11:16 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -644,14 +644,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95SUNDZ2ZORzVwbjNKcmFTMDlqRmxpRlhRc0g3SW5nTkk3eGtnaVNVUFUxTnhUSHFMak81Sm5wZUVGLXRkQ042QlptSmU0cERk?oc=5"
       },
       {
-        "tag": "芯片",
-        "title": "调研速递|联动科技接受全体投资者线上调研 聚焦AI芯片测试机量产与第三代半导体布局",
-        "summary": "调研速递|联动科技接受全体投资者线上调研 聚焦AI芯片测试机量产与第三代半导体布局 网易",
-        "quote": "",
-        "source": "网易",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA0VFk3cEpCV2VlR2NYdEsxVkpkdWw2cnJka3ZSSUFpNURXLWMyelJDclNEbXR2TURnam5kYmxNQ25YaU9jX2M3QWkxazB5QkU1TEJ1X0VLZWp4RmV0SGdyQVNn?oc=5"
-      },
-      {
         "tag": "机器人",
         "title": "不到一个月累计融资2.7亿美元！地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权",
         "summary": "不到一个月累计融资2.7亿美元！地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权 东方财富",
@@ -674,6 +666,14 @@
         "quote": "",
         "source": "东方财富",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iX0FEbHF5M2J6dldtUUd2ZWhCMm9NaWZpa0M4OU9HUXRZdnNMRkJHdXZMUURGODNwcHZTYXFFSkRPUTdhS3JkdFAzTEg3cU1wcWFLXzg5SjF6MjhQXzJILTRaZmlydw?oc=5"
+      },
+      {
+        "tag": "芯片",
+        "title": "台积电财报前，摩根大通高喊：买入！公司先进制程紧缺将持续到2027年",
+        "summary": "台积电财报前，摩根大通高喊：买入！公司先进制程紧缺将持续到2027年 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PRHhDbHhWdmltcXdzWDQ5d1hjVWJSUzZMR1BUTUxzNjAycDBxS0s0blpSZzZzaWxTa1QtVEcwWlpyV2pZSXJHUlNZZmk4R0ZSb1BN?oc=5"
       }
     ],
     "copy": {
@@ -688,7 +688,7 @@
     }
   },
   "2026-04-07": {
-    "updatedAt": "2026-04-11 10:23 (Asia/Shanghai)",
+    "updatedAt": "2026-04-11 11:16 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
