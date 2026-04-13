@@ -1,11 +1,7 @@
 {
   "2026-04-13": {
-    "updatedAt": "2026-04-13 10:47 (Asia/Shanghai)",
+    "updatedAt": "2026-04-13 11:51 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "模型与应用突破",
-        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
-      },
       {
         "title": "新能源车技术突破",
         "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
@@ -13,12 +9,16 @@
       {
         "title": "机器人落地突破",
         "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
+      {
+        "title": "模型与应用突破",
+        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 40,
+        "ratio": 30,
         "color": "#39c2ff"
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "name": "EV",
-        "ratio": 30,
+        "ratio": 40,
         "color": "#ffb347"
       }
     ],
@@ -81,11 +81,27 @@
     "news": [
       {
         "tag": "新能源车",
+        "title": "宝马炮轰比亚迪背后真相：如果闪充不伤电池，就不需要固态电池了",
+        "summary": "宝马炮轰比亚迪背后真相：如果闪充不伤电池，就不需要固态电池了 网易新闻客户端。",
+        "quote": "宝马炮轰比亚迪背后真相：如果闪充不伤电池，就不需要固态电池了 网易新闻客户端。",
+        "source": "网易新闻客户端",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc0NOVHAyaVdPZG02dC1lSTRjOUt4Zm03VDkwQWxaY3pTNnNpRlhIOF92MW4yNmJtb2xmSDk1MHJzd2VwUFRXUmJ2U01GMlQwRTlkZ05ldndKWGVpQjRHU0IzUDRqdVl0MUF5OWpEaVIySjZ4c0JlLWVSZDJmM29ISEln?oc=5"
+      },
+      {
+        "tag": "新能源车",
         "title": "比亚迪二代刀片电池发布 9 分钟闪充 + 千公里续航 性价比直接封神",
         "summary": "比亚迪二代刀片电池发布 9 分钟闪充 + 千公里续航 性价比直接封神 网易。",
         "quote": "比亚迪二代刀片电池发布 9 分钟闪充 + 千公里续航 性价比直接封神 网易。",
         "source": "网易",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvWmszT3J6SVd3N3c0bXpQb1JpbUVEQUFXNHR6VXJHOXlOeFU3emNCY281ajJ0dDFYOXBaaW84bmloQ0lRdWc0UzE2UmpzbW5VUmQ2VjlqYmlzNzltVTNPYVh3?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "宇树机器人2025年营收17亿净赚6亿，73.6%收入依赖高校采购",
+        "summary": "宇树机器人2025年营收17亿净赚6亿，73.6%收入依赖高校采购 虎嗅。",
+        "quote": "宇树机器人2025年营收17亿净赚6亿，73.6%收入依赖高校采购 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JTzF5RGFwZ2hteDR6RmJQcHdzTjNUY08tS3NsdzJheFM5NkE0aEFpOWlQb0UyLWhKRWZOWXFSdnpJd1lRVzMwYW0xeF9kbmhtR0xrSw?oc=5"
       },
       {
         "tag": "机器人",
@@ -98,16 +114,16 @@
       {
         "tag": "机器人",
         "title": "北京亦庄开展人形机器人半程马拉松测试",
-        "summary": "北京亦庄开展人形机器人半程马拉松测试。",
-        "quote": "北京亦庄开展人形机器人半程马拉松测试。",
+        "summary": "北京亦庄开展人形机器人半程马拉松测试",
+        "quote": "",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aY3FYdnNxQWRwUVBZQXlDMDlndU9zWm01RkNoREpwQnNXV2VtbUNFemJaZ2RNX0RybTdlLTkxLURVcThHZ1ppbzYyU29XMEVUN0w0?oc=5"
       },
       {
         "tag": "新能源车",
         "title": "宝马“炮轰”比亚迪：不是我们做不到闪充，是不愿牺牲电池耐用性",
-        "summary": "宝马“炮轰”比亚迪：不是我们做不到闪充，是不愿牺牲电池耐用性 网易。",
-        "quote": "宝马“炮轰”比亚迪：不是我们做不到闪充，是不愿牺牲电池耐用性 网易。",
+        "summary": "宝马“炮轰”比亚迪：不是我们做不到闪充，是不愿牺牲电池耐用性 网易",
+        "quote": "",
         "source": "网易",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xOTk1akxLcUMwTU5jbDlmUXdzRFVoa21rMXBadUNoaGtVTmtJaDQxYVhJMUVDcGdDOW5yUExPSVh0RXlvVE1OR0lxV1VKaks4VGZXSTQtTGRRMGt1ZWt0ajR3?oc=5"
       },
@@ -137,32 +153,16 @@
       },
       {
         "tag": "AI",
-        "title": "全球AI投融资动态,AI创投日报",
-        "summary": "全球AI投融资动态,AI创投日报",
+        "title": "造血者胜：Anthropic何以超越OpenAI",
+        "summary": "造血者胜：Anthropic何以超越OpenAI 华尔街见闻",
         "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JeFRJYTBwTzdwS3JVQ2praTNUQkdodmNxUzRQLV8tQlQzeXcwZmkwajh0amN6WnBmcGtNYU52NUk4Z0hCSGYyN2tWbDMwX0xzcnU4Yzhnd1FHMmRxb2ZEd2VOSHI1QW55RzJ5b3lnbw?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "我国首款具身智能特种机器人投入高危场景应用",
-        "summary": "我国首款具身智能特种机器人投入高危场景应用",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uSXNiS1NqQ2dxYl9GenQ2T3ZzOWVpcUVQSVhBZGFFQl9GalY2QnUtMU96YUl2V21wODBwd25QNkI0dW9jTm41ZWlsVnNjLVFMcjlZ?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "中国互联网TOP15公司2025年报分析：市值分化加剧，AI与外卖大战成关键变量",
-        "summary": "中国互联网TOP15公司2025年报分析：市值分化加剧，AI与外卖大战成关键变量 虎嗅",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53eGUxZlBrbndhdDgweWxxa0hMR0QybWNCa2ZFNFhXRXhfTWJjTkhmUTRDVUp0X2c4eEtfN2xfOHd6NlJ3elphSFNlZGNxVC1ub1duOQ?oc=5"
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DVUM5dEl0djJqNmZub3ZKNXZhU2VldHpDOVhTWWVMLWdzRE1aTzNQejR0dUlUal9qTHBrazJ0RUFUSlUwZjJpcVZ3VW1yOFVZRWJj?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
+      "open": "今天车圈继续上强度，快充、电池和智驾一起卷，用户感知会被直接拉高。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
@@ -172,7 +172,7 @@
     }
   },
   "2026-04-12": {
-    "updatedAt": "2026-04-13 10:47 (Asia/Shanghai)",
+    "updatedAt": "2026-04-13 11:50 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -252,28 +252,20 @@
     },
     "news": [
       {
-        "tag": "新能源车",
-        "title": "《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行 打破维修垄断释放积极信号",
-        "summary": "《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行 打破维修垄断释放积极信号 虎嗅。2024年4月，《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行，要求车企与电池厂公开电池编码及拆解技术信息，打破维修技术垄断，为第三方维修企业创造公平竞争环境，预计将降低新能源汽车维修成本。",
-        "quote": "《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行 打破维修垄断释放积极信号 虎嗅。2024年4月，《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行，要求车企与电池厂公开电池编码及拆解技术信息，打破维修技术垄断，为第三方维修企业创造公平竞争环境，预计将降低新能源汽车维修成本。",
-        "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4849714.html"
-      },
-      {
         "tag": "机器人",
         "title": "宇树科技宣布人形机器人跑出10米/秒，逼近人类巅峰水平",
-        "summary": "宇树科技宣布人形机器人跑出10米/秒，逼近人类巅峰水平 华尔街见闻。选股宝是全市场领先的投资研究平台，提供资讯、投研、数据、社区服务，帮助投资者快速挖掘投资线索，降低决策难度。",
-        "quote": "宇树科技宣布人形机器人跑出10米/秒，逼近人类巅峰水平 华尔街见闻。选股宝是全市场领先的投资研究平台，提供资讯、投研、数据、社区服务，帮助投资者快速挖掘投资线索，降低决策难度。",
+        "summary": "宇树科技宣布人形机器人跑出10米/秒，逼近人类巅峰水平 华尔街见闻。",
+        "quote": "宇树科技宣布人形机器人跑出10米/秒，逼近人类巅峰水平 华尔街见闻。",
         "source": "华尔街见闻",
-        "link": "https://m-yunshan.wallstreetcn.com/article/1265102?subjectId=203"
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xZHVEMEdQa3ROaUQyMlRjNUJQbHkxakVna3JRTTcxZXRJZFl1cW9kbXNxbEtSUU9mTXZuWHVVdFRvU3EzXzN5em1uY3dNMGlrQXRsWng3cTVDT3FBSHVhMTg1Z25vanZwMGl5NWg2eWdFdw?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "Medvi凭借AI技术实现4亿美元营收，仅有两名员工",
-        "summary": "Medvi凭借AI技术实现4亿美元营收，仅有两名员工 虎嗅。",
-        "quote": "Medvi凭借AI技术实现4亿美元营收，仅有两名员工 虎嗅。",
+        "tag": "新能源车",
+        "title": "《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行 打破维修垄断释放积极信号",
+        "summary": "《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行 打破维修垄断释放积极信号 虎嗅。",
+        "quote": "《新能源汽车废旧动力电池回收和综合利用管理暂行办法》正式施行 打破维修垄断释放积极信号 虎嗅。",
         "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4849824.html"
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pVGs1Slp5T3FVWm12cUlfSkk1NkIxdkhUVEE5dVc3bVp4SHdlakJHcHoycTZfVWlXd1piTl9EeEVnWnBVT2pZZVlwQ1hkdDJwU3c?oc=5"
       },
       {
         "tag": "机器人",
@@ -282,6 +274,14 @@
         "quote": "让日本机器人祖师爷主动求合作#优必选#人形机器人#具身智能#抖音媒体精选计划#燃起来了大国重器 东方财富。",
         "source": "东方财富",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSXJEbEczdHd1bTh5NFR5RDhsMW94N0FoNWZNZ2E5RXIxdG56cWhWYTFQS28tVkRhMUFzek1EVEY4ZTdJVUJla1VBR1NrRXZXZFFVN1N1Sndad0ZGYm80dnF4QTB1ekttTlAwRDhqLWV6cFRaSU1VcVQySmFwVG1ZR0RybThYS1I2UDBXSVpmME5QRDBqbVpoUzNOUG50QnFRRnpkclQxZWh5UDhHTXg4RHR2aw?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "Medvi凭借AI技术实现4亿美元营收，仅有两名员工",
+        "summary": "Medvi凭借AI技术实现4亿美元营收，仅有两名员工 虎嗅。",
+        "quote": "Medvi凭借AI技术实现4亿美元营收，仅有两名员工 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xQzNqSFpLRVcxejFkTjAxSkczVUprejB6V1FRMXlFdzVDMkhkVlNIVy1nRU5fa0FSTzU4bHN6djVUakxqRFpUN1A0eVlNcmhTZ1E?oc=5"
       },
       {
         "tag": "机器人",
@@ -344,7 +344,7 @@
     }
   },
   "2026-04-11": {
-    "updatedAt": "2026-04-13 10:46 (Asia/Shanghai)",
+    "updatedAt": "2026-04-13 11:50 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -516,7 +516,7 @@
     }
   },
   "2026-04-10": {
-    "updatedAt": "2026-04-13 10:46 (Asia/Shanghai)",
+    "updatedAt": "2026-04-13 11:50 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "芯片与算力突破",
@@ -688,7 +688,7 @@
     }
   },
   "2026-04-09": {
-    "updatedAt": "2026-04-13 10:46 (Asia/Shanghai)",
+    "updatedAt": "2026-04-13 11:49 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -777,6 +777,14 @@
       },
       {
         "tag": "机器人",
+        "title": "具身智能量产提速 CITE 2026 展示人形机器人核心技术突破",
+        "summary": "具身智能量产提速 CITE 2026 展示人形机器人核心技术突破 网易。具身智能量产提速 CITE 2026 展示人形机器人核心技术突破,具身,技术突,人工智能,cite,人形机器人。",
+        "quote": "具身智能量产提速 CITE 2026 展示人形机器人核心技术突破 网易。具身智能量产提速 CITE 2026 展示人形机器人核心技术突破,具身,技术突,人工智能,cite,人形机器人。",
+        "source": "网易",
+        "link": "https://www.163.com/dy/article/KQ32MSVR0556CFLA.html"
+      },
+      {
+        "tag": "机器人",
         "title": "源络科技是一家专注于具身智能人形机器人技术研发与落地应用的初创公司，成立于202",
         "summary": "源络科技是一家专注于具身智能人形机器人技术研发与落地应用的初创公司，成立于202 东方财富。",
         "quote": "源络科技是一家专注于具身智能人形机器人技术研发与落地应用的初创公司，成立于202 东方财富。",
@@ -786,18 +794,18 @@
       {
         "tag": "AI",
         "title": "AI机器宠物ropet销量近2万台，萌友智能完成超千万美金A轮融资",
-        "summary": "AI机器宠物ropet销量近2万台，萌友智能完成超千万美金A轮融资 虎嗅。萌友智能旗下AI机器宠物ropet累计销量达2万台，公司于近日完成超千万美金A轮融资。该产品定位2000元价格带，主打低负担情绪陪伴，用户留存率达80%。",
-        "quote": "AI机器宠物ropet销量近2万台，萌友智能完成超千万美金A轮融资 虎嗅。萌友智能旗下AI机器宠物ropet累计销量达2万台，公司于近日完成超千万美金A轮融资。",
+        "summary": "AI机器宠物ropet销量近2万台，萌友智能完成超千万美金A轮融资 虎嗅。",
+        "quote": "AI机器宠物ropet销量近2万台，萌友智能完成超千万美金A轮融资 虎嗅。",
         "source": "虎嗅",
         "link": "https://m.huxiu.com/article/4849087.html"
       },
       {
         "tag": "机器人",
         "title": "不到一个月累计融资2.7亿美元！地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权",
-        "summary": "地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权 网易。地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权,飞轮,底座,话语权,人工智能,汽车工厂,地瓜机器人。",
-        "quote": "地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权 网易。地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权,飞轮,底座,话语权,人工智能,汽车工厂,地瓜机器人。",
+        "summary": "不到一个月累计融资2.7亿美元！地瓜机器人“一脑多形”加速全球化，抢占具身智能全球底座话语权 网易",
+        "quote": "",
         "source": "网易",
-        "link": "https://www.163.com/dy/article/KQ1982MV0512B07B.html"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEZHMtNklWZjQxTXRxYnNFSE9Id01aOFREQ1ZodDZGX1BjWWl1eUJBU0JjWm9icDQ1M0dhMkhOS1E2aTF3QTBoYTFtWGgteE1ZZC1mSFljZVotVVQ0YVlJcHln?oc=5"
       },
       {
         "tag": "AI",
@@ -817,14 +825,6 @@
       },
       {
         "tag": "AI",
-        "title": "加盟窗帘店哪些品牌好？米兰软装超级AI智能体重构加盟扶持标准",
-        "summary": "加盟窗帘店哪些品牌好？米兰软装超级AI智能体重构加盟扶持标准 网易",
-        "quote": "",
-        "source": "网易",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UazVUbjdnYV9VbV9qWUlyRzl4YndxQ2pYdHY1RjEtY2Y3TDZyUE0wajlPakJQZGVxOXJvZzR6QVhNUXNvM3J2bkZvOFk1dzlyTnlsZ1dzSnhCcnpWWV85dTN3?oc=5"
-      },
-      {
-        "tag": "AI",
         "title": "全球AI投融资动态,AI创投日报",
         "summary": "全球AI投融资动态,AI创投日报",
         "quote": "",
@@ -832,12 +832,12 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yRkJiSnBLQVJLTVEyM01YWEpIVm85ZXVxajZneDhZeV9OM2c4aWxWakh0aks1Y292U3lIaGM4U0ZGYWdQLTF2ZjFqbE9GYjAyTGhzMG5hbjU5dFdHT3A3Ti1EdmtFby0zOWd6TUFROA?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "4月9日每日研选 | 人形机器人量产提速，产业迎规模化落地关键期",
-        "summary": "4月9日每日研选 | 人形机器人量产提速，产业迎规模化落地关键期 东方财富",
+        "tag": "AI",
+        "title": "加盟窗帘店哪些品牌好？米兰软装超级AI智能体重构加盟扶持标准",
+        "summary": "加盟窗帘店哪些品牌好？米兰软装超级AI智能体重构加盟扶持标准 网易",
         "quote": "",
-        "source": "东方财富",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91c08xMEhNNDNVN0V4MFRBRktFNkl3U0d1ZllyVG5oRUwzNFdBR0JrWjk3NHRVMjBuYUJKS3JCOHJ2U3ZhdG5kNjhwa3ZtMjJzMUpXTGRrSWQyZ05YNFZPN3RxbTBlZw?oc=5"
+        "source": "网易",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UazVUbjdnYV9VbV9qWUlyRzl4YndxQ2pYdHY1RjEtY2Y3TDZyUE0wajlPakJQZGVxOXJvZzR6QVhNUXNvM3J2bkZvOFk1dzlyTnlsZ1dzSnhCcnpWWV85dTN3?oc=5"
       },
       {
         "tag": "机器人",
