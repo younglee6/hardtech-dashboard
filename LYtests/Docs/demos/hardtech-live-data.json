@@ -1,11 +1,7 @@
 {
   "2026-05-06": {
-    "updatedAt": "2026-05-06 10:56 (Asia/Shanghai)",
+    "updatedAt": "2026-05-06 12:01 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
-      },
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
@@ -13,27 +9,31 @@
       {
         "title": "新能源车技术突破",
         "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
+      },
+      {
+        "title": "机器人落地突破",
+        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 30,
+        "ratio": 50,
         "color": "#39c2ff"
       },
       {
         "name": "Chip",
-        "ratio": 20,
+        "ratio": 0,
         "color": "#8b93ff"
       },
       {
         "name": "Robotics",
-        "ratio": 30,
+        "ratio": 20,
         "color": "#42d392"
       },
       {
         "name": "EV",
-        "ratio": 20,
+        "ratio": 30,
         "color": "#ffb347"
       }
     ],
@@ -89,6 +89,14 @@
       },
       {
         "tag": "AI",
+        "title": "“烧钱最激进”的豆包开始收费，中国AI大模型的\"商业化元年\"来了",
+        "summary": "“烧钱最激进”的豆包开始收费，中国AI大模型的\"商业化元年\"来了 华尔街见闻。",
+        "quote": "“烧钱最激进”的豆包开始收费，中国AI大模型的\"商业化元年\"来了 华尔街见闻。",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5INExQbXpJSVRKM3VTRlJQYUY5T3RHS3o1UEc3Z2lFNFZKeTBrVlhQeS1tNERPSVZDTzR3Mmtwc1VMZ2VIUDlxVVJ6MEx3T0RvZXVZ?oc=5"
+      },
+      {
+        "tag": "AI",
         "title": "AI服务器需求爆发，AMD上调CPU市场目标至1200亿，指引季度营收超112亿",
         "summary": "AI服务器需求爆发，AMD上调CPU市场目标至1200亿，指引季度营收超112亿 华尔街见闻。",
         "quote": "AI服务器需求爆发，AMD上调CPU市场目标至1200亿，指引季度营收超112亿 华尔街见闻。",
@@ -96,18 +104,18 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PMm5xOGQ4VTBUTHpQbkE0MHB1RWhCb28zLXpJb1liNzFGTFlBdnVnanN4XzBicW1xRmhQLTBCUU55YUE2VzdGUkZsNU1hSXlwbkE?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "自主创新大讲堂人形机器人与具身智能发展沙龙（第四期）成功举办",
-        "summary": "自主创新大讲堂人形机器人与具身智能发展沙龙（第四期）成功举办 手机网易网。",
-        "quote": "自主创新大讲堂人形机器人与具身智能发展沙龙（第四期）成功举办 手机网易网。",
+        "tag": "新能源车",
+        "title": "中航光电：为比亚迪闪充站及二代刀片电池闪充场景提供专业解决方案",
+        "summary": "中航光电：为比亚迪闪充站及二代刀片电池闪充场景提供专业解决方案 手机网易网。",
+        "quote": "中航光电：为比亚迪闪充站及二代刀片电池闪充场景提供专业解决方案 手机网易网。",
         "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zSXdSU0JSbnl0Vk8tWFNyeDNyN0t4NWZaZUk1QXZ3Z0d4d195S21ZNk5TMl9XNVY1VFZheEEyU29zWUVqeVBURzIyNU5GVlV5X1hSdmwwR1RGMGduYmNxempn?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fRFN2cHMxQmJCaGpsbm5KMEdMdHRJaUs0QlUtX3lOUGVuTVltN0lFNEgxdjQ3RjhEQXYxSXhnRS1YTVFDOVhWMHZCVUw1aFVBWGVkc1FLSU8wc3RoN3J3elF3?oc=5"
       },
       {
         "tag": "新能源车",
         "title": "是否为比亚迪闪充站及二代刀片电池闪充技术提供产品支撑？中航光电回应",
-        "summary": "是否为比亚迪闪充站及二代刀片电池闪充技术提供产品支撑？",
-        "quote": "是否为比亚迪闪充站及二代刀片电池闪充技术提供产品支撑？",
+        "summary": "是否为比亚迪闪充站及二代刀片电池闪充技术提供产品支撑？中航光电回应 手机网易网",
+        "quote": "",
         "source": "手机网易网",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAtd3RieDRfYXBqUkZzcjRKZkl3NXVvb29RZloxMks3M0tLQWg1N1B0QzJiWFhjQk03OHVLMXlDYm9KaDJMdzZZa2FJT0ZNNjZMR2c5WU1ZcGY1Xy1lQlJySmZR?oc=5"
       },
@@ -129,40 +137,32 @@
       },
       {
         "tag": "AI",
+        "title": "内存不够，AI就得“从头算”！美光高管：我们跟不上内存需求了，全球建厂5座还不够",
+        "summary": "内存不够，AI就得“从头算”！美光高管：我们跟不上内存需求了，全球建厂5座还不够 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQbUsyeW1iMDlWTnZqUkZQSHJzRUR2RWV6NEdXd1ZVT211TThJLW1JbHBXUS1VQVJ3d1NTdUJMQWtTd25zZURSekxtbWNaOVNpYng4?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "AI+并联 驱动具身智能人形机器人新跨越",
+        "summary": "AI+并联 驱动具身智能人形机器人新跨越",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UVmxLUDBwNGg0aGJiZ0d2ZWUtX2hlejhyR0pudUdqQzV0WVN0S0ZPR1lScUY0ZXF1Ql9UZmplWnJ1N3liWTNqcXQ2blFlUXRTdUlrSV9qbjFVa2RDalpWV0NB?oc=5"
+      },
+      {
+        "tag": "AI",
         "title": "RadixArk筹集1亿美元种子资金推动AI推理效率提升",
         "summary": "RadixArk筹集1亿美元种子资金推动AI推理效率提升 虎嗅",
         "quote": "",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyZkJ3bGFZLXA1OUEwdlpzUzUzYU5vMzdqTVRKVE93RTRuZTJycHZ4cHQ5WmVYTG1JMWNLVWFSYk1JOEFZaUlkRzkwcXNFWktSTDJr?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "中东局势缓和，芯片热潮力推亚太股指新高，韩国综指站上7000点，三星市值破万亿",
-        "summary": "中东局势缓和，芯片热潮力推亚太股指新高，韩国综指站上7000点，三星市值破万亿 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1maEpraU84TE13VzRYWmowWW1maXpoU1dvUjVfRlZBTGxlY0hGVHFxWDZ1UzdjYy1DQnNCMWlIc3lPV0ZKc3VZSjBMQ0FxZGM2U1lv?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "AMD电话会：服务器CPU市场增速将超35%，CPU比例推向1:1，预计下半年出货Meta芯片",
-        "summary": "AMD电话会：服务器CPU市场增速将超35%，CPU比例推向1:1，预计下半年出货Meta芯片 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuT2J4MGliRDFrRzRQT0RBdTBCUDVKcHNCLUNoRURUcGZ3bmpMMW9Za3d1UmNLX0N1RmV0RERyQndBTFhHc2stTFMwdHBBU3kzN1Z3?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "英国公司训练人形机器人执行垃圾分拣任务",
-        "summary": "英国公司训练人形机器人执行垃圾分拣任务",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1la0Z6dGxfTWFWNTBmUEJaRmV2YWd1TlpPQ2daRTZEMnZvaWcyM254MVFVbkZoZUQ5dGUtUjdONlJKbEdITzNGUEd5bkczWmwzaEx3?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天机器人赛道不是热闹而已，标准、零部件通用化和场景交付已经开始变成真问题。",
+      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
@@ -172,7 +172,7 @@
     }
   },
   "2026-05-05": {
-    "updatedAt": "2026-05-06 10:56 (Asia/Shanghai)",
+    "updatedAt": "2026-05-06 12:01 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -253,14 +253,6 @@
     "news": [
       {
         "tag": "AI",
-        "title": "AI智能体重构产业组织，传统企业家面临思维升级挑战",
-        "summary": "AI智能体重构产业组织，传统企业家面临思维升级挑战 虎嗅。",
-        "quote": "AI智能体重构产业组织，传统企业家面临思维升级挑战 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBLWVxbkR6MWN2dHdyVmVYdkpkZGJUUmM5ZXNPYlRaTWU0U2VyLXVHeG9IR053OExXU05GeGQ2dVB2MGpNV01FQ2FNOVZ3MDBqQ2c?oc=5"
-      },
-      {
-        "tag": "AI",
         "title": "Google DeepMind论文揭示大模型推理硬件瓶颈与四大创新方向",
         "summary": "Google DeepMind论文揭示大模型推理硬件瓶颈与四大创新方向 虎嗅。",
         "quote": "Google DeepMind论文揭示大模型推理硬件瓶颈与四大创新方向 虎嗅。",
@@ -274,6 +266,14 @@
         "quote": "AI驱动增长全面爆发，Palantir Q1营收激增85%、上调全年指引远超预期 | 财报见闻 华尔街见闻。",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TOXE2dFZ1R0puYXV6NUVKb3hfSi1rSnpoYWhxcm01Zm9HRjlRdE5tNWY2bVAyYnZZUnNEc2tNSWlOeDZMay1JMzljVE9jQ3RIeE1B?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "AI智能体重构产业组织，传统企业家面临思维升级挑战",
+        "summary": "AI智能体重构产业组织，传统企业家面临思维升级挑战 虎嗅。",
+        "quote": "AI智能体重构产业组织，传统企业家面临思维升级挑战 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBLWVxbkR6MWN2dHdyVmVYdkpkZGJUUmM5ZXNPYlRaTWU0U2VyLXVHeG9IR053OExXU05GeGQ2dVB2MGpNV01FQ2FNOVZ3MDBqQ2c?oc=5"
       },
       {
         "tag": "AI",
@@ -317,19 +317,19 @@
       },
       {
         "tag": "AI",
-        "title": "OpenAI加速推进AI代理手机研发 目标2027年上半年量产",
-        "summary": "OpenAI加速推进AI代理手机研发 目标2027年上半年量产 虎嗅",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OTm5IYkxkT2V6aFRaeVhFZ2xEWnQ3Sm0wZ3FOamFuUEY4V1dQVHhNWGN4S0RvVjh2T09IY2tsamF2emxOaTNIY1BjcFJDRlZUNzR3?oc=5"
-      },
-      {
-        "tag": "AI",
         "title": "高通2026Q2财报：营收106亿美元同比下滑3.5%，手机业务承压但AI布局加速",
         "summary": "高通2026Q2财报：营收106亿美元同比下滑3.5%，手机业务承压但AI布局加速 虎嗅",
         "quote": "",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XZ2hVU1FIdWoxOVE0aWxJM2lBREFpZ2lCUW85NFE5ZXpNR1JOM2psLWNHUlkza0lpVXBEQVVHSG96WDdfMW9qWnZKb3QyWk1WUk92eQ?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "Enzo Health获2000万美元A轮融资，AI工具助力家庭健康机构自动化",
+        "summary": "Enzo Health获2000万美元A轮融资，AI工具助力家庭健康机构自动化 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Jdnp1NGhna29JeFBZY3RGWHhkZk52b2NhemhxaWloRzFrbF9feTJaTE95Tld5M3hkbkp2QXFSWURxMi15N3c3R3lFbFE3UG1OS0hF?oc=5"
       }
     ],
     "copy": {
@@ -344,7 +344,7 @@
     }
   },
   "2026-05-04": {
-    "updatedAt": "2026-05-06 10:55 (Asia/Shanghai)",
+    "updatedAt": "2026-05-06 12:01 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -426,8 +426,8 @@
       {
         "tag": "AI",
         "title": "一句prompt就是一个产品？“Agentic AI第一股”掌门人：软件正在变成快消品",
-        "summary": "“Agentic AI第一股”掌门人：软件正在变成快消品 虎嗅。",
-        "quote": "“Agentic AI第一股”掌门人：软件正在变成快消品 虎嗅。",
+        "summary": "“Agentic AI第一股”掌门人：软件正在变成快消品 虎嗅。虎嗅是一个聚焦科技与创新的资讯平台，致力于为一切热爱思考与发现的用户，提供有效率的信息服务。内容包含前沿科技、汽车、消费、商业、医疗、健康、社会文化、金融财经、出海、国际热点、游戏、娱乐、3C数码、书影音等。",
+        "quote": "“Agentic AI第一股”掌门人：软件正在变成快消品 虎嗅。虎嗅是一个聚焦科技与创新的资讯平台，致力于为一切热爱思考与发现的用户，提供有效率的信息服务。",
         "source": "虎嗅",
         "link": "https://m.huxiu.com/articleaudio_player/4842541.html"
       },
@@ -516,7 +516,7 @@
     }
   },
   "2026-05-03": {
-    "updatedAt": "2026-05-06 10:55 (Asia/Shanghai)",
+    "updatedAt": "2026-05-06 12:00 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -597,6 +597,14 @@
     "news": [
       {
         "tag": "机器人",
+        "title": "Meta收购机器人模型公司ARI 强化具身智能领域布局",
+        "summary": "Meta收购机器人模型公司ARI 强化具身智能领域布局 虎嗅。2026年5月1日，Meta宣布收购机器人模型公司Assured Robot Intelligence（ARI），创始团队将整体加入Meta参与研发工作。此次收购涉及具身智能关键技术，但监管风险低于此前引发争议的Manus交易。",
+        "quote": "Meta收购机器人模型公司ARI 强化具身智能领域布局 虎嗅。2026年5月1日，Meta宣布收购机器人模型公司Assured Robot Intelligence（ARI），创始团队将整体加入Meta参与研发工作。",
+        "source": "虎嗅",
+        "link": "https://m.huxiu.com/article/4855514.html"
+      },
+      {
+        "tag": "机器人",
         "title": "一个小时一台，人形机器人量产时代开启！一个小时就能生产一台！这两天，著名机器人公司Figure和1X几乎同时发布了他们机器人工厂的重磅视频。这些视频不但展示了人形机器人生产的高燃片段，也标志着人形机器",
         "summary": "这两天，著名机器人公司Figure和1X几乎同时发布了他们机器人工厂的重磅视频。这些视频不但展示了人形机器人生产的高燃片段，也标志着人形机器 东方财富。",
         "quote": "这两天，著名机器人公司Figure和1X几乎同时发布了他们机器人工厂的重磅视频。这些视频不但展示了人形机器人生产的高燃片段，也标志着人形机器 东方财富。",
@@ -618,14 +626,6 @@
         "quote": "Anthropic正洽谈购买Fractile的AI推理芯片 虎嗅。",
         "source": "虎嗅",
         "link": "https://www.huxiu.com/ainews/11722.html"
-      },
-      {
-        "tag": "机器人",
-        "title": "Meta收购机器人模型公司ARI 强化具身智能领域布局",
-        "summary": "Meta收购机器人模型公司ARI 强化具身智能领域布局 虎嗅。",
-        "quote": "Meta收购机器人模型公司ARI 强化具身智能领域布局 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4855514.html"
       },
       {
         "tag": "机器人",
@@ -688,7 +688,7 @@
     }
   },
   "2026-05-02": {
-    "updatedAt": "2026-05-06 10:54 (Asia/Shanghai)",
+    "updatedAt": "2026-05-06 11:59 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -769,19 +769,19 @@
     "news": [
       {
         "tag": "机器人",
+        "title": "Meta收购机器人AI公司Assured Robot Intelligence以推进人形机器人研发",
+        "summary": "Meta收购机器人AI公司Assured Robot Intelligence以推进人形机器人研发 虎嗅。Meta于2023年收购专注人形机器人技术的Assured Robot Intelligence公司，此举将强化其在人工智能与实体机器人交互领域的技术储备。",
+        "quote": "Meta收购机器人AI公司Assured Robot Intelligence以推进人形机器人研发 虎嗅。Meta于2023年收购专注人形机器人技术的Assured Robot Intelligence公司，此举将强化其在人工智能与实体机器人交互领域的技术储备。",
+        "source": "虎嗅",
+        "link": "https://www.huxiu.com/moment/1241413.html"
+      },
+      {
+        "tag": "机器人",
         "title": "抢滩“具身智能”高地！Meta(META.US)收购ARI加码人形机器人布局 与特斯拉、谷歌展开正面对决",
         "summary": "Meta(META.US)收购ARI加码人形机器人布局 与特斯拉、谷歌展开正面对决 手机网易网。Meta(META.US)收购ARI加码人形机器人布局 与特斯拉、谷歌展开正面对决,高地,谷歌,ari,人工智能,meta,知名企业,人形机器人,特斯拉(公司)。",
         "quote": "Meta(META.US)收购ARI加码人形机器人布局 与特斯拉、谷歌展开正面对决 手机网易网。Meta(META.US)收购ARI加码人形机器人布局 与特斯拉、谷歌展开正面对决,高地,谷歌,ari,人工智能,meta,知名企业,人形机器人,特斯拉(公司)。",
         "source": "手机网易网",
         "link": "https://www.163.com/dy/article/KRTUM12805198UNI.html"
-      },
-      {
-        "tag": "机器人",
-        "title": "Meta收购机器人AI公司Assured Robot Intelligence以推进人形机器人研发",
-        "summary": "Meta收购机器人AI公司Assured Robot Intelligence以推进人形机器人研发 虎嗅。",
-        "quote": "Meta收购机器人AI公司Assured Robot Intelligence以推进人形机器人研发 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://www.huxiu.com/moment/1241413.html"
       },
       {
         "tag": "机器人",
@@ -794,8 +794,8 @@
       {
         "tag": "新能源车",
         "title": "单车平均带电量同比增长三成，新能源汽车电池越大越好？",
-        "summary": "单车平均带电量同比增长三成，新能源汽车电池越大越好？虎嗅。",
-        "quote": "单车平均带电量同比增长三成，新能源汽车电池越大越好？虎嗅。",
+        "summary": "虎嗅是一个聚焦科技与创新的资讯平台，致力于为一切热爱思考与发现的用户，提供有效率的信息服务。内容包含前沿科技、汽车、消费、商业、医疗、健康、社会文化、金融财经、出海、国际热点、游戏、娱乐、3C数码、书影音等。",
+        "quote": "虎嗅是一个聚焦科技与创新的资讯平台，致力于为一切热爱思考与发现的用户，提供有效率的信息服务。内容包含前沿科技、汽车、消费、商业、医疗、健康、社会文化、金融财经、出海、国际热点、游戏、娱乐、3C数码、书影音等。",
         "source": "虎嗅",
         "link": "https://m.huxiu.com/articleaudio_player/4846641.html"
       },
