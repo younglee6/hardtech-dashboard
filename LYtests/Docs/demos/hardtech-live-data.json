@@ -1,34 +1,34 @@
 {
   "2026-08-12": {
-    "updatedAt": "2026-08-12 09:58 (Asia/Shanghai)",
+    "updatedAt": "2026-08-12 10:40 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "芯片与算力突破",
-        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
-      },
       {
         "title": "机器人落地突破",
         "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
       },
       {
-        "title": "新能源车技术突破",
-        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
+        "title": "模型与应用突破",
+        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
+      },
+      {
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 20,
+        "ratio": 30,
         "color": "#39c2ff"
       },
       {
         "name": "Chip",
-        "ratio": 40,
+        "ratio": 20,
         "color": "#8b93ff"
       },
       {
         "name": "Robotics",
-        "ratio": 20,
+        "ratio": 30,
         "color": "#42d392"
       },
       {
@@ -80,20 +80,20 @@
     },
     "news": [
       {
-        "tag": "芯片",
-        "title": "台积电单月营收同比大增45%：算力芯片爆单推高全网晶圆代工过路费",
-        "summary": "台积电单月营收同比大增45%：算力芯片爆单推高全网晶圆代工过路费 手机网易网。台积电单月营收同比大增45%：算力芯片爆单推高全网晶圆代工过路费,台积电,英伟达,晶圆厂,算力芯片,知名企业,全球半导体领域。",
-        "quote": "台积电单月营收同比大增45%：算力芯片爆单推高全网晶圆代工过路费 手机网易网。台积电单月营收同比大增45%：算力芯片爆单推高全网晶圆代工过路费,台积电,英伟达,晶圆厂,算力芯片,知名企业,全球半导体领域。",
-        "source": "手机网易网",
-        "link": "https://www.163.com/dy/article/L4421OSB0556BZTG.html"
-      },
-      {
         "tag": "机器人",
         "title": "安徽建设具身智能机器人训练场，人形机器人加速从训练场走向真职场",
         "summary": "安徽建设具身智能机器人训练场，人形机器人加速从训练场走向真职场 虎嗅网。",
         "quote": "安徽建设具身智能机器人训练场，人形机器人加速从训练场走向真职场 虎嗅网。",
         "source": "虎嗅网",
         "link": "https://www.huxiu.com/moment/1270215.html"
+      },
+      {
+        "tag": "AI",
+        "title": "SpaceXAI推出Grok Bot 打造AI智能体团队以追赶Anthropic和OpenAI",
+        "summary": "SpaceXAI推出Grok Bot 打造AI智能体团队以追赶Anthropic和OpenAI 虎嗅网。",
+        "quote": "SpaceXAI推出Grok Bot 打造AI智能体团队以追赶Anthropic和OpenAI 虎嗅网。",
+        "source": "虎嗅网",
+        "link": "https://www.huxiu.com/moment/1270344.html"
       },
       {
         "tag": "芯片",
@@ -120,6 +120,14 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lb2lscDJ5RENJeE9FcmpyM1NDMlBnUWhkUXRlRkVSXzlISXowVWFUdExDLVhnNE5fMmVYQXZVQkxHc3JfWHdILVZuQThmZlhXX2Fz?oc=5"
       },
       {
+        "tag": "AI",
+        "title": "xAI联合创始人创立的River AI完成11亿美元融资，英伟达、AMD参投",
+        "summary": "xAI联合创始人创立的River AI完成11亿美元融资，英伟达、AMD参投 虎嗅网",
+        "quote": "",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94Z0tqaGV6WGp2U3hQNWQ3bklmS1JHU0xweUplWmFhZGROVHIwWTRsQmF0RTd1TUVXWkhUZ0lEZWdYamtBR18xaldZQWJKLTNNVlc4?oc=5"
+      },
+      {
         "tag": "芯片",
         "title": "日本：2nm芯片试产成功！顶尖光刻机随便买，誓言要超台积电",
         "summary": "日本：2nm芯片试产成功！顶尖光刻机随便买，誓言要超台积电 手机网易网",
@@ -128,12 +136,12 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vU29HVGVTVEozRFc4TUlMQ2ROS3lkdnFVMk9lWDhMNzBCYzNkMkdtU25IX0RnVWRCUi1Hb2JLZFR1d2tkQ083ZUx3Tk95Y2UwOU0xTzE5cEt0ZnpUNWxXVXN3?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "AI算力供应商CoreWeave上调全年营收展望为124亿至132亿美元。",
-        "summary": "AI算力供应商CoreWeave上调全年营收展望为124亿至132亿美元。 虎嗅网",
+        "tag": "机器人",
+        "title": "中科芯知完成天使轮融资：聚焦具身智能情绪感知大模型，以陪伴机器人打开场景入口",
+        "summary": "中科芯知完成天使轮融资：聚焦具身智能情绪感知大模型，以陪伴机器人打开场景入口 手机网易网",
         "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02UElhWHVfT2c1Nk5IeUZONFhrYk5sM2ZOMmhvaEIyelNMSlV4NmRZUnowSWU5RWpkc3hBc2FWdFVmNHZsZ1dyR2RDTGE0TU80Q05v?oc=5"
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFWndrblhYb3lqektpV1RSY2wwVkRDVGh3TWU5Y1JFSGs2aHZFaXRPOTg2eHBCYlBFd2VZN2hDeVAyZkQtUHM3cmViWFpka0ZLMWdWcDdjTnRsczhOV29vUVpR?oc=5"
       },
       {
         "tag": "机器人",
@@ -150,19 +158,11 @@
         "quote": "",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDTFdEVDBpZDZGWXF2UnBTLVh6MGJ1dzlQU0otaUE4aGdWdVVkQ05hQzFtWXdDTHVYOEVQMXp1RzZmMGhROEU4WFhTTEVQQmw3TWg4?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "台积电与索尼合资成立半导体公司，计划2029年生产下一代图像传感器",
-        "summary": "台积电与索尼合资成立半导体公司，计划2029年生产下一代图像传感器 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SSUFEeXk0QU04Y05sY09TNHBaWVdqVnREQW1WLUptbTBQb2h1MWU4QlJtMkhldXZHOFFCUEEyZ0MtTjk2S2kxWnhjaXBja0lndHY4?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天最硬的信号来自芯片链，先进制程、器件价格和算力供给一起在抬高行业预期。",
+      "open": "今天机器人赛道不是热闹而已，标准、零部件通用化和场景交付已经开始变成真问题。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
@@ -172,7 +172,7 @@
     }
   },
   "2026-08-11": {
-    "updatedAt": "2026-08-12 09:58 (Asia/Shanghai)",
+    "updatedAt": "2026-08-12 10:39 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -260,6 +260,14 @@
         "link": "https://www.163.com/dy/article/L42BLJCS0550WHYR.html"
       },
       {
+        "tag": "芯片",
+        "title": "微软据悉拟“大幅”提高下一代AI芯片产量，正与台积电洽谈2027年交付逾30万枚",
+        "summary": "微软据悉拟“大幅”提高下一代AI芯片产量，正与台积电洽谈2027年交付逾30万枚 华尔街见闻。",
+        "quote": "微软据悉拟“大幅”提高下一代AI芯片产量，正与台积电洽谈2027年交付逾30万枚 华尔街见闻。",
+        "source": "华尔街见闻",
+        "link": "https://wallstreetcn.com/articles/3779098"
+      },
+      {
         "tag": "机器人",
         "title": "国联民生：人形机器人产业正进入“规模制造提速、场景持续拓展、具身智能升级”三重驱动阶段",
         "summary": "国联民生：人形机器人产业正进入“规模制造提速、场景持续拓展、具身智能升级”三重驱动阶段 手机网易网。国联民生：人形机器人产业正进入“规模制造提速、场景持续拓展、具身智能升级”三重驱动阶段,国联民生,规模制造,人形机器人。",
@@ -269,19 +277,19 @@
       },
       {
         "tag": "芯片",
-        "title": "微软据悉拟“大幅”提高下一代AI芯片产量，正与台积电洽谈2027年交付逾30万枚",
-        "summary": "微软据悉拟“大幅”提高下一代AI芯片产量，正与台积电洽谈2027年交付逾30万枚 华尔街见闻。",
-        "quote": "微软据悉拟“大幅”提高下一代AI芯片产量，正与台积电洽谈2027年交付逾30万枚 华尔街见闻。",
+        "title": "智谱API用户数近700万，新启用超5万块国产算力芯片",
+        "summary": "智谱API用户数近700万，新启用超5万块国产算力芯片 华尔街见闻。",
+        "quote": "智谱API用户数近700万，新启用超5万块国产算力芯片 华尔街见闻。",
         "source": "华尔街见闻",
-        "link": "https://wallstreetcn.com/articles/3779098"
+        "link": "https://wallstreetcn.com/articles/3779102"
       },
       {
         "tag": "AI",
         "title": "2026年AI智能体突破关键：本体知识让22个推理难题迎刃而解",
-        "summary": "2026年AI智能体突破关键：本体知识让22个推理难题迎刃而解 手机网易网。2026年AI智能体突破关键：本体知识让22个推理难题迎刃而解,推理,本体,术语,知识图谱,ai智能体。",
-        "quote": "2026年AI智能体突破关键：本体知识让22个推理难题迎刃而解 手机网易网。2026年AI智能体突破关键：本体知识让22个推理难题迎刃而解,推理,本体,术语,知识图谱,ai智能体。",
+        "summary": "2026年AI智能体突破关键：本体知识让22个推理难题迎刃而解 手机网易网",
+        "quote": "",
         "source": "手机网易网",
-        "link": "https://www.163.com/dy/article/L42D2KG805561FZQ.html"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SbGlkSjkxTmQ2b0x2aUREVWZMYzVST2YwbjFoN0FLRHBLeVFoSEhSOUhrdEhORHJ1SVltQW1IMTdERXg0WnVHYVo3ZzFCRlczUGtTZmN3QkRYM2x6aW1FYVhR?oc=5"
       },
       {
         "tag": "机器人",
@@ -290,14 +298,6 @@
         "quote": "",
         "source": "虎嗅网",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Gb2lMaVZjT2o2cUJYTnQ5WWFHRnBjaG1pbVdNNkI5dTgxSXRnTkJZZmtIQk5mODFJdXZld25RSkFoV2dLY3R1Y3JGWGtIVzh6M2tjZQ?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "智谱API用户数近700万，新启用超5万块国产算力芯片",
-        "summary": "智谱API用户数近700万，新启用超5万块国产算力芯片 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OQ25xczRpMXB1MTJtS0FGTk8wXzhXYzdFdFVWUFVHcVU1RldCUTZwRFc3S0JhM0M2WWg0b1pZUlJnLUFXR1NhRzdkVW8xSndzcXBR?oc=5"
       },
       {
         "tag": "AI",
@@ -344,7 +344,7 @@
     }
   },
   "2026-08-10": {
-    "updatedAt": "2026-08-12 09:58 (Asia/Shanghai)",
+    "updatedAt": "2026-08-12 10:39 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -516,7 +516,7 @@
     }
   },
   "2026-08-09": {
-    "updatedAt": "2026-08-12 09:57 (Asia/Shanghai)",
+    "updatedAt": "2026-08-12 10:38 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "新能源车技术突破",
@@ -688,7 +688,7 @@
     }
   },
   "2026-08-08": {
-    "updatedAt": "2026-08-12 09:57 (Asia/Shanghai)",
+    "updatedAt": "2026-08-12 10:38 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
