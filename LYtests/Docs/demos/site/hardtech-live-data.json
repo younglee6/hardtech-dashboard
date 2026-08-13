@@ -1,14 +1,14 @@
 {
   "2026-08-13": {
-    "updatedAt": "2026-08-13 10:01 (Asia/Shanghai)",
+    "updatedAt": "2026-08-13 10:42 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "模型与应用突破",
-        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
-      },
       {
         "title": "机器人落地突破",
         "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
+      {
+        "title": "模型与应用突破",
+        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
         "title": "芯片与算力突破",
@@ -28,12 +28,12 @@
       },
       {
         "name": "Robotics",
-        "ratio": 30,
+        "ratio": 40,
         "color": "#42d392"
       },
       {
         "name": "EV",
-        "ratio": 10,
+        "ratio": 0,
         "color": "#ffb347"
       }
     ],
@@ -80,12 +80,20 @@
     },
     "news": [
       {
+        "tag": "机器人",
+        "title": "广东：围绕具身智能等前沿领域开展标准体系规划研究，探索以标准化手段引领先导性、颠覆性技术快速迭代",
+        "summary": "广东：围绕具身智能等前沿领域开展标准体系规划研究，探索以标准化手段引领先导性、颠覆性技术快速迭代 手机网易网。广东：围绕具身智能等前沿领域开展标准体系规划研究，探索以标准化手段引领先导性、颠覆性技术快速迭代,广东,颠覆性,人工智能计量体系。",
+        "quote": "广东：围绕具身智能等前沿领域开展标准体系规划研究，探索以标准化手段引领先导性、颠覆性技术快速迭代 手机网易网。广东：围绕具身智能等前沿领域开展标准体系规划研究，探索以标准化手段引领先导性、颠覆性技术快速迭代,广东,颠覆性,人工智能计量体系。",
+        "source": "手机网易网",
+        "link": "https://www.163.com/dy/article/L47151K70539AP40.html"
+      },
+      {
         "tag": "AI",
         "title": "SpaceXAI新“杀器”：Grok 4.6智能体测试力压GPT-5.6、Fable 5，定价仅竞品一半",
         "summary": "SpaceXAI新“杀器”：Grok 4.6智能体测试力压GPT-5.6、Fable 5，定价仅竞品一半 华尔街见闻。",
         "quote": "SpaceXAI新“杀器”：Grok 4.6智能体测试力压GPT-5.6、Fable 5，定价仅竞品一半 华尔街见闻。",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sckhlckNuSVhaT1NMbW1Xd1lMcTlFc05DQWhKdkZHX0s5UVdYbDVfcHNSQjZKS3VxbUM5YVk1ZzhNUnFRZ1M2XzdrMFBLVW5IWnl3?oc=5"
+        "link": "https://wallstreetcn.com/articles/3779307"
       },
       {
         "tag": "AI",
@@ -93,39 +101,31 @@
         "summary": "思科上季营收创纪录，AI订单爆发，但全年AI营收预测令市场失望，盘后股价跌超4%｜财报见闻 华尔街见闻。",
         "quote": "思科上季营收创纪录，AI订单爆发，但全年AI营收预测令市场失望，盘后股价跌超4%｜财报见闻 华尔街见闻。",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hMmtIVVhMcW02RjQ1a1Z4cUtLWkx3ZFRrcktiWWl0NUdpUmp5aUE0cFdvNWVZOTdWVEhKZmE2ZndDVnJFZEE2d0Q0WDBJREU5M0tv?oc=5"
+        "link": "https://wallstreetcn.com/articles/3779315"
+      },
+      {
+        "tag": "芯片",
+        "title": "日本：2nm 芯片试产成功！顶尖光刻机随便买，誓言要超台积电！",
+        "summary": "日本：2nm 芯片试产成功！顶尖光刻机随便买，誓言要超台积电！手机网易网。",
+        "quote": "日本：2nm 芯片试产成功！顶尖光刻机随便买，誓言要超台积电！手机网易网。",
+        "source": "手机网易网",
+        "link": "https://www.163.com/v/video/VO397KL5B.html"
       },
       {
         "tag": "芯片",
         "title": "日本：2nm芯片试产成功！顶尖光刻机随便买，誓言要超台积电",
-        "summary": "顶尖光刻机随便买，誓言要超台积电 网易新闻客户端。",
-        "quote": "顶尖光刻机随便买，誓言要超台积电 网易新闻客户端。",
-        "source": "网易新闻客户端",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNERNRS1oaVduY1d5alEwTlVZMXlocGpxWC0yTkQ4OTkxa1d3NFFwSUphUnNsN2o1OU9fdTRWU0t5MmJRWjJVV2pqdE9lNUdwR0FjSnVVbFF4RDZIM2hhcTByOEpDOEhJOW4tSUVqTk5DV1dqZF96dHRZdjF1aFZzTlB3?oc=5"
+        "summary": "日本：2nm芯片试产成功！顶尖光刻机随便买，誓言要超台积电 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LYnFRMkpvTHR2eFE2MzRBN2RnWGFQbGphVDlnNzVzQ2hQQ19Mejl4Y1M5TVByZThrWkN6dHVpR2ZwcDh4NXpJZU9qNExac0stMjR2ZE15NUlFSlJzRjlGejl3?oc=5"
       },
       {
         "tag": "机器人",
         "title": "广东：围绕具身智能等前沿领域开展标准体系规划研究探索以标准化手段引领先导性、颠覆性技术快速迭代",
-        "summary": "广东：围绕具身智能等前沿领域开展标准体系规划研究探索以标准化手段引领先导性、颠覆性技术快速迭代 东方财富。",
-        "quote": "广东：围绕具身智能等前沿领域开展标准体系规划研究探索以标准化手段引领先导性、颠覆性技术快速迭代 东方财富。",
+        "summary": "广东：围绕具身智能等前沿领域开展标准体系规划研究探索以标准化手段引领先导性、颠覆性技术快速迭代 东方财富",
+        "quote": "",
         "source": "东方财富",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MOFpPUGlfTTlvYkJrRHROVEJPLW1lUUF2a3hUNlMyZHJ4MXRPdWliSVBFeEExM0JKeEozWDdtMUxjY3lacVBzS2Vrc2xUUl9IUTM2OWlrck9RRWx5RWhaOQ?oc=5"
-      },
-      {
-        "tag": "新能源车",
-        "title": "比亚迪闪充高速实测1小时，电池维修贵过车价：这些短板影响多大",
-        "summary": "比亚迪闪充高速实测1小时，电池维修贵过车价：这些短板影响多大 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE51ZlNMb0VDQUdsQTNZYmhBMmtBTkRyN0xYTElfMnQyeHJTMlMwbTNfRElkWnNjTzhSa3lzUmUxczV3MUQwUnF1RDBIejFDTDh0ZHVfM1prMWd0aDBBaDUxX1R3?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "谷歌Pixel 11系列发布首发台积电2nm芯片",
-        "summary": "谷歌Pixel 11系列发布首发台积电2nm芯片 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rYkhMTGR0OGdvS3VjRUNXT1d5Q1plZ0NxUE9EQ3drTmM0V25mQnA3NUc1ZlQwbXZkWFFzdU5CRmNLMkFfT0VzcmtnRTBaU2xJTDdUeGo5cE5ybC1sS1A1WTBR?oc=5"
       },
       {
         "tag": "AI",
@@ -153,26 +153,26 @@
       },
       {
         "tag": "机器人",
-        "title": "量产1.8万台！宇树推动人形机器人走出实验室，行业渗透率提升丨大咖星选",
-        "summary": "量产1.8万台！宇树推动人形机器人走出实验室，行业渗透率提升丨大咖星选 手机网易网",
+        "title": "影响市场重大事件：摩根士丹利对SpaceX惊人设想：股价能够冲击600美元；星河动力年产24发重复使用液体运载火箭产业化基地项目开工；上半年中国人形机器人出货量全球占比超97%",
+        "summary": "影响市场重大事件：摩根士丹利对SpaceX惊人设想：股价能够冲击600美元；星河动力年产24发重复使用液体运载火箭产业化基地项目开工；上半年中国人形机器人出货量全球占比超97% 东方财富",
         "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLeXl1em5xU3BIbVh2d3hYaFcyNDNEcGlwcnZOVmFOSTRLSnRFaVRUWTllMXlBX2NrVS10dC1aOFM2YkwyRWV6UlZlMVJlNUUxLXV3cDlzWFJkclN4UE55NWZB?oc=5"
+        "source": "东方财富",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52ZldtdFAyUFVKVDd5ajdoemp6cldFbEFwUXctanR6MEZONjdDRlJOTmZTZm8wTTVSSENad29RRmd1anMySTQzeXRSUnF0aG82bTZtaXpReV9ZU1EtNldNRDU1SDQzdw?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
+      "open": "今天机器人赛道不是热闹而已，标准、零部件通用化和场景交付已经开始变成真问题。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
         "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
-        "🚗 新能源车：比亚迪等厂商把竞争从单车参数，推向补能网络和全栈架构。"
+        "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
       ]
     }
   },
   "2026-08-12": {
-    "updatedAt": "2026-08-13 10:00 (Asia/Shanghai)",
+    "updatedAt": "2026-08-13 10:42 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -276,20 +276,20 @@
         "link": "https://wallstreetcn.com/articles/3779253"
       },
       {
-        "tag": "机器人",
-        "title": "人形机器人加速进入汽车与动力电池工厂，成本需降低近三分之二才具替换价值",
-        "summary": "人形机器人加速进入汽车与动力电池工厂，成本需降低近三分之二才具替换价值 虎嗅网。",
-        "quote": "人形机器人加速进入汽车与动力电池工厂，成本需降低近三分之二才具替换价值 虎嗅网。",
-        "source": "虎嗅网",
-        "link": "https://www.huxiu.com/article/4882514.html"
-      },
-      {
         "tag": "新能源车",
         "title": "闪充撞上10万级价格底线，比亚迪海豹06把竞争拉进“补能军备竞赛”",
-        "summary": "闪充撞上10万级价格底线，比亚迪海豹06把竞争拉进“补能军备竞赛” 华尔街见闻",
-        "quote": "",
+        "summary": "闪充撞上10万级价格底线，比亚迪海豹06把竞争拉进“补能军备竞赛” 华尔街见闻。",
+        "quote": "闪充撞上10万级价格底线，比亚迪海豹06把竞争拉进“补能军备竞赛” 华尔街见闻。",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OYV91RTRROW01YjIzemhLRVR2RE1UclNpYXB2aTRyWkx4c3N6X1pWNDBySEpNRVR0YjgxSUpqak4yUDV4WlFrcmI2M2V0SmpFTFM0?oc=5"
+        "link": "https://wallstreetcn.com/articles/3779212"
+      },
+      {
+        "tag": "机器人",
+        "title": "人形机器人加速进入汽车与动力电池工厂，成本需降低近三分之二才具替换价值",
+        "summary": "人形机器人加速进入汽车与动力电池工厂，成本需降低近三分之二才具替换价值 虎嗅网",
+        "quote": "",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HejJTaHFmeWxvc21xZjJoMURnSGNuaWVKeE9DTWpqenFhZHA5eXVscVZCLW1FY1NEaERDbWJfV1hSeUl5aXlIVGRmYlVTX0FJQzJJNA?oc=5"
       },
       {
         "tag": "AI",
@@ -344,7 +344,7 @@
     }
   },
   "2026-08-11": {
-    "updatedAt": "2026-08-13 10:00 (Asia/Shanghai)",
+    "updatedAt": "2026-08-13 10:41 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -372,12 +372,12 @@
       },
       {
         "name": "Robotics",
-        "ratio": 40,
+        "ratio": 50,
         "color": "#42d392"
       },
       {
         "name": "EV",
-        "ratio": 10,
+        "ratio": 0,
         "color": "#ffb347"
       }
     ],
@@ -488,20 +488,20 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TM2Z1RjNhd1l4emlyaUJvdTM0SXNDR0JOeTFXVFNhVF9oQzJ3d2lmYWIteW1VcF93WmNfVUJ6OF9fVWxBdk5ZMG5uRFNWamRkYlE?oc=5"
       },
       {
-        "tag": "新能源车",
-        "title": "新能源汽车进入“生态竞争”关键期：比亚迪闪充站落地上海虹桥，持续扩大闪充网络布局",
-        "summary": "新能源汽车进入“生态竞争”关键期：比亚迪闪充站落地上海虹桥，持续扩大闪充网络布局 网易新闻客户端",
-        "quote": "",
-        "source": "网易新闻客户端",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NSWkta2syYWRPUWQyVWdXTDFrOFhicm0zeXlOTk9QVkowNHAzTy1XeENMZkwyR3VVZG1OZkZsY2NiYkNYaTYtTnEyUm0wa25sU2xLYWFoTGVZSzA2?oc=5"
-      },
-      {
         "tag": "AI",
         "title": "千方科技回应AI业务：双大模型驱动，从交通治理到智慧体育构建AI智能体生态",
         "summary": "千方科技回应AI业务：双大模型驱动，从交通治理到智慧体育构建AI智能体生态 手机网易网",
         "quote": "",
         "source": "手机网易网",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qVE1zMEFoMDJEYXBhYmVxY21qdmJWMUoyVnM5SXhiWW5CeWRQQjBfem1TUklLcS1YdmRyS1dBN01leWRlLWVZVW1QWERPMU1wdUhTNUdIc2x6dEV6eVZ2dTFB?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "人形机器人灵巧手行业爆发：技术路线未定，资本与混沌并存",
+        "summary": "人形机器人灵巧手行业爆发：技术路线未定，资本与混沌并存 虎嗅网",
+        "quote": "",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53RXdvY1RSb3NWTGNUcXVzdkxkZzZDS0ZvZ2lLbTFJVWRiTGUyWFF2SE5jcFhNbzhFMU5OYkZpV3lZSnVwT2tqdDlyLTlTSm11OEw2RA?oc=5"
       }
     ],
     "copy": {
@@ -511,12 +511,12 @@
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
         "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
-        "🚗 新能源车：比亚迪等厂商把竞争从单车参数，推向补能网络和全栈架构。"
+        "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
       ]
     }
   },
   "2026-08-10": {
-    "updatedAt": "2026-08-13 10:00 (Asia/Shanghai)",
+    "updatedAt": "2026-08-13 10:41 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -688,7 +688,7 @@
     }
   },
   "2026-08-09": {
-    "updatedAt": "2026-08-13 09:59 (Asia/Shanghai)",
+    "updatedAt": "2026-08-13 10:41 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "新能源车技术突破",
