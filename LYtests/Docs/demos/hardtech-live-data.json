@@ -1,6 +1,178 @@
 {
+  "2026-08-23": {
+    "updatedAt": "2026-08-23 09:21 (Asia/Shanghai)",
+    "breakthroughs": [
+      {
+        "title": "模型与应用突破",
+        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
+      },
+      {
+        "title": "机器人落地突破",
+        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
+      {
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "AI",
+        "ratio": 50,
+        "color": "#39c2ff"
+      },
+      {
+        "name": "Chip",
+        "ratio": 10,
+        "color": "#8b93ff"
+      },
+      {
+        "name": "Robotics",
+        "ratio": 40,
+        "color": "#42d392"
+      },
+      {
+        "name": "EV",
+        "ratio": 0,
+        "color": "#ffb347"
+      }
+    ],
+    "heatmap": {
+      "cols": [
+        "近1季度",
+        "中期1年",
+        "长期3年"
+      ],
+      "rows": [
+        {
+          "name": "AI",
+          "scores": [
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "name": "Chip",
+          "scores": [
+            8,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Robotics",
+          "scores": [
+            7,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "EV",
+          "scores": [
+            8,
+            9,
+            8
+          ]
+        }
+      ]
+    },
+    "news": [
+      {
+        "tag": "机器人",
+        "title": "财经思享汇独家｜对话德国国家工程院院士Michael Dowling：人形机器人商业化可能比想象中更慢",
+        "summary": "财经思享汇独家｜对话德国国家工程院院士Michael Dowling：人形机器人商业化可能比想象中更慢 虎嗅。",
+        "quote": "财经思享汇独家｜对话德国国家工程院院士Michael Dowling：人形机器人商业化可能比想象中更慢 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVZ1A1TEtHSlliMFBELXJLVnZFLXVXcDVSYWIwc09tZVAtLXp4U2tUeTFhSlU0aU9kbXZVTnZTaUpQV2VLWTllYldaOWQ0ei1NVGhWYw?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "第二届世界人形机器人运动会百米赛跑机器人跑出9秒39超越人类纪录",
+        "summary": "第二届世界人形机器人运动会百米赛跑机器人跑出9秒39超越人类纪录 虎嗅。",
+        "quote": "第二届世界人形机器人运动会百米赛跑机器人跑出9秒39超越人类纪录 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92WTFKX3JqbC1pVWN6SnRFa014cHd1Rk1mMjJkcXpUX2M3RmlxSkZXQnVPV1pJcms1ZWthLXFLQjdCdzkzemJWNmhXWkFxTF9XcGJr?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "全球AI投融资动态,AI创投日报",
+        "summary": "全球AI投融资动态,AI创投日报。",
+        "quote": "全球AI投融资动态,AI创投日报。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96OFo1c0Z6eHJBeVZrSkI2bW55ZTVNYUVFMTUwbThxcGRfbjZVaTQxUXNnQkdJM2E5Y3FFTjZKS25NMjEzdVBHN0RmcktWMEJzai02OXMyUE5zV2pfY0xUbzU0SktOUjBpN210MV9wVQ?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "大模型KV Cache研讨会议程出炉！智能体时代最火AI芯片峰会将来袭，31位演讲嘉宾首波公开",
+        "summary": "智能体时代最火AI芯片峰会将来袭，31位演讲嘉宾首波公开 手机网易网。",
+        "quote": "智能体时代最火AI芯片峰会将来袭，31位演讲嘉宾首波公开 手机网易网。",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ic1BTX21ndnp3RUtOdDlDNkdrUEdNeG5kOWRWXzVTeW9tUVVrUEg1SU81dExnS0VnR2xtR0djS1VFdmtSXzJ6VEVac0F2SldjcGN6WWNiSFdUbU9BZ0Z1MEFn?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "报道：英伟达客户被告知AI相关涨价幅度超过15%",
+        "summary": "报道：英伟达客户被告知AI相关涨价幅度超过15% 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSY21uMzVjSGJNSFM4NUxObDJXVEJHRl9kUVV5Ml9lY2ZSWXllS3l0ZjA3blVob2VsTl9PbWhaVmJzd2pEc0ZwUG9jYWk3LVNuRFZj?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "对话逐际动力刘晓威：用算法重构机器人赛道领先优势 人形机器人",
+        "summary": "对话逐际动力刘晓威：用算法重构机器人赛道领先优势 人形机器人 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Zb01NQ0NTVlZqQlFjbEhwYWdGdFhqQmR6RXZjVnlobVBsRWh1enhoRkNlVEw5VENLZnh6a09ZMjZZXzhOcVF3YlhZR1BBWXB0a2paVA?oc=5"
+      },
+      {
+        "tag": "芯片",
+        "title": "半导体与AI算力成焦点！上周近200股迎机构调研，3股受追捧",
+        "summary": "半导体与AI算力成焦点！上周近200股迎机构调研，3股受追捧 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15Nkw4NUtfTEQ2RnoyVVN6Q28tUldkaWt5ZVg1SmllaEk4aXU2U0RvYnZKZjlwaFdzMVJyMTR5am05d180cUs2TzBHWEtRS1FJblNsN0s5bHlDR21NdVFPRUNR?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "快手2026年Q2营收增速降至1.4% 可灵AI成唯一亮点但占比仅2.4%",
+        "summary": "快手2026年Q2营收增速降至1.4% 可灵AI成唯一亮点但占比仅2.4% 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5Ri1hRVIxNGdmMVZmdXNDTFA0X3NBOEFHM184dElxaHgxLUlzc01jQ0hadXBDMkRVYzFwcEd1Qmp1VzFDSjBOMXE4cEJsT3o0c0dlQg?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "美陆军训练AI智能体执行网络作战任务，人类保留风险决策权",
+        "summary": "美陆军训练AI智能体执行网络作战任务，人类保留风险决策权 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAyR2NzMU41MEtXbTlzWklEMGdYZ2pycS15dWZTb25QMWVYRHozaFZwcVRwSlcwcVhpcU1hd1BNY2twNnhMMmgzMXlFN3JWQUNZeWNULXBuV3JEVzJpbUhRRlZR?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "第二届世界人形机器人运动会｜7V7足球赛为开幕式预热 机器人也能上演“弯弓射雕”庆祝",
+        "summary": "第二届世界人形机器人运动会｜7V7足球赛为开幕式预热 机器人也能上演“弯弓射雕”庆祝 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDSHB3N1NVUG0tb2hpZl9RZnhib2NnYU1EeXJIM0NQVTFTODU2a1JhMXdhdERkR2p3RFpzT2Rja1pMVEhMZ2JWMnpzUVJOZ05RUFBSNk40ald1U055SHRVNFN3?oc=5"
+      }
+    ],
+    "copy": {
+      "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
+      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
+      "insights": [
+        "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
+        "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
+        "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
+        "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
+      ]
+    }
+  },
   "2026-08-22": {
-    "updatedAt": "2026-08-22 09:48 (Asia/Shanghai)",
+    "updatedAt": "2026-08-23 09:21 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -11,19 +183,19 @@
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
-        "title": "芯片与算力突破",
-        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
+        "title": "产业链进展",
+        "text": "核心赛道正在从新闻热度转向真实交付与商业兑现。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 40,
+        "ratio": 50,
         "color": "#39c2ff"
       },
       {
         "name": "Chip",
-        "ratio": 10,
+        "ratio": 0,
         "color": "#8b93ff"
       },
       {
@@ -96,14 +268,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tS21jRFJXMWp1YzM5eVlITjVURFJKYTF5a3F2OEdRMWh2bTVGLVNvX1Q0YnAzVXB2RzRRSGNuZVgxdFJUQnFVNU9nX3R5RU5yTEQ4?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "盘点全球具身智能30强：谁能让机器人真正工作？",
-        "summary": "盘点全球具身智能30强：谁能让机器人真正工作？",
-        "quote": "盘点全球具身智能30强：谁能让机器人真正工作？",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2czdkeFlYNlp1WlE2aG80bmQwbGpZanpVVFlYWVpjOWRLel9ZLVBzNU5PdTNVbFhqVWhOclROR0J6OXJXVkFkVi12d25JRnRKSGdVTjRIVFhNVENsWGUtWDl3?oc=5"
-      },
-      {
         "tag": "AI",
         "title": "中科信息新注册《基于数字中台、AI大模型与智能体协同的卷烟工艺质量异常识别与诊断分析系统1.0》等3个项目的软件著作权",
         "summary": "中科信息新注册《基于数字中台、AI大模型与智能体协同的卷烟工艺质量异常识别与诊断分析系统1.0》等3个项目的软件著作权 手机网易网。",
@@ -112,52 +276,60 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWNkk1dXMyU3NWbHF5NHFyUnFUalpVdThxbzctTlRGRGltUVdZNHlCckhrclhPMTR4YWhXZGw1d0xoNng4aExNa1NXSUVpNUsyZDQ3WG1XLTJvOHFlT1lIR1dB?oc=5"
       },
       {
-        "tag": "芯片",
-        "title": "话题： 1.69亿融资押注专用芯片：Taalas要靠“去GPU化”改写AI算力格局 - comment.tie.163.com",
-        "summary": "话题： 1.69亿融资押注专用芯片：Taalas要靠“去GPU化”改写AI算力格局 comment.tie.163.com",
-        "quote": "",
-        "source": "comment.tie.163.com",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UTHVIOXpzMk92ZHpiRUJ3T09xVHlaTkJqRmhkSVVFbXdCUDkxMVliSnBQRzVGR3FjTjlacUQtdzg4ZTk0aFNUX19Kdmc1X0w3UTVRV1QxV1kyYXlmeXc?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "“火眼金睛”的芯片、AI大模型应用都来了！创客中国湖北大赛解锁产业硬实力",
-        "summary": "“火眼金睛”的芯片、AI大模型应用都来了！创客中国湖北大赛解锁产业硬实力 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Bclg1bzJySmVxZm50Q1RpVFg4QTNicEhHbXJZWi0tQUtKSDM0d2tvWEktZFk4X3U1ZThGMmdFZWE5UDRtSi1UMmI3SFQ4SmkxYlFJcHIzMmo1enJid2h1Y2x3?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "逐际动力全矩阵产品亮相世界机器人大会 完成多轮融资加速具身智能落地",
-        "summary": "逐际动力全矩阵产品亮相世界机器人大会 完成多轮融资加速具身智能落地 东方财富",
-        "quote": "",
-        "source": "东方财富",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TVlJ3TE0ybVhtN09Sd2p2SHR0LWUzTTRaSElfRExjNDNjYjhNejdkX1U2Tkt4SFJzcm40dnJJb3dodzJISkI3a3BCcjdjcnVBN1h1S1NiVzFkaTV2SDVLcA?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "英伟达拟斥资60亿美元获Poolside AI模型授权，另投10亿美元并吸纳百余名员工",
-        "summary": "英伟达拟斥资60亿美元获Poolside AI模型授权，另投10亿美元并吸纳百余名员工 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PM2ZQTEQ5R0VxYVB6cWZXZ3QtNGZQdG13aVJ1OE1LemM4MzJrNmVnd3RBeEVYUFpmVTFveExSd3ZlTFRLekc4MEN3dDc3VVQ3Wl9v?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "对话禾赛刘兴伟：人形机器人翻倍增长，供应链、标准有提升空间",
-        "summary": "对话禾赛刘兴伟：人形机器人翻倍增长，供应链、标准有提升空间 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2dzRUU0ptbUtxblJUWWVSQmxhMlNJcTFodE5TVFBVS3JGWHVKeS15QmVOWUh4UTM4d0hTZ01uclI4N1lBNXpIcVllMjM2TUNmZnQ5cE9kZHBpV0NnVU5HYXV3?oc=5"
-      },
-      {
         "tag": "机器人",
         "title": "战魔田默｜宇树上市首日暴涨460%，人形机器人关键技术尚未成熟，为何已成第一大业务？",
-        "summary": "战魔田默｜宇树上市首日暴涨460%，人形机器人关键技术尚未成熟，为何已成第一大业务？ 虎嗅",
-        "quote": "",
+        "summary": "战魔田默｜宇树上市首日暴涨460%，人形机器人关键技术尚未成熟，为何已成第一大业务？虎嗅。",
+        "quote": "战魔田默｜宇树上市首日暴涨460%，人形机器人关键技术尚未成熟，为何已成第一大业务？虎嗅。",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IdGphOXY4RFh3eUF5a1JNcmNBa1dDUTFTZFNIMEQ4Sk9ZSmY2a0tpX1VyUXpJSXhPTk1reE4xQThNdzREYUVsNGxSN21QYmpuRS12OQ?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "Starcloud完成2.5亿美元融资，加速布局轨道AI推理数据中心",
+        "summary": "Starcloud完成2.5亿美元融资，加速布局轨道AI推理数据中心 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NWDJCSnR5SDJPM0pjYzVkN1hEZDQ5SXZiSTZQZTdmMWJhU2JHd3dkUDR5SmdYVmpwSmEwNVg5NkpNSnI2Qm5GZmtOUWtLb1BZSEFGVWVqLXc4OHBYUEVlYmxR?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "阿里字节新论文：AI智能体服务需新架构，推理不再是唯一瓶颈",
+        "summary": "阿里字节新论文：AI智能体服务需新架构，推理不再是唯一瓶颈 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GUlV2QlRFR3N0YnVlXzNZRENwSFRLNmg3TVlSM0NiVFJPUGVhcERpNGRaM2FNMzgyYVFPak02ZW9raHlNQTJZTXNIZTkwRk5DRzUzLWFkVTNHNUFRbDMwSGJR?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "2026世界机器人大会：49家央企首次成建制参展 具身智能产业进入国家牵引新阶段",
+        "summary": "2026世界机器人大会：49家央企首次成建制参展 具身智能产业进入国家牵引新阶段 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMdGNxUG9wMnlfQmZqSnIxTkpHc2t5RHNDRk1jRFczVVF0eHEzdXF5YUIzN0NnekFxdUpWeEVpTlpxeVVYNEUwSG9tUkFseWZhTE9VcA?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "全球AI投融资动态,AI创投日报,具身智能、AI原生软件,蓝点触控,嘭咔智能,栖息地,Rundoo,Devoted Health",
+        "summary": "全球AI投融资动态,AI创投日报,具身智能、AI原生软件,蓝点触控,嘭咔智能,栖息地,Rundoo,Devoted Health 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SZlVETWRNWmhCZTA1UmhfWGZRY0ZUelBwdVU4Y29nTjh5X194a1pCd2VoaHJaUDRtZW40WTc2VUJzUzAzVnBKdDFETXhYNzJMV2gxZFYwMFVBdmIxVmFLOTZMd19JcDlpdjBhVU9qUQ?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "人形机器人的任务自主执行能力正在密集接受真实环境检验",
+        "summary": "人形机器人的任务自主执行能力正在密集接受真实环境检验 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13NVJORVVObWZ3SWhIMk83dnZrWW9xaXkyUmNnTk4zZHZseDI0VEpjN0U5eER5c0o5U1VfOUJVeWV4Rnk4cUVhYl80WEJuM0RDVUZ3T1l4c0VTSGM?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "第二届世界人形机器人运动会在国家速滑馆开幕",
+        "summary": "第二届世界人形机器人运动会在国家速滑馆开幕",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43WUY0WDYyY3RCS0NoSVA4UVlQZE9TVUZjUTJUVTNJQmZodHBHaFhMNGFzTDdOYmZPYW84bG1LQklwWkpWbkFMejB5bDJuX3pSQ3Nn?oc=5"
       }
     ],
     "copy": {
@@ -172,7 +344,7 @@
     }
   },
   "2026-08-21": {
-    "updatedAt": "2026-08-22 09:48 (Asia/Shanghai)",
+    "updatedAt": "2026-08-23 09:21 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -183,8 +355,8 @@
         "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
       },
       {
-        "title": "新能源车技术突破",
-        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       }
     ],
     "sectors": [
@@ -260,12 +432,12 @@
         "link": "https://wallstreetcn.com/articles/3779882"
       },
       {
-        "tag": "机器人",
-        "title": "宇树科技上市成\"人形机器人第一股\"，2026世界机器人大会聚焦机器人实用化变革",
-        "summary": "宇树科技上市成\"人形机器人第一股\"，2026世界机器人大会聚焦机器人实用化变革 虎嗅。",
-        "quote": "宇树科技上市成\"人形机器人第一股\"，2026世界机器人大会聚焦机器人实用化变革 虎嗅。",
+        "tag": "AI",
+        "title": "全球AI投融资动态,AI创投日报,AI原生软件、具身智能,元流,罗博网联,绿联软件,智美星辰,小橙集团,国汇数科,心眸科技,Astromech,Twin1 AI",
+        "summary": "全球AI投融资动态,AI创投日报,AI原生软件、具身智能,元流,罗博网联,绿联软件,智美星辰,小橙集团,国汇数科,心眸科技,Astromech,Twin1 AI 虎嗅。",
+        "quote": "全球AI投融资动态,AI创投日报,AI原生软件、具身智能,元流,罗博网联,绿联软件,智美星辰,小橙集团,国汇数科,心眸科技,Astromech,Twin1 AI 虎嗅。",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QcXZJeHJtbGdDT2hWN3hKU0hxNDhQLXFFbmg2SGxsN2FaUlNMazI5Zks3X2k4QVFyZm5hLUhpUUNLTmsyMUVCOC04ZDZsb2tYc2FrZnpSdlVCQVZFSlNVanZR?oc=5"
+        "link": "https://xiuxiu.huxiu.com/hxgpt_agent/fin_daily/2026-08-21.html"
       },
       {
         "tag": "AI",
@@ -273,39 +445,23 @@
         "summary": "ASU 魏华：大模型智能体正在重蹈强化学习的覆辙，如何跨越「仿真到现实」的鸿沟？",
         "quote": "ASU 魏华：大模型智能体正在重蹈强化学习的覆辙，如何跨越「仿真到现实」的鸿沟？",
         "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9meW13VjJPLVl5bS1ybVIwYzRMMkZaRjJuSndMV0toUXQ1WTJvYS1MQ2NMc3NUWWR4X0pzbTRGb2V0R2NzZDNDSFg3em85NjE0Rk1qNzdzWDhoQmxXU2FjR0Rn?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "全球AI投融资动态,AI创投日报,AI原生软件、具身智能,元流,罗博网联,绿联软件,智美星辰,小橙集团,国汇数科,心眸科技,Astromech,Twin1 AI",
-        "summary": "全球AI投融资动态,AI创投日报,AI原生软件、具身智能,元流,罗博网联,绿联软件,智美星辰,小橙集团,国汇数科,心眸科技,Astromech,Twin1 AI 虎嗅。",
-        "quote": "全球AI投融资动态,AI创投日报,AI原生软件、具身智能,元流,罗博网联,绿联软件,智美星辰,小橙集团,国汇数科,心眸科技,Astromech,Twin1 AI 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OZ1llREhwdEV1ZmdsMDY4M0pmWW0zUUFKQm85VzRZZlE4d2MyRGoyMGZjS2xoajZzczZtbHBWbEl4TTZILUg5dzQtNldKMkZVcTBOaGI1dVFIZGtxR3UxaHM1ZTg4RDZCZFZxUDRIMA?oc=5"
+        "link": "https://www.163.com/dy/article/L4S0A3G505118HA4.html"
       },
       {
         "tag": "AI",
         "title": "大族数控上半年营收同比增长109.29%、净利润增263.45%，AI算力PCB需求爆发驱动业绩飞跃| 财报见闻",
-        "summary": "大族数控上半年营收同比增长109.29%、净利润增263.45%，AI算力PCB需求爆发驱动业绩飞跃| 财报见闻 华尔街见闻",
-        "quote": "",
+        "summary": "大族数控上半年营收同比增长109.29%、净利润增263.45%，AI算力PCB需求爆发驱动业绩飞跃| 财报见闻 华尔街见闻。",
+        "quote": "大族数控上半年营收同比增长109.29%、净利润增263.45%，AI算力PCB需求爆发驱动业绩飞跃| 财报见闻 华尔街见闻。",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XRGVWcGNmLU5TZzFCanZjT1BZUTNHV0lqSnNxOE5jX1lmY2NOU1N1clctUUxqVElPOVl4RFFwYmNIRG9lemNaMkg3aEdfNjk1QV9z?oc=5"
       },
       {
-        "tag": "新能源车",
-        "title": "中国已有近5000万辆新能源汽车，用过的电池会去哪儿？",
-        "summary": "中国已有近5000万辆新能源汽车，用过的电池会去哪儿？ 虎嗅",
+        "tag": "机器人",
+        "title": "宇树科技上市成\"人形机器人第一股\"，2026世界机器人大会聚焦机器人实用化变革",
+        "summary": "宇树科技上市成\"人形机器人第一股\"，2026世界机器人大会聚焦机器人实用化变革 虎嗅",
         "quote": "",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tWUZsbTZ6ZW5vMGMtM3R4ck8wVWZ6NERHaXppdkNYbzRkNTRCS0k1aExKS3UzSXFhX0pwcE1Sd3BqXzJRdy1KcThUSjNHbzdZVzczU1JPTWxsWGVOOFg5ZjRR?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "AI算力驱动业绩爆发，大族激光上半年营收同比增76%，扣非净利大增440%｜财报见闻",
-        "summary": "AI算力驱动业绩爆发，大族激光上半年营收同比增76%，扣非净利大增440%｜财报见闻 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52dHcxN3NpUGhVM0pXdW84MWxJRnRQbVFISGk0X3RfNEhPSmNkbXVoNFlTSmJYRGFvRkhVaGsxZG00YjM4T3Z2TWltVkFVNXlOOHEw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QcXZJeHJtbGdDT2hWN3hKU0hxNDhQLXFFbmg2SGxsN2FaUlNMazI5Zks3X2k4QVFyZm5hLUhpUUNLTmsyMUVCOC04ZDZsb2tYc2FrZnpSdlVCQVZFSlNVanZR?oc=5"
       },
       {
         "tag": "机器人",
@@ -316,12 +472,28 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VUGJXenV3RmxpWUU1RTlrLURxOUctdm5oWXdDNlFRWDlkSVA5QmdZeHluZ3drM3l0U3NMZkpVX2RBR3J0dkNkZzU3OTF4MGdrQ3d6Mg?oc=5"
       },
       {
+        "tag": "AI",
+        "title": "AI算力驱动业绩爆发，大族激光上半年营收同比增76%，扣非净利大增440%｜财报见闻",
+        "summary": "AI算力驱动业绩爆发，大族激光上半年营收同比增76%，扣非净利大增440%｜财报见闻 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52dHcxN3NpUGhVM0pXdW84MWxJRnRQbVFISGk0X3RfNEhPSmNkbXVoNFlTSmJYRGFvRkhVaGsxZG00YjM4T3Z2TWltVkFVNXlOOHEw?oc=5"
+      },
+      {
         "tag": "芯片",
         "title": "谷歌旗下Waymo自研无人出租车定制芯片，算力超1000TOPS",
         "summary": "谷歌旗下Waymo自研无人出租车定制芯片，算力超1000TOPS 虎嗅",
         "quote": "",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByeG9vTnFIOGFSY1JldzBsUlNzRlVsVTBGMFItWk1lSDJBOXpieUZYOHBIT2c5VldldzkwZ0QtaEhrVWMtNVh1UE9helFwYXZwYkVB?oc=5"
+      },
+      {
+        "tag": "新能源车",
+        "title": "中国已有近5000万辆新能源汽车，用过的电池会去哪儿？",
+        "summary": "中国已有近5000万辆新能源汽车，用过的电池会去哪儿？ 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tWUZsbTZ6ZW5vMGMtM3R4ck8wVWZ6NERHaXppdkNYbzRkNTRCS0k1aExKS3UzSXFhX0pwcE1Sd3BqXzJRdy1KcThUSjNHbzdZVzczU1JPTWxsWGVOOFg5ZjRR?oc=5"
       },
       {
         "tag": "AI",
@@ -344,7 +516,7 @@
     }
   },
   "2026-08-20": {
-    "updatedAt": "2026-08-22 09:47 (Asia/Shanghai)",
+    "updatedAt": "2026-08-23 09:20 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -449,11 +621,11 @@
       },
       {
         "tag": "机器人",
-        "title": "小米新一代人形机器人“铁大”亮相2026世界机器人大会，已完成4个月汽车工厂实训",
-        "summary": "小米新一代人形机器人“铁大”亮相2026世界机器人大会，已完成4个月汽车工厂实训 虎嗅。",
-        "quote": "小米新一代人形机器人“铁大”亮相2026世界机器人大会，已完成4个月汽车工厂实训 虎嗅。",
+        "title": "逐际动力张巍谈具身智能的技术和商业化：机器人大脑系统已到GPT-3左右阶段",
+        "summary": "逐际动力张巍谈具身智能的技术和商业化：机器人大脑系统已到GPT-3左右阶段 虎嗅。",
+        "quote": "逐际动力张巍谈具身智能的技术和商业化：机器人大脑系统已到GPT-3左右阶段 虎嗅。",
         "source": "虎嗅",
-        "link": "https://www.huxiu.com/moment/1272719.html"
+        "link": "https://m.huxiu.com/articleaudio_player/4876645.html"
       },
       {
         "tag": "机器人",
@@ -480,14 +652,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NVWpoaUQxVG56eDVRRi00ZEVNd2ozSld5bnVqUGVzRUc5YWpLa0lMejlQYkpWblVxbXVOb0pHSVd0alh6aElmNWdxWGVsWFQxWS1z?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "逐际动力张巍谈具身智能的技术和商业化：机器人大脑系统已到GPT-3左右阶段",
-        "summary": "逐际动力张巍谈具身智能的技术和商业化：机器人大脑系统已到GPT-3左右阶段 虎嗅",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iMnlSWUhNeGhFT1RTMDgxRHFzbHVabWc1emdpS3NfdjJ2MkdVbXp2eGNfYVlyX1pmT05EZHZpcFBXUE5zMDlSRW50aEdwc3dtTHk3aTl0dTlmS3Vqam55djhB?oc=5"
-      },
-      {
         "tag": "新能源车",
         "title": "新能源汽车公司大量启用明星代言人：从极氪、小鹏到比亚迪，品牌营销策略转变",
         "summary": "新能源汽车公司大量启用明星代言人：从极氪、小鹏到比亚迪，品牌营销策略转变 虎嗅",
@@ -502,6 +666,14 @@
         "quote": "",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuTXg1MUF5ME5KSG1ocncxYVJyR3c4ZVdINFNYeVYwaTZNcDIwcDZ0dWdvZnYzYWdwbGdzZWppYVV5cDVGN1dERnFoWXJsQ0JKWHVn?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "宇树科技IPO首日市值暴涨至4449亿元，市场提前押注人形机器人未来",
+        "summary": "宇树科技IPO首日市值暴涨至4449亿元，市场提前押注人形机器人未来 虎嗅",
+        "quote": "",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5R2MyZkoyWXZZUndoa05EVEVQQ2hmbjRmTEF4ZUlGckFyaTlrOExPMEJVNEVLX3BsQlFBNXl4bHJXWjN0QndJRzNiLXVUYmwwVjVwZg?oc=5"
       }
     ],
     "copy": {
@@ -516,25 +688,25 @@
     }
   },
   "2026-08-19": {
-    "updatedAt": "2026-08-22 09:47 (Asia/Shanghai)",
+    "updatedAt": "2026-08-23 09:20 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
-      },
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
-        "title": "芯片与算力突破",
-        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
+        "title": "机器人落地突破",
+        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
+      {
+        "title": "新能源车技术突破",
+        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 40,
+        "ratio": 50,
         "color": "#39c2ff"
       },
       {
@@ -544,12 +716,12 @@
       },
       {
         "name": "Robotics",
-        "ratio": 40,
+        "ratio": 20,
         "color": "#42d392"
       },
       {
         "name": "EV",
-        "ratio": 10,
+        "ratio": 20,
         "color": "#ffb347"
       }
     ],
@@ -605,6 +777,14 @@
       },
       {
         "tag": "AI",
+        "title": "ai智能体大模型应用开发公司有哪些？北京软件公司名单大全",
+        "summary": "ai智能体大模型应用开发公司有哪些？北京软件公司名单大全 手机网易网。",
+        "quote": "ai智能体大模型应用开发公司有哪些？北京软件公司名单大全 手机网易网。",
+        "source": "手机网易网",
+        "link": "https://www.163.com/dy/article/L4KHQVKU0556MV3L.html"
+      },
+      {
+        "tag": "AI",
         "title": "AI推理芯片初创公司Etched融资7亿美元，估值达210亿美元",
         "summary": "AI推理芯片初创公司Etched融资7亿美元，估值达210亿美元 虎嗅。",
         "quote": "AI推理芯片初创公司Etched融资7亿美元，估值达210亿美元 虎嗅。",
@@ -636,12 +816,20 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWR1FQRTliZ2szVXlRRXBiRzdPSlY5Tlh2TkNfN2NTUGdnTFdKOGpkSjQzejB5anlBUm1rYjN0VVVIX05pRy0xN3VOYnhCNkdvVk5j?oc=5"
       },
       {
+        "tag": "新能源车",
+        "title": "视频｜快充速度与电池安全一直是新能源汽车行业难题，吉利用颠覆性技术给出自己的解法。",
+        "summary": "视频｜快充速度与电池安全一直是新能源汽车行业难题，吉利用颠覆性技术给出自己的解法。 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JTVpydWo4LVVxMHUtV2RGVXlydGZNNnVJZUhEa3Q5Q2tkT1B1WUVqTlJlRV95UF92QlVsSi16VmstUlluQUI1amRGRTRqRzFyR1ZxRVRPc1pZMjdkNGlUZmZR?oc=5"
+      },
+      {
         "tag": "AI",
         "title": "全球AI投融资动态,AI创投日报,AI基础设施、大语言模型,眸深智能,耀鸿电子,清雁科技,Yishu,Rokid,星轫技术,澜存科技,Wippi,Rillet",
-        "summary": "全球AI投融资动态,AI创投日报,AI基础设施、大语言模型,眸深智能,耀鸿电子,清雁科技,Yishu,Rokid,星轫技术,澜存科技,Wippi,Rillet 虎嗅。",
-        "quote": "全球AI投融资动态,AI创投日报,AI基础设施、大语言模型,眸深智能,耀鸿电子,清雁科技,Yishu,Rokid,星轫技术,澜存科技,Wippi,Rillet 虎嗅。",
+        "summary": "全球AI投融资动态,AI创投日报,AI基础设施、大语言模型,眸深智能,耀鸿电子,清雁科技,Yishu,Rokid,星轫技术,澜存科技,Wippi,Rillet 虎嗅",
+        "quote": "",
         "source": "虎嗅",
-        "link": "https://xiuxiu.huxiu.com/hxgpt_agent/fin_daily/2026-08-19.html"
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBlNHhvYWpWVFhaUjU3S1V5d3VrYnVpbUYzdnJxTjFkeGwtNUg5MDNyZ2tMVEhEeEtPMTFRU1BxY0JKSTUydkpVQXhoMkU2cnlab2FzcGdGdjk4VlBjaEFsRXItUERscV9RbmtsYnJ1SQ?oc=5"
       },
       {
         "tag": "新能源车",
@@ -658,27 +846,11 @@
         "quote": "",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TVDcxdUpXUXFhTXhaZmxXc1ZXVGhKR2tsZS1lMjFQSlF1aWJKaUVDSlUtMEQxaE96eXBxV2plU0lqdU1RSUhVVVpxUG55OWZibHNPN2p0dkh1M3Q2VWk3NzZR?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "一文看懂宇树上市，客户结构、模型与硬件； 看懂人形机器人的机遇与挑战",
-        "summary": "一文看懂宇树上市，客户结构、模型与硬件； 看懂人形机器人的机遇与挑战 虎嗅",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sSWlYSGg5WHcyTURPd1ctaUVNQ3UxQjc3QXFKcmRLbXFPRFJfS0E3SVFCdUFhTXVlQWp6TXIzdjhPNjBNcU9pR2p5eWJaVHdZNVUyVA?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "成都人形机器人创新中心发布全球首个全自主超长视野机器人任务执行系统",
-        "summary": "成都人形机器人创新中心发布全球首个全自主超长视野机器人任务执行系统 虎嗅",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nYkx1UXRndUlOQ3ktMHZ4RUFZb3RVS0wzdUpNVm1COHVnM2ZiTzJTQWlxbENpeGRQN0lCYVlQYUpPZk5Wb1JtSl95QjFBSVZMeks4?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天机器人赛道不是热闹而已，标准、零部件通用化和场景交付已经开始变成真问题。",
+      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
@@ -1028,178 +1200,6 @@
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
         "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
         "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
-      ]
-    }
-  },
-  "2026-08-16": {
-    "updatedAt": "2026-08-20 09:47 (Asia/Shanghai)",
-    "breakthroughs": [
-      {
-        "title": "模型与应用突破",
-        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
-      },
-      {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
-      },
-      {
-        "title": "新能源车技术突破",
-        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
-      }
-    ],
-    "sectors": [
-      {
-        "name": "AI",
-        "ratio": 40,
-        "color": "#39c2ff"
-      },
-      {
-        "name": "Chip",
-        "ratio": 10,
-        "color": "#8b93ff"
-      },
-      {
-        "name": "Robotics",
-        "ratio": 30,
-        "color": "#42d392"
-      },
-      {
-        "name": "EV",
-        "ratio": 20,
-        "color": "#ffb347"
-      }
-    ],
-    "heatmap": {
-      "cols": [
-        "近1季度",
-        "中期1年",
-        "长期3年"
-      ],
-      "rows": [
-        {
-          "name": "AI",
-          "scores": [
-            9,
-            8,
-            7
-          ]
-        },
-        {
-          "name": "Chip",
-          "scores": [
-            8,
-            8,
-            9
-          ]
-        },
-        {
-          "name": "Robotics",
-          "scores": [
-            7,
-            8,
-            8
-          ]
-        },
-        {
-          "name": "EV",
-          "scores": [
-            8,
-            9,
-            8
-          ]
-        }
-      ]
-    },
-    "news": [
-      {
-        "tag": "机器人",
-        "title": "人形机器人最大的优势可能也是其最大错误：资本热捧下需理性看待商业化路径",
-        "summary": "人形机器人最大的优势可能也是其最大错误：资本热捧下需理性看待商业化路径 虎嗅。",
-        "quote": "人形机器人最大的优势可能也是其最大错误：资本热捧下需理性看待商业化路径 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4883374.html"
-      },
-      {
-        "tag": "机器人",
-        "title": "宇树科技科创板IPO中签率创历史新低，人形机器人第一股上市在即",
-        "summary": "宇树科技科创板IPO中签率创历史新低，人形机器人第一股上市在即 虎嗅。",
-        "quote": "宇树科技科创板IPO中签率创历史新低，人形机器人第一股上市在即 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4883356.html"
-      },
-      {
-        "tag": "机器人",
-        "title": "宇树人形机器人累计下线1.8万台，上半年出货量被智元反超",
-        "summary": "宇树人形机器人累计下线1.8万台，上半年出货量被智元反超 虎嗅。",
-        "quote": "宇树人形机器人累计下线1.8万台，上半年出货量被智元反超 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://www.huxiu.com/moment/1271448.html"
-      },
-      {
-        "tag": "新能源车",
-        "title": "比亚迪第二代闪充刀片电池已落地4款车，如何覆盖10万到30万级？",
-        "summary": "比亚迪第二代闪充刀片电池已落地4款车，如何覆盖10万到30万级？手机网易网。",
-        "quote": "比亚迪第二代闪充刀片电池已落地4款车，如何覆盖10万到30万级？手机网易网。",
-        "source": "手机网易网",
-        "link": "https://www.163.com/dy/article/L4E6QO1A0553T94S.html"
-      },
-      {
-        "tag": "AI",
-        "title": "博通一夜跌6%：AI的下一道坎，是融资成本",
-        "summary": "博通一夜跌6%：AI的下一道坎，是融资成本",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBwN2toQS11MUVHOUt3dFJnUHlWVGV2MklERTlZRjBPV3hzNW9nUHpyLXppaFBHaXFoZlYydENyM2p6X1hvaFljajlzQ0MzWmRhcXFN?oc=5"
-      },
-      {
-        "tag": "新能源车",
-        "title": "9.99 万击穿 B 级价格壁垒，比亚迪秦 MAX 用闪充重构年轻人出行标准",
-        "summary": "9.99 万击穿 B 级价格壁垒，比亚迪秦 MAX 用闪充重构年轻人出行标准 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rcV9GbWg2YXA1azF1YUFaVmk2Sld0aXB3cGFHUS01NnNxbkRaZXZiWXRtV2FseklSVUcyOEFncUswaUg4VHRpeXM0anIzb2dxUktXWGxtbG0wSTU5LWdvdWtR?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "还得是雷军！小米18标准版是非iOS端唯一搭载2nm芯片的标准版旗舰",
-        "summary": "还得是雷军！小米18标准版是非iOS端唯一搭载2nm芯片的标准版旗舰 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TOUd2X0Vkd0M5dUp6MGtEYjIxd08xSl9ha2g2cUZKRWVmSGtSaUlrRDV0SURVaWRWMm85ZmU3RUVSbVlYYlVmT1F5Ni1qdEE2MWZJOWlNaGZKV3F6MG1FdjN3?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "英伟达悄然缩减OpenAI数据中心担保规模，从2500亿美元降至1200亿美元以下",
-        "summary": "英伟达悄然缩减OpenAI数据中心担保规模，从2500亿美元降至1200亿美元以下 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aazRjWFhLb2E5ay01amdWN3ltV2pLajB1eXhxcklBRmxyOG1BX2RSdWpZaWNxbHdraGV6OVlIUktMV2xSMjFMa3MzazY0SjZ0S1Vj?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "a16z史上最大投资！All in Uber创始人，下注工业AI“从比特到原子”",
-        "summary": "a16z史上最大投资！All in Uber创始人，下注工业AI“从比特到原子” 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KT3E0TTFHd0hQbHN6Qk42X0RwMFdKemNLdzFyejZ2QmpRNk1wS2NzYk1GX1FHUVJJR3VSdVZxR25ES1ZFd3pTMW1FaF9yWEZHclEw?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "谁在为AI算力融资兜底？英伟达联合六家顶级金融机构共建5000亿美元平台",
-        "summary": "谁在为AI算力融资兜底？英伟达联合六家顶级金融机构共建5000亿美元平台 虎嗅",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGdzVEaEk3b3FIM1gzR0dSMXJKSEtGVFJOTTFhb0Y1UFYxcEo1NHRtNU5rcEVfc0FMWVhTMmZPX095aUFfMElBZnBtQkhLdTJZQVFZbQ?oc=5"
-      }
-    ],
-    "copy": {
-      "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
-      "insights": [
-        "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
-        "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
-        "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
-        "🚗 新能源车：比亚迪等厂商把竞争从单车参数，推向补能网络和全栈架构。"
       ]
     }
   }
