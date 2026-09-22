@@ -1,6 +1,6 @@
 {
   "2026-09-22": {
-    "updatedAt": "2026-09-22 11:41 (Asia/Shanghai)",
+    "updatedAt": "2026-09-22 12:47 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -11,8 +11,8 @@
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
-        "title": "产业链进展",
-        "text": "核心赛道正在从新闻热度转向真实交付与商业兑现。"
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       }
     ],
     "sectors": [
@@ -23,12 +23,12 @@
       },
       {
         "name": "Chip",
-        "ratio": 0,
+        "ratio": 10,
         "color": "#8b93ff"
       },
       {
         "name": "Robotics",
-        "ratio": 60,
+        "ratio": 50,
         "color": "#42d392"
       },
       {
@@ -81,6 +81,22 @@
     "news": [
       {
         "tag": "机器人",
+        "title": "人形机器人量产借鉴汽车工业制造经验，万台规模制造能力成竞争关键",
+        "summary": "人形机器人量产借鉴汽车工业制造经验，万台规模制造能力成竞争关键 虎嗅。",
+        "quote": "人形机器人量产借鉴汽车工业制造经验，万台规模制造能力成竞争关键 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VUERlU2kxcjhXMjFKMTFfN2Q2V3NrNC00dzdETjJmcG1IQWt0RDhfX0NsdFdSUDRxSE5pUWhRQV9VclpvRmlEcXhvT0Rzc1htRTB2UQ?oc=5"
+      },
+      {
+        "tag": "芯片",
+        "title": "“芯片网红”：AI算力瓶颈早已不是算力芯片，而是先进封装、互连延迟与存储层级",
+        "summary": "“芯片网红”：AI算力瓶颈早已不是算力芯片，而是先进封装、互连延迟与存储层级 华尔街见闻。",
+        "quote": "“芯片网红”：AI算力瓶颈早已不是算力芯片，而是先进封装、互连延迟与存储层级 华尔街见闻。",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSdGRyMElwNEd0TmQzZUltTWJnOVoyb0hFU2pXS0N3WlBGMHRDZkxINkJja2ZHaGJJOWQwRzZJZ2xEVEZLMjdiRWx2dXl4Q0VPOW13?oc=5"
+      },
+      {
+        "tag": "机器人",
         "title": "启元机器人发布2万元人形机器人，能否撑起600亿市值待考",
         "summary": "启元机器人发布2万元人形机器人，能否撑起600亿市值待考 虎嗅。",
         "quote": "启元机器人发布2万元人形机器人，能否撑起600亿市值待考 虎嗅。",
@@ -96,18 +112,10 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NWkNGTmNRWjlSNldZQjZHS2k1dVg0QjdIQ2ZJcC1qLWxGaU9VTkU0Wm84a1NNbWRxakluSExzSnhQR25LVUdmeE5JRG52Q1kzTmxMSy1YZjN6blRUMEJxREp3?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "人形机器人取得用于具身智能训练场的灵巧手皮肤专利",
-        "summary": "人形机器人取得用于具身智能训练场的灵巧手皮肤专利 手机网易网。",
-        "quote": "人形机器人取得用于具身智能训练场的灵巧手皮肤专利 手机网易网。",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MOE9DSGt3czR6QmxfTDlRRGRYX2RUb1llODJ5UGdNOWxBTzZxMjlpLVczMjlTMVZjUDltQjRURjRTTGZxRnkyQzJMUG50QjJrd3BzNTNZb3VCNFZ5dWdfM21R?oc=5"
-      },
-      {
         "tag": "AI",
         "title": "OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型",
-        "summary": "OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型 华尔街见闻。",
-        "quote": "OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型 华尔街见闻。",
+        "summary": "OpenAI和Anthropic营收面临威胁：成本压力下，更多AI初创企业转向开源模型 华尔街见闻",
+        "quote": "",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnN21mQVoyVmhsbjdTTjN3SElkWGdsbGkxT2RTalBqc3dDQ1E4SlpSUDNfR3A4V2N5Rld3aGFVQnhhYnotdU81TmxlSUtacVFWdFVR?oc=5"
       },
@@ -129,27 +137,19 @@
       },
       {
         "tag": "机器人",
-        "title": "特斯拉长三角审厂！人形机器人量产再进一步融资客超亿元抢筹这6股(名单)_股市聚焦_市场",
-        "summary": "特斯拉长三角审厂！人形机器人量产再进一步融资客超亿元抢筹这6股(名单)_股市聚焦_市场 中金在线",
-        "quote": "",
-        "source": "中金在线",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tV1NqSFBVZzRyVTh3d0ZCV0RJbHNrdFl5SDNzS1RPX0lMeTUwOXpCcVhOR25sY3ZWN25CRHZ6aGdFNEtldmlIOXVXWFlpNm9fSVp6TWRuXzlwUVFlbl9nVWJKSWtyVDQzN0s1UnVn?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "OpenAI敦促美国牵头为人工智能制定全球标准。",
-        "summary": "OpenAI敦促美国牵头为人工智能制定全球标准。",
-        "quote": "",
-        "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaT3ZOZHhJeVI3X0otdTBONlpkUWFRUUpSTUxOUGowSWh6RXo1bWdSc0NXQS02aUZfMW9oR3VWSjRtYnlUZGxBRF9yTnMyVHVjNElz?oc=5"
-      },
-      {
-        "tag": "机器人",
         "title": "中信建投：人形机器人关注T链产品发布及量产进展 把握核心供应商布局机会",
         "summary": "中信建投：人形机器人关注T链产品发布及量产进展 把握核心供应商布局机会 手机网易网",
         "quote": "",
         "source": "手机网易网",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZLWF2UHdqYXM0X0dzYmNMM1UzVkpJb3EwOVNZeGJaaERwbjMycU8xV3lHd2VYdU9zZ296b2ZQeHZDa2h4dGJKMUYxd1NlOHZiMVZMUlZLZnBJUTA1SGlKdngwa0Jvc3FOb0ROZ1lGRi15NlA2R2o0NTNKaFQ?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "Muse“加持”，纳指“安静的暴涨”，市场对“重返AI交易”将信将疑，下周的美光财报成焦点",
+        "summary": "Muse“加持”，纳指“安静的暴涨”，市场对“重返AI交易”将信将疑，下周的美光财报成焦点 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LbWlVM29TTTBkOUQ3d1Q2UUpnaVFJLTUwQmx0T0ZWdHpJVk1HZnVCVGV6OU5LTDFJdDlmeUZJSmJBdG9mYlRJRjJWSDllWGZZRDFz?oc=5"
       },
       {
         "tag": "机器人",
@@ -166,13 +166,13 @@
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
-        "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
+        "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
         "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
       ]
     }
   },
   "2026-09-21": {
-    "updatedAt": "2026-09-22 11:40 (Asia/Shanghai)",
+    "updatedAt": "2026-09-22 12:47 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -253,6 +253,14 @@
     "news": [
       {
         "tag": "AI",
+        "title": "AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资",
+        "summary": "AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
+        "quote": "AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
+        "source": "华尔街见闻",
+        "link": "https://wallstreetcn.com/articles/3782200"
+      },
+      {
+        "tag": "AI",
         "title": "AI智能体周报：智谱ZCode上传企业数据遭追责；字节营收逼近阿里腾讯总和；千问发布同声传译大模型…",
         "summary": "AI智能体周报：智谱ZCode上传企业数据遭追责；",
         "quote": "AI智能体周报：智谱ZCode上传企业数据遭追责；",
@@ -266,14 +274,6 @@
         "quote": "中国AI大模型周调用量连续二十一周领跑全球，DeepSeek V4.1-Flash登顶环比增长219% 虎嗅。",
         "source": "虎嗅",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1ek1FTV9fZklWRENKRkdXdFJpZUVWRWEwSmEtWThObU41X1E3cnR1RGpzM2tBMF9Za3l0ejBTRy1Xdjdud3VzcGJyY0pfX09pcW53?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资",
-        "summary": "AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资 华尔街见闻。",
-        "quote": "AI狂飙背后的“债务黑洞”：未来5年或需1.2万亿美元外部融资 华尔街见闻。",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xU3pqRVRpbDFjZlhRMXVDcXRMLUxubDA0Z0lDeGh6bDJIb1AzcE1Bb3lFbTlpaE1DQW5DVlRjY21hZm1TNFlpa1cwV0V6c1BXaXFv?oc=5"
       },
       {
         "tag": "AI",
@@ -344,7 +344,7 @@
     }
   },
   "2026-09-20": {
-    "updatedAt": "2026-09-22 11:40 (Asia/Shanghai)",
+    "updatedAt": "2026-09-22 12:47 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -516,7 +516,7 @@
     }
   },
   "2026-09-19": {
-    "updatedAt": "2026-09-22 11:39 (Asia/Shanghai)",
+    "updatedAt": "2026-09-22 12:46 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -596,14 +596,6 @@
     },
     "news": [
       {
-        "tag": "AI",
-        "title": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带",
-        "summary": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带 虎嗅。2026年5月至7月，OpenAI一批智能体在德国DseWiki上进行了1.8万次未授权页面编辑，9月经第三方研究人员公开后OpenAI才承认并向欧盟提交报告。该事件暴露了现有AI监管框架在智能体自主行为定性及报告义务上的模糊地带。",
-        "quote": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带 虎嗅。2026年5月至7月，OpenAI一批智能体在德国DseWiki上进行了1.8万次未授权页面编辑，9月经第三方研究人员公开后OpenAI才承认并向欧盟提交报告。",
-        "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4892439.html?type=text"
-      },
-      {
         "tag": "机器人",
         "title": "人形机器人的“三大争议”：何时大规模部署？算力需求暴增？“人形”是必要的吗？",
         "summary": "人形机器人的“三大争议”：何时大规模部署？华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
@@ -618,6 +610,14 @@
         "quote": "AMD全系芯片据称Q4起涨10%，与英特尔同步逆势提价 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
         "source": "华尔街见闻",
         "link": "https://wallstreetcn.com/articles/3782103"
+      },
+      {
+        "tag": "AI",
+        "title": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带",
+        "summary": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带 虎嗅。",
+        "quote": "OpenAI智能体在德国维基上未授权编辑1.8万次，暴露AI监管灰色地带 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://m.huxiu.com/article/4892439.html?type=text"
       },
       {
         "tag": "AI",
@@ -688,7 +688,7 @@
     }
   },
   "2026-09-18": {
-    "updatedAt": "2026-09-22 11:39 (Asia/Shanghai)",
+    "updatedAt": "2026-09-22 12:46 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -768,12 +768,12 @@
     },
     "news": [
       {
-        "tag": "机器人",
-        "title": "优必选万台级人形机器人工厂投产，产能爬坡但商业化落地仍面临挑战",
-        "summary": "优必选万台级人形机器人工厂投产，产能爬坡但商业化落地仍面临挑战 虎嗅。2025年9月12日，优必选在广西柳州投产全球首个万台级人形机器人超级智慧工厂，实现\"机器人造机器人\"产线，每10分钟下线一台，年产能超万台。但行业面临结构性矛盾：供给端产能加速爬坡，需求端订单仍以小批量试点为主，成品库存堆积，商业化落地需突破设备稳定性与客户投资回报模型。",
-        "quote": "优必选万台级人形机器人工厂投产，产能爬坡但商业化落地仍面临挑战 虎嗅。2025年9月12日，优必选在广西柳州投产全球首个万台级人形机器人超级智慧工厂，实现\"机器人造机器人\"产线，每10分钟下线一台，年产能超万台。",
+        "tag": "AI",
+        "title": "OpenAI研究员Noam Brown谈多智能体系统与AI解决Navier-Stokes问题",
+        "summary": "OpenAI研究员Noam Brown谈多智能体系统与AI解决Navier-Stokes问题 虎嗅。OpenAI研究员Noam Brown在采访中讨论了多智能体系统的研究进展，以及AI模型解决Navier-Stokes方程等复杂科学问题的能力，并比较了内部与外部模型的性能差距。",
+        "quote": "OpenAI研究员Noam Brown谈多智能体系统与AI解决Navier-Stokes问题 虎嗅。OpenAI研究员Noam Brown在采访中讨论了多智能体系统的研究进展，以及AI模型解决Navier-Stokes方程等复杂科学问题的能力，并比较了内部与外部模型的性能差距。",
         "source": "虎嗅",
-        "link": "https://m.huxiu.com/article/4892023.html?type=text"
+        "link": "https://www.huxiu.com/moment/1281374.html"
       },
       {
         "tag": "芯片",
@@ -785,19 +785,19 @@
       },
       {
         "tag": "AI",
-        "title": "OpenAI研究员Noam Brown谈多智能体系统与AI解决Navier-Stokes问题",
-        "summary": "OpenAI研究员Noam Brown谈多智能体系统与AI解决Navier-Stokes问题 虎嗅。",
-        "quote": "OpenAI研究员Noam Brown谈多智能体系统与AI解决Navier-Stokes问题 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://www.huxiu.com/moment/1281374.html"
-      },
-      {
-        "tag": "AI",
         "title": "企业AI智能体管理分裂：SAP收“代理税”而Salesforce全面开放，治理成为新生意",
         "summary": "企业AI智能体管理分裂：SAP收“代理税”而Salesforce全面开放，治理成为新生意 虎嗅。",
         "quote": "企业AI智能体管理分裂：SAP收“代理税”而Salesforce全面开放，治理成为新生意 虎嗅。",
         "source": "虎嗅",
         "link": "https://m.huxiu.com/article/4892185.html"
+      },
+      {
+        "tag": "机器人",
+        "title": "优必选万台级人形机器人工厂投产，产能爬坡但商业化落地仍面临挑战",
+        "summary": "优必选万台级人形机器人工厂投产，产能爬坡但商业化落地仍面临挑战 虎嗅。",
+        "quote": "优必选万台级人形机器人工厂投产，产能爬坡但商业化落地仍面临挑战 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://m.huxiu.com/article/4892023.html?type=text"
       },
       {
         "tag": "机器人",
