@@ -1,7 +1,11 @@
 {
   "2026-10-17": {
-    "updatedAt": "2026-10-17 11:18 (Asia/Shanghai)",
+    "updatedAt": "2026-10-17 12:17 (Asia/Shanghai)",
     "breakthroughs": [
+      {
+        "title": "机器人落地突破",
+        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
@@ -9,16 +13,12 @@
       {
         "title": "新能源车技术突破",
         "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
-      },
-      {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 50,
+        "ratio": 70,
         "color": "#39c2ff"
       },
       {
@@ -28,12 +28,12 @@
       },
       {
         "name": "Robotics",
-        "ratio": 10,
+        "ratio": 0,
         "color": "#42d392"
       },
       {
         "name": "EV",
-        "ratio": 30,
+        "ratio": 20,
         "color": "#ffb347"
       }
     ],
@@ -96,68 +96,68 @@
         "link": "https://www.163.com/v/video/VV8GI7M2I.html"
       },
       {
-        "tag": "新能源车",
-        "title": "特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨",
-        "summary": "特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "quote": "特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "source": "华尔街见闻",
-        "link": "https://wallstreetcn.com/articles/3783829"
+        "tag": "芯片",
+        "title": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压",
+        "summary": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压 虎嗅网。",
+        "quote": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压 虎嗅网。",
+        "source": "虎嗅网",
+        "link": "https://www.huxiu.com/article/4898196.html"
+      },
+      {
+        "tag": "AI",
+        "title": "Token工厂，融资大爆发！资本扎堆抢AI推理新赛道",
+        "summary": "Token工厂，融资大爆发！资本扎堆抢AI推理新赛道 手机网易网。",
+        "quote": "Token工厂，融资大爆发！资本扎堆抢AI推理新赛道 手机网易网。",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91WjVia3g1dDZrXy1NX3A3TmZXYk16dnlpNm1VeUVCbzFQQ2FGdEpVWDR0ejNhS3Uyb2RDODVFT3hHeXc0d0xVTzNlazJRdnB1SXNOMzZHdmZxMi1tc1JlWUR3?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "山东数文集团参编《AI智能体品牌种智作业指南》团体标准发布",
+        "summary": "山东数文集团参编《AI智能体品牌种智作业指南》团体标准发布 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xYkIzeWJSLXYxOXQ1T1FlSldCZGtCdFowVlc1d0l6YmZHVTBRSTZFVzZ4RlNYUG1IR0lWcWJ6MjFVMXEyWS1MaDJDcldESVYxTHUwQUtndm1oZVdvWnE2U21n?oc=5"
       },
       {
         "tag": "AI",
         "title": "英特尔前CEO Pat Gelsinger：上百家AI推理芯片公司繁荣或难持续，存储与光互连将成AI算力创新重点",
-        "summary": "英特尔前CEO Pat Gelsinger：上百家AI推理芯片公司繁荣或难持续，存储与光互连将成AI算力创新重点 虎嗅网。",
-        "quote": "英特尔前CEO Pat Gelsinger：上百家AI推理芯片公司繁荣或难持续，存储与光互连将成AI算力创新重点 虎嗅网。",
+        "summary": "英特尔前CEO Pat Gelsinger：上百家AI推理芯片公司繁荣或难持续，存储与光互连将成AI算力创新重点 虎嗅网",
+        "quote": "",
         "source": "虎嗅网",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PR1kyN2lNQnJnYWNWTHEtUFYwNWxtUHpJZTRrNkRRNzNiOEt4OVpvaFVBcElCQ3E3TU9faXZFN3NEZDhXZWJkWWppLXJKWTBoVkxxcXB0TG13MFRfWUE0?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期",
-        "summary": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4WHdVTWdIWFQwNnFzNTBrNjBYajk0azlicGJwUmZuOUYyczFILW9DTkRWajNOV2JNOXQ3TVNkb2o5UlVTYllvZTNXOGFDMzN2WThuWg?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "当智能体写下大部分软件，人如何保有判断与责任？AI Vision Forum 开启 GOSIM Shenzhen 2026 序章",
-        "summary": "当智能体写下大部分软件，人如何保有判断与责任？AI Vision Forum 开启 GOSIM Shenzhen 2026 序章 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFZmhXa20wNjRjZF96SExHNUVucFNZb0Z4eUNuWmhodU9UaHF5QnBXQjRtZVpMSHI0SmxiLUpNXzJHTmpiMjdLd0VrcEtiOENvV2Q0UW9RMnZaVUdwbVh4ck9R?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "上海AI智能体培训现已启动！学习如何搭建智能体（Agent）、智能体工具！玩转各平台AI Agent！",
-        "summary": "上海AI智能体培训现已启动！学习如何搭建智能体（Agent）、智能体工具！玩转各平台AI Agent！ 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IQmpaX0lVSEJqNmF0X2p5WDd1LUhPbXMtajYtRmszZFlKeE40ZElUb0JOdm5PeHYwSU1LMDlvZzNOZllBSjhKM3NnZ3FEUnZUdnVLSXFrdGRWWEFuNGdSbGF3?oc=5"
-      },
-      {
         "tag": "新能源车",
-        "title": "比亚迪第二代刀片电池及闪充技术落地印尼",
-        "summary": "比亚迪第二代刀片电池及闪充技术落地印尼",
+        "title": "特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨",
+        "summary": "特斯拉高管详解新Roadster：放弃四驱、专用4680电池，目标车重不到1.7吨 华尔街见闻",
         "quote": "",
-        "source": "东方财富",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nWTRYMHBXaHphckpiYS1SZVZIeWhHTXV1U3NiNU1ZcnpiREEtX0pIb04xWGdZd1FFdU9NX2dlTE5MZ0lsc1Foc1ZqV3k0MXFITFNmMWMxODhCZkZCdHdjSlB5SQ?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "理想汽车芯片平台马赫心科技完成16.25亿元首轮融资，投前估值150亿元",
-        "summary": "理想汽车芯片平台马赫心科技完成16.25亿元首轮融资，投前估值150亿元 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1peXFtak93anoxSWxma3pCX1hEdlVQQ2c5UVgxUzhGVm9KUVVUZ0VDXzloRG9hUzBmVllGamFFWm9HOEV3QXl4Tl9WX2lqTzB1RFRNNnczMDhaeFE4Z3JZ?oc=5"
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpM2t0d2JfaC05VllLNzJOWE1SMk1lcVBtMTZma1pNOVd5X2Q5cl90ZzViWXBESWkxZGhXVHdjOFhFRG96Zk5DY1ZHZmVsOFZQcmJj?oc=5"
       },
       {
         "tag": "AI",
-        "title": "本·阿弗莱克创办AI后期公司InterPositive，Netflix约5.87亿美元收购",
-        "summary": "本·阿弗莱克创办AI后期公司InterPositive，Netflix约5.87亿美元收购 虎嗅网",
+        "title": "Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？",
+        "summary": "Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？ 华尔街见闻",
         "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oN3N4OFZNVTRYcjRmQ3RtNWkzaWtObUZncHFGajBEaDZRTktEeml6Z1d4c084U2FReXNJa2FKMXlEOHR0Sno5emZOZWd3TGMzb0JIZg?oc=5"
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CRTgycFNHSjYwY3RRaGFPLWF3Q3M1a09salFJSjdWY3VYMXZNMldVZ1JZWUxEelFQaXZEMVhJdk5ZRXBQbGRjSEVEMDBlYUpUQTc4?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "林园：现在是乌龟爬着，等牛市哪天爆发，看好AI大时代但不碰个股",
+        "summary": "林园：现在是乌龟爬着，等牛市哪天爆发，看好AI大时代但不碰个股 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RZUhlRWdGRDlyT0pOZVdTUGVobnhCWTFaQXpOb0VHaGxXUlczR0ZtdnFUVXhScFpmTm9KajdvRk1XeWJxcFZaZFVieEhpT0VsYVo0?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "粤财征信申请一种基于AI智能体的Spring Boot工程信创改造系统及方法专利，降低了信创改造的技术门槛和人力成本",
+        "summary": "粤财征信申请一种基于AI智能体的Spring Boot工程信创改造系统及方法专利，降低了信创改造的技术门槛和人力成本 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4c0xiVDNXa1AyTDczMWNPMXZJOVllWHdYallGaVY3a3Azd3BWa0VsVmFSd29icEtlRVlMcTlNTWZlclN2WURfZ05mVmR3bHpPTlpXdld5YkFsTXBLMGdMVmdn?oc=5"
       }
     ],
     "copy": {
@@ -166,13 +166,13 @@
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
-        "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
+        "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
         "🚗 新能源车：比亚迪等厂商把竞争从单车参数，推向补能网络和全栈架构。"
       ]
     }
   },
   "2026-10-16": {
-    "updatedAt": "2026-10-17 11:17 (Asia/Shanghai)",
+    "updatedAt": "2026-10-17 12:17 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -260,12 +260,12 @@
         "link": "https://www.huxiu.com/article/4897983.html"
       },
       {
-        "tag": "AI",
-        "title": "清昴智能申请面向AI加速芯片的大模型推理执行方法及系统专利，使后端无需重新推断调度状态即可驱动AI加速芯片执行",
-        "summary": "清昴智能申请面向AI加速芯片的大模型推理执行方法及系统专利，使后端无需重新推断调度状态即可驱动AI加速芯片执行 手机网易网。清昴智能申请面向AI加速芯片的大模型推理执行方法及系统专利，使后端无需重新推断调度状态即可驱动AI加速芯片执行,推理,专利,后端,大模型,清昴智能,ai加速芯片。",
-        "quote": "清昴智能申请面向AI加速芯片的大模型推理执行方法及系统专利，使后端无需重新推断调度状态即可驱动AI加速芯片执行 手机网易网。",
-        "source": "手机网易网",
-        "link": "https://www.163.com/dy/article/L9C30PLT0519QIKK.html"
+        "tag": "机器人",
+        "title": "雷赛智能：无框力矩电机全年在手订单超100万台，预计明后年人形机器人业务收入贡献加大",
+        "summary": "雷赛智能：无框力矩电机全年在手订单超100万台，预计明后年人形机器人业务收入贡献加大 虎嗅网。雷赛智能在机构调研和现场参观中表示，无框力矩电机全年在手订单超100万台，年度交付预计80万—90万台，关节模组在手订单超6万台。公司预计机器人业务今年占营收约十分之一，明后年人形机器人业务收入将逐步产生较大贡献。",
+        "quote": "雷赛智能：无框力矩电机全年在手订单超100万台，预计明后年人形机器人业务收入贡献加大 虎嗅网。雷赛智能在机构调研和现场参观中表示，无框力矩电机全年在手订单超100万台，年度交付预计80万—90万台，关节模组在手订单超6万台。",
+        "source": "虎嗅网",
+        "link": "https://www.huxiu.com/moment/1288716.html"
       },
       {
         "tag": "机器人",
@@ -284,12 +284,12 @@
         "link": "https://wallstreetcn.com/charts/41960038"
       },
       {
-        "tag": "机器人",
-        "title": "雷赛智能：无框力矩电机全年在手订单超100万台，预计明后年人形机器人业务收入贡献加大",
-        "summary": "雷赛智能：无框力矩电机全年在手订单超100万台，预计明后年人形机器人业务收入贡献加大 虎嗅网",
+        "tag": "AI",
+        "title": "清昴智能申请面向AI加速芯片的大模型推理执行方法及系统专利，使后端无需重新推断调度状态即可驱动AI加速芯片执行",
+        "summary": "清昴智能申请面向AI加速芯片的大模型推理执行方法及系统专利，使后端无需重新推断调度状态即可驱动AI加速芯片执行 手机网易网",
         "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93bXIzdzBrTG4tSVpCMHpyamthel9fZFFpbThRSVg0ZW84ZEdSc1BoaW55cnp2UldMS2lPQ2tpeVZVSlZuMV9uLU9oNDR5amFMdVg0?oc=5"
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14Ym1uV1ZjTUl0VzZmU0VDb2MyU2JkZ25Zb3ZNczRiVnE5WjBsRWJCSDRRQm9LQTdQb3VnNXpjNUFTTnVDcExQTWVCZUZ6bTZ1dy1Qc2VwWmlGSkppdmxwLWhn?oc=5"
       },
       {
         "tag": "机器人",
@@ -325,11 +325,11 @@
       },
       {
         "tag": "机器人",
-        "title": "高校买人形机器人，买的是教具还是科技感？",
-        "summary": "高校买人形机器人，买的是教具还是科技感？",
+        "title": "上海启动新一代智能制造行动：2028年推动8000台人形机器人进工厂",
+        "summary": "上海启动新一代智能制造行动：2028年推动8000台人形机器人进工厂 虎嗅网",
         "quote": "",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKdFBmbG1ncnZBZlQ4UWQwMVpxbWNOcjNBUkJ4WTZSd0tZd3pPb0cyYTlJekRhVWdWMnl4MEctZENpZVBTeXNtZnRSWVdaNmg3RVJkaw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIMWZuQ3lqaTlWaUlRbEpDaHZSUEFzMW81ZW9oWDloNV9fR3l0SnF4RzU5ZDF4MEg1R19Mb0RWRTlHbXNEQlllWExNOG5SY0hrMFplRA?oc=5"
       }
     ],
     "copy": {
@@ -344,7 +344,7 @@
     }
   },
   "2026-10-15": {
-    "updatedAt": "2026-10-17 11:17 (Asia/Shanghai)",
+    "updatedAt": "2026-10-17 12:16 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -516,7 +516,7 @@
     }
   },
   "2026-10-14": {
-    "updatedAt": "2026-10-17 11:17 (Asia/Shanghai)",
+    "updatedAt": "2026-10-17 12:16 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -688,7 +688,7 @@
     }
   },
   "2026-10-13": {
-    "updatedAt": "2026-10-17 11:16 (Asia/Shanghai)",
+    "updatedAt": "2026-10-17 12:15 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -797,7 +797,7 @@
         "summary": "Anthropic披露AI智能体测试越界：Claude曾向美国政府网站提交虚假信息与签证申请 虎嗅网",
         "quote": "",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rbzY3dUVOTDFXLTc0aDRWbldrcV9OeEhXT0ZSWTlLa3RTX3dTSUhGTGxQUU5ZWUtsbXg1aU1YTkVsUXBTNlRUN1FxNnB6RW5wMFBVWQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Nek9XQkJBWHlOWUpTVDRUUHBWQ3h0dHQtenZCRW02TVRvM3A1ZDhDWklEeEFIWlZzdVhNU1plZXBvZzNULVlyeTBodTVFMVBnSW5QYlRvV2t4UzVYT3Rz?oc=5"
       },
       {
         "tag": "芯片",
