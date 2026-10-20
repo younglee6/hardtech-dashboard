@@ -1,11 +1,7 @@
 {
-  "2026-10-19": {
-    "updatedAt": "2026-10-19 12:32 (Asia/Shanghai)",
+  "2026-10-20": {
+    "updatedAt": "2026-10-20 11:45 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
-      },
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
@@ -13,17 +9,193 @@
       {
         "title": "芯片与算力突破",
         "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
+      },
+      {
+        "title": "新能源车技术突破",
+        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 40,
+        "ratio": 50,
         "color": "#39c2ff"
       },
       {
         "name": "Chip",
+        "ratio": 30,
+        "color": "#8b93ff"
+      },
+      {
+        "name": "Robotics",
         "ratio": 10,
+        "color": "#42d392"
+      },
+      {
+        "name": "EV",
+        "ratio": 10,
+        "color": "#ffb347"
+      }
+    ],
+    "heatmap": {
+      "cols": [
+        "近1季度",
+        "中期1年",
+        "长期3年"
+      ],
+      "rows": [
+        {
+          "name": "AI",
+          "scores": [
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "name": "Chip",
+          "scores": [
+            8,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "Robotics",
+          "scores": [
+            7,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "EV",
+          "scores": [
+            8,
+            9,
+            8
+          ]
+        }
+      ]
+    },
+    "news": [
+      {
+        "tag": "AI",
+        "title": "美光科技正研发物理AI专用边缘推理存储器EIM，预计2028年下半年量产",
+        "summary": "美光科技正研发物理AI专用边缘推理存储器EIM，预计2028年下半年量产 虎嗅网。",
+        "quote": "美光科技正研发物理AI专用边缘推理存储器EIM，预计2028年下半年量产 虎嗅网。",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11Z0JobVFYdWdlM0ZQOWxBRGVYbXBzazRyajg1QVRsZUlYZ0ROOFFQMzhkSW5rZzA0cXA3Sl9SbVpTS0NpOUpKblRlZTNhTHcwUXdz?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "报道：OpenAI 计划在Anthropic上市前加快融资步伐",
+        "summary": "报道：OpenAI 计划在Anthropic上市前加快融资步伐 华尔街见闻。",
+        "quote": "报道：OpenAI 计划在Anthropic上市前加快融资步伐 华尔街见闻。",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsSnhNczVkeUcyN21LUnMzX3FZdEJ5VkdSQXd2U1Nxb2twMjNhd1YxVXUyYmhmTjRGcDllTktWMlpJaGplajhBYUREX3F3Y3dGQkYw?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "手机芯片跑AI智能体，可能吗？",
+        "summary": "手机芯片跑AI智能体，可能吗？",
+        "quote": "手机芯片跑AI智能体，可能吗？",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uY2h4OXNSSmZRTmF5TFI1SzA5cjNFSC1UNWhQUFZ5U2Jwa1oxaVc5SGFDSUtJekRzUS1scUdjNVRvT040MWo4SWhmaGFRUktRdlY4cQ?oc=5"
+      },
+      {
+        "tag": "新能源车",
+        "title": "中国新能源汽车渗透率达67%，李想与宁德时代争论电池主导权，零跑借Stellantis在欧洲落地",
+        "summary": "中国新能源汽车渗透率达67%，李想与宁德时代争论电池主导权，零跑借Stellantis在欧洲落地 虎嗅网。",
+        "quote": "中国新能源汽车渗透率达67%，李想与宁德时代争论电池主导权，零跑借Stellantis在欧洲落地 虎嗅网。",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpZ1h6WjAwa0hVdm5xMmxfNHE2ZC1DcFp4QXB1Y00yTzQzYmhteWRadm1hR1J0eTk5MUZsbUlPaTlBMXRHSjdYeFBJUXJYM2FTYWVqdQ?oc=5"
+      },
+      {
+        "tag": "机器人",
+        "title": "首批人形机器人国家标准来了：2027年4月实施_车市动态",
+        "summary": "首批人形机器人国家标准来了：2027年4月实施_车市动态 中金在线",
+        "quote": "",
+        "source": "中金在线",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8xNmgyQXI2SzFjT3QwQ2F4LWd4TXN1NDQ0V3ltTDY3ZjBVT0RFVUdKazhWb0ZzbTRfZmRwNENFYXBNRklVWUN5VGxMNUsyeWRuaEFQWmNvQ0FUejVXRGM2d21qY3BrNFJwdE5N?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "海光信息Q3营收同比增长45.46%，AI驱动高端芯片需求持续攀升 | 财报见闻",
+        "summary": "海光信息Q3营收同比增长45.46%，AI驱动高端芯片需求持续攀升 | 财报见闻 华尔街见闻",
+        "quote": "",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxZkVPWmlPa1lId21EOFF3R3d3MmVhWC0wLU1Rb2trVkRIY0xtd05rcmN6SzhHVXk4OEltaVV6M3lfeHNpM2NLdGVHeG96WTRRTy1Z?oc=5"
+      },
+      {
+        "tag": "芯片",
+        "title": "2026张家界半导体检测第三方公司排行榜TOP5：半导体检测+芯片可靠性测试+失效分析+CMA 检测报告 机构地址及联系方式推荐",
+        "summary": "2026张家界半导体检测第三方公司排行榜TOP5：半导体检测+芯片可靠性测试+失效分析+CMA 检测报告 机构地址及联系方式推荐 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TbkZscTJjcXZhdzZNeGxLcFBBTi1mcno1M3IwdFBBLUZBank5eXA5cHVyVkJJTS1LUm81WVJmcTZnSk1zRmZvQU44M3FVSkxwM0JydU14X1B6TkNqWDZtSWpR?oc=5"
+      },
+      {
+        "tag": "芯片",
+        "title": "2026银川半导体检测第三方公司排行榜TOP5：半导体检测+芯片可靠性测试+失效分析+CMA 检测报告 机构地址及联系方式推荐",
+        "summary": "2026银川半导体检测第三方公司排行榜TOP5：半导体检测+芯片可靠性测试+失效分析+CMA 检测报告 机构地址及联系方式推荐 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1yZTEwdkk0eGpobThkcGhNd3kwUHo2X21kdzRyN1lxMTE4U05ZQ1lwSEVfeU1mTkYwdkRPQnpsQmJwNE1LUEdwUFNnVWo0LVF5RnJGTkhSVFZvcmFTY2RKd0RR?oc=5"
+      },
+      {
+        "tag": "芯片",
+        "title": "2026铁岭半导体检测第三方公司排行榜TOP5：半导体检测+芯片可靠性测试+失效分析+CMA 检测报告 机构地址及联系方式推荐",
+        "summary": "2026铁岭半导体检测第三方公司排行榜TOP5：半导体检测+芯片可靠性测试+失效分析+CMA 检测报告 机构地址及联系方式推荐 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTNTc0dnozRm1vZmhMMER2ZC12by1peFBnd1QxQ282UVo3d05hZWxfal9wT2hnLWZnUFNMMjdtelpPYlpQbWk5dERfSEZuZklRNEhFUDZnZ0tpb25NZ0o1VjB3?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "AI助手Tolan获USV、Khosla Ventures和Homebrew 3000万美元融资，70%用户为女性",
+        "summary": "AI助手Tolan获USV、Khosla Ventures和Homebrew 3000万美元融资，70%用户为女性 虎嗅网",
+        "quote": "",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zcy1RU084dkZXS29xd1dTLTZKc1Ftd0p1YjRzZlBFbkRmdWxEWG5WVXJNZDVRM1oyS0NwbGh6WUctR19jdVc4SWt3MTIxdHp1V3p3?oc=5"
+      }
+    ],
+    "copy": {
+      "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
+      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
+      "insights": [
+        "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
+        "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
+        "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
+        "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
+      ]
+    }
+  },
+  "2026-10-19": {
+    "updatedAt": "2026-10-20 11:45 (Asia/Shanghai)",
+    "breakthroughs": [
+      {
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
+      },
+      {
+        "title": "模型与应用突破",
+        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
+      },
+      {
+        "title": "机器人落地突破",
+        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "AI",
+        "ratio": 50,
+        "color": "#39c2ff"
+      },
+      {
+        "name": "Chip",
+        "ratio": 0,
         "color": "#8b93ff"
       },
       {
@@ -96,12 +268,12 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yUlZxa2FTbjBHNGxuVVNZWTRJYmgzNnozSUtYTWFuZjd4RkswVnpIUTBqVHVlOTg5WGQxUVRQeXA0MlNEbmRMU3dCc1pXNGZaY1VNeQ?oc=5"
       },
       {
-        "tag": "AI",
-        "title": "2026年AI制药融资近158亿元，资本向头部集中并推动行业转向闭环竞赛",
-        "summary": "2026年AI制药融资近158亿元，资本向头部集中并推动行业转向闭环竞赛 虎嗅网。",
-        "quote": "2026年AI制药融资近158亿元，资本向头部集中并推动行业转向闭环竞赛 虎嗅网。",
+        "tag": "机器人",
+        "title": "OpenAI布局人形机器人研发，计划2027年推出演示样机",
+        "summary": "OpenAI布局人形机器人研发，计划2027年推出演示样机 虎嗅网。",
+        "quote": "OpenAI布局人形机器人研发，计划2027年推出演示样机 虎嗅网。",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzMEo5SG9BYWx2NUhWR1otNWhObXFMSFd4VlJiVktxenNjQnlHMjRSTkJUY3BsLXZUY3BsSlZkeXhYcFpBYU40OGZzVWs1S180MmZ0Yw?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PUTltQmZKSEl2MVZhTFNFdkZ0SENQamJSdEtEdmpVUnNrbE9VSUFzLU5iRmF0SHdma1hlWmVnZnFJMU9mcXd4TmNVY1dwWmNFWlBJ?oc=5"
       },
       {
         "tag": "机器人",
@@ -112,6 +284,14 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoV0tFd2RvZTJXOWt5dFR4YjJ4WmhlNDl3Wi1PeHZrQ1Job0djbmJiT1A2M2Q2ajE2dTZmSWlTVnpoTkhUQnF6NGx0SzYtYUlkVmJ5Um41WDlmczVMdFJxSzRR?oc=5"
       },
       {
+        "tag": "AI",
+        "title": "AI下一战，比谁便宜 | 全球半导体融资14.7亿美元，AI推理硬件占大头，钱从训练流向推理",
+        "summary": "AI下一战，比谁便宜 | 全球半导体融资14.7亿美元，AI推理硬件占大头，钱从训练流向推理 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wNk5xTXpFZHJPY0RjbmhnMURuNV9XNVdjN2tNUXJzOEhWWEdPYUpSQXh2Q19EQ2lIUlY0bDIyU0NTUkg1SUpoOHZQQkVtOUxDVDNxdjBJUHMzbXBKVU9POGJR?oc=5"
+      },
+      {
         "tag": "机器人",
         "title": "人形机器人产业关键窗口期，Optimus V3即将量产，宇树、智元推进万台级产线建设",
         "summary": "人形机器人产业关键窗口期，Optimus V3即将量产，宇树、智元推进万台级产线建设 手机网易网",
@@ -120,28 +300,20 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94d21GTVltZWFTLTA2UEtVQ09FWnhuaVhBZWx4VzlaeDh5MDJQci1jQUNLVWhJYVZYU013bUJ1cjlvamRUcHBCalB2RjZGejJINUp2WFhJWE9jZkxwSTZpaDln?oc=5"
       },
       {
-        "tag": "芯片",
-        "title": "台积电冲刺2028年上半年量产，苹果或两年后推出首款1.4纳米芯片",
-        "summary": "台积电冲刺2028年上半年量产，苹果或两年后推出首款1.4纳米芯片 手机网易网",
+        "tag": "AI",
+        "title": "蒸发近40万亿日元、市值跌剩三分之一：铠侠从日本第一跌落，AI存储叙事遭双重反噬",
+        "summary": "蒸发近40万亿日元、市值跌剩三分之一：铠侠从日本第一跌落，AI存储叙事遭双重反噬 华尔街见闻",
         "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95QTc3UWlJTmtCbTZvNnF3OHpPdjdmYkhvclRuaXNsLVo3enVXZy05aEoxTzIwSUxMYTRpNFNtWXdVMGlCYzM2b0lnUlBxWGJwUXdOY2ItLTRVWkdPNzQ1VlN3?oc=5"
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Ia0k5bGZ4aE10U3RtWmE3RHpzbm83TkN1NnRncDBGd0xEaHdjdEllbDJwOUk1UDZJbHpSNXdrdnI1c1htcEFQd0FvdVF6UFJYZ19B?oc=5"
       },
       {
         "tag": "AI",
-        "title": "Anthropic研究员给年轻人的忠告：用好AI、做算力越强越有价值的项目、别迷信职业稳定",
-        "summary": "Anthropic研究员给年轻人的忠告：用好AI、做算力越强越有价值的项目、别迷信职业稳定 华尔街见闻",
+        "title": "Anthropic拿出5%股权成立公益基金，应对AI冲击就业市场",
+        "summary": "Anthropic拿出5%股权成立公益基金，应对AI冲击就业市场 华尔街见闻",
         "quote": "",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HTWNBdTludjM2a1RDb21oS190OEFWVkF1T1k0UzNYWlFuTnVDeXAwdFNrM1c1NDE1UTlTMzNNMGNzVnpmWUg5SHlwUFppMjFEVVE?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "Anthropic研究员警告：AI可能只是在假装听话",
-        "summary": "Anthropic研究员警告：AI可能只是在假装听话 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrdUhQRDJpSzRwdlAtNC0xTWpCYkIyVWNHTGhSY0x2UjZsdTVlOC1kdlFOSENxa21uVm40NUtpWjR4Z0QzM2NhNk9xSEZCYUVPd1E?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OcGlVcEV3cEFJOEh4YXVEdnB1RS1vTTU4QXJkSDZvWEpxVXN4VUgxTlQ1bzA3YXhyaExfWlZSN2ZUQWo2S25lNDlrVDJVRlZPcjF3?oc=5"
       },
       {
         "tag": "机器人",
@@ -152,17 +324,17 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5VTZOMEVXdUdDVDBMc3VWOS1TUnE2MGxFZ25RcWpFOG1JZUdnbHNSZllGSDZlYUhNd1hkX3NaYTJ5VnNaMV9IbVpPWG01RVFONW1URg?oc=5"
       },
       {
-        "tag": "机器人",
-        "title": "OpenAI布局人形机器人研发，计划2027年推出演示样机",
-        "summary": "OpenAI布局人形机器人研发，计划2027年推出演示样机 虎嗅网",
+        "tag": "AI",
+        "title": "2026年AI制药融资近158亿元，资本向头部集中并推动行业转向闭环竞赛",
+        "summary": "2026年AI制药融资近158亿元，资本向头部集中并推动行业转向闭环竞赛 虎嗅网",
         "quote": "",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PUTltQmZKSEl2MVZhTFNFdkZ0SENQamJSdEtEdmpVUnNrbE9VSUFzLU5iRmF0SHdma1hlWmVnZnFJMU9mcXd4TmNVY1dwWmNFWlBJ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUMk5kWGRlSGdmWmVzelFPLTMwNkxGcm9naF9NR1pralFpNnY0LTlkMG9uOGVCS2pmdjA0MjNzVjlzUnJFd1NkeGZBX1lmNzlOdERRRXV3elFPZk5UVnR3?oc=5"
       }
     ],
     "copy": {
       "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天机器人赛道不是热闹而已，标准、零部件通用化和场景交付已经开始变成真问题。",
+      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
@@ -172,25 +344,25 @@
     }
   },
   "2026-10-18": {
-    "updatedAt": "2026-10-19 12:32 (Asia/Shanghai)",
+    "updatedAt": "2026-10-20 11:45 (Asia/Shanghai)",
     "breakthroughs": [
-      {
-        "title": "新能源车技术突破",
-        "text": "快充、电池和智驾协同升级，整车竞争回到系统能力。"
-      },
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
+      },
+      {
+        "title": "产业链进展",
+        "text": "核心赛道正在从新闻热度转向真实交付与商业兑现。"
       }
     ],
     "sectors": [
       {
         "name": "AI",
-        "ratio": 60,
+        "ratio": 90,
         "color": "#39c2ff"
       },
       {
@@ -200,7 +372,7 @@
       },
       {
         "name": "Robotics",
-        "ratio": 30,
+        "ratio": 0,
         "color": "#42d392"
       },
       {
@@ -253,51 +425,35 @@
     "news": [
       {
         "tag": "AI",
+        "title": "微软发布Maia 300专攻推理，科技巨头加速拆分训练与推理芯片赛道",
+        "summary": "微软发布Maia 300专攻推理，科技巨头加速拆分训练与推理芯片赛道 虎嗅网。微软近期发布Maia 300，将自研AI芯片从训推混用转向纯推理。谷歌、亚马逊同步拆分训练与推理产品线，全球AI算力支出向推理倾斜，预计2026年推理算力占比突破70%。",
+        "quote": "微软发布Maia 300专攻推理，科技巨头加速拆分训练与推理芯片赛道 虎嗅网。微软近期发布Maia 300，将自研AI芯片从训推混用转向纯推理。",
+        "source": "虎嗅网",
+        "link": "https://www.huxiu.com/article/4898339.html"
+      },
+      {
+        "tag": "AI",
         "title": "OpenAI下线对话内下单功能：智能体商务首回合遇阻，电商履约与结账仍由平台掌握",
         "summary": "OpenAI下线对话内下单功能：智能体商务首回合遇阻，电商履约与结账仍由平台掌握 虎嗅网。",
         "quote": "OpenAI下线对话内下单功能：智能体商务首回合遇阻，电商履约与结账仍由平台掌握 虎嗅网。",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11UUUzcU9GUjhiZGxnMlJURVF6RGVFNGNJN1RDWmRZR2RhUTZSYVdtUjd6SjVDbFpwSVd4alFyYlRta1hlQkJXdkZoc2ZXM1UxX20tOFMxbk1kLUxndUtV?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "微软发布Maia 300专攻推理，科技巨头加速拆分训练与推理芯片赛道",
-        "summary": "微软发布Maia 300专攻推理，科技巨头加速拆分训练与推理芯片赛道 虎嗅网。",
-        "quote": "微软发布Maia 300专攻推理，科技巨头加速拆分训练与推理芯片赛道 虎嗅网。",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKXy1pMC1vcXdRQkxlWGFTSVRIRU9vRGdUOTZXci1aaVhQeE9HNHNtOEMxOU9LOFdkTUV4WUpHSmt1WnhiLUlUZ01tS3N5QXFYNTJxcQ?oc=5"
+        "link": "https://m.huxiu.com/article/4898348.html?type=text"
       },
       {
         "tag": "AI",
         "title": "AI融资成本攀升：Anthropic拟向黑石提供超10%收益率",
-        "summary": "AI融资成本攀升：Anthropic拟向黑石提供超10%收益率 华尔街见闻。",
-        "quote": "AI融资成本攀升：Anthropic拟向黑石提供超10%收益率 华尔街见闻。",
+        "summary": "AI融资成本攀升：Anthropic拟向黑石提供超10%收益率 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
+        "quote": "AI融资成本攀升：Anthropic拟向黑石提供超10%收益率 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03RzZBd21QYTVMUjZueGI0YWNiXzY2N2U3ZmJKdkd1U05GelU1TzUtdGZQVVMxSjRUQndYUzFPZUlURG9heHg0MllUWkJHZGpfTHVR?oc=5"
+        "link": "https://wallstreetcn.com/articles/3783838"
       },
       {
         "tag": "AI",
         "title": "10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪",
-        "summary": "10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪 手机网易网。",
-        "quote": "10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪 手机网易网。",
+        "summary": "10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪 手机网易网。10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪,推理,内存,端侧,大模型,神经网络,前沿实践,智能体落,多模态模型。",
+        "quote": "10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪 手机网易网。10篇AI前沿实践：从多模态模型到端侧推理，智能体落地卡在哪,推理,内存,端侧,大模型,神经网络,前沿实践,智能体落,多模态模型。",
         "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBwbTcxYk5iVy05TEVfUnpqcUtFQTRxSXRYZ2lPcWFQZ2ppZ1Q3NGlxajNjeVJmeVlYNnM5N0w0RDlHc05jLXRMTTFHZW1hMldxSWtxdkRCR25JSGY4SjZiVXRR?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "比亚迪人形机器人外观专利公布：黑白极简设计，量产时间未定",
-        "summary": "比亚迪人形机器人外观专利公布：黑白极简设计，量产时间未定 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53MEs1am45TFViX0NQSUpxWEhkNjhWRGh4bENmV2l0bnFKRnJWaGY3V2F2b25hTGVjMnlGT0RJRTFlQl9qOUNjeGtEM3dGM0RLdEpJYkhITWRHUGlwZHN4UkxB?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "融资几百亿出货才一万多台，人形机器人风口是不是泡沫",
-        "summary": "融资几百亿出货才一万多台，人形机器人风口是不是泡沫 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85c3hwLUp0OWVyQkVHdFNjUGlsdU52RENGQ1lOOUtaMW5acE9mbVJZQWlrbldEZUlMRllYb3hSZE1UTzVzRS1ucDVWRDZLRXloNjMtQzZkWHF6WGt5b0hKekdR?oc=5"
+        "link": "https://www.163.com/dy/article/L9H3VN0D05561FZO.html"
       },
       {
         "tag": "芯片",
@@ -306,14 +462,6 @@
         "quote": "",
         "source": "华尔街见闻",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfS1BLZW04U2NwemhuQi1GT3NOX0ZYZzM5Q2hiSHZMeFY4N2FIcUFWbGQ3cEE1UFUzV3A3MHlpQ0FNYzhqUHJLeUVON25IU3FOSlpr?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "四家金融监管部门负责人将发声！金融街论坛年会今日开幕；OpenAI发力人形机器人研发，将AI大脑作为核心突破口；OpenSpace开源太空生态发布，开源计算星座首期规划2600颗卫星——《投资早参》",
-        "summary": "四家金融监管部门负责人将发声！金融街论坛年会今日开幕；OpenAI发力人形机器人研发，将AI大脑作为核心突破口；OpenSpace开源太空生态发布，开源计算星座首期规划2600颗卫星——《投资早参》 东方财富",
-        "quote": "",
-        "source": "东方财富",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kLS1zWjRrMlVsSU0yclNYWkZaX0t2b3hHSnhtbnFrTkIwMHdlcHlwV3d6akhTS2NnekFZOF9wOF9wODh0ZmhMNVoyNnJvSmV4QW5MX3lrT0hRVkNOTWxPV3dWcjdqdw?oc=5"
       },
       {
         "tag": "AI",
@@ -330,6 +478,30 @@
         "quote": "",
         "source": "虎嗅网",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kYy1oa1ZnV3podzNPV1Z2eVVnSHJtcy1raWN6VXBwdGlPekhpWmdfY2JOSWtFSm1taTVIZGtzZ1ZmbnkwcWkxYTk3Mi02aGxBWDB2T0NQR3RoSTFJQnNJ?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "40%的AI智能体项目要黄，病根不在推理能力",
+        "summary": "40%的AI智能体项目要黄，病根不在推理能力 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pblJ4ZkQyaFQ2UWF6NkFvS2NCeXE3YTlteHVxbGlldVhCZDQtS2FhNEJ3X29Ga2h2OGdDWDBiR3JpVE1wTzFqU1BTQVVqWDVlLTBMLTFMWDBSOWdNTzlwSGVR?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "Anthropic 内部报告：AI 智能体工时达人类员工6倍；NVIDIA RTX Spark 笔记本全球开售：起价2599 美元，128GB统一内存主打本地 AI｜AI快报",
+        "summary": "Anthropic 内部报告：AI 智能体工时达人类员工6倍；NVIDIA RTX Spark 笔记本全球开售：起价2599 美元，128GB统一内存主打本地 AI｜AI快报 手机网易网",
+        "quote": "",
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEbHR4aWI4SVJTQUZycElqejlnNm93VlNsLXRIdTI1NEVYdFpHS2JINHpna3lSbjE3YXduZnFmZ3ZTdWc0ZWF6ZXJFM2N0NVUyN2xQOFBqVk1uVUxSY1pDNDh3?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "Anthropic联合创始人杰克·克拉克：AI到2030年或令美国经济产出提升近50%，但技术奇点风险逼近人类掌控边界",
+        "summary": "Anthropic联合创始人杰克·克拉克：AI到2030年或令美国经济产出提升近50%，但技术奇点风险逼近人类掌控边界 虎嗅网",
+        "quote": "",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNEpUbmtQUGQzVHlPQ1FoZzlWTHozcU53cG05cFF1anVDNmJBc21DZF82WDBiMXZqX3ZtMDRYc0plUTl4MC1KV1ZsVklfUlZPdHY0?oc=5"
       }
     ],
     "copy": {
@@ -339,12 +511,12 @@
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
         "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
-        "🚗 新能源车：比亚迪等厂商把竞争从单车参数，推向补能网络和全栈架构。"
+        "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
       ]
     }
   },
   "2026-10-17": {
-    "updatedAt": "2026-10-19 12:32 (Asia/Shanghai)",
+    "updatedAt": "2026-10-20 11:44 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -362,12 +534,12 @@
     "sectors": [
       {
         "name": "AI",
-        "ratio": 40,
+        "ratio": 50,
         "color": "#39c2ff"
       },
       {
         "name": "Chip",
-        "ratio": 40,
+        "ratio": 30,
         "color": "#8b93ff"
       },
       {
@@ -429,31 +601,23 @@
         "summary": "英特尔前CEO Pat Gelsinger：上百家AI推理芯片公司繁荣或难持续，存储与光互连将成AI算力创新重点 虎嗅网。英特尔前CEO Pat Gelsinger在a16z播客中表示，当前上百家AI推理芯片公司带来的繁荣可能只是暂时，未来大部分芯片架构可能被淘汰，行业或向少数平台集中。Gelsinger表示AI芯片设计加快但制造封装周期仍长，HBM存在局限，存储创新与光互连将成为AI基础设施的重要方向。",
         "quote": "英特尔前CEO Pat Gelsinger：上百家AI推理芯片公司繁荣或难持续，存储与光互连将成AI算力创新重点 虎嗅网。",
         "source": "虎嗅网",
-        "link": "https://www.huxiu.com/article/4898134.html"
-      },
-      {
-        "tag": "AI",
-        "title": "苹果与Meta合作推动大模型本地运行，AI竞争从模型能力转向交付能力",
-        "summary": "苹果与Meta合作推动大模型本地运行，AI竞争从模型能力转向交付能力 虎嗅网。",
-        "quote": "苹果与Meta合作推动大模型本地运行，AI竞争从模型能力转向交付能力 虎嗅网。",
-        "source": "虎嗅网",
-        "link": "https://www.huxiu.com/article/4898042.html"
+        "link": "https://m.huxiu.com/article/4898134.html?type=text"
       },
       {
         "tag": "机器人",
         "title": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期",
-        "summary": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期 虎嗅网。",
-        "quote": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期 虎嗅网。",
+        "summary": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期 虎嗅网。在第26届工博会上，具身智能企业不再以运动表演和互动展示为主，而是集中展示上下料、分拣、码垛和搬运等工业任务。轮式机器人受到更多关注，但机器人从工厂试用走向规模化产线仍面临效率、成本、适配和ROI验证。",
+        "quote": "第26届工博会观察：具身智能展台转向工业场景，机器人进厂仍处验证期 虎嗅网。在第26届工博会上，具身智能企业不再以运动表演和互动展示为主，而是集中展示上下料、分拣、码垛和搬运等工业任务。",
         "source": "虎嗅网",
         "link": "https://www.huxiu.com/article/4898107.html"
       },
       {
         "tag": "芯片",
-        "title": "拟世半导体申请高速存储芯片全自动读写功能测试方法及系统专利，有效提升高速存储芯片在量产阶段的质量控制效能",
-        "summary": "拟世半导体申请高速存储芯片全自动读写功能测试方法及系统专利，有效提升高速存储芯片在量产阶段的质量控制效能 手机网易网",
-        "quote": "",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9Uby03RGNTR2wtX2lVOWhudWNYSEl1Z01ybUljRGVIMDRMMmNSaXl5eUhGOVZrOGoxX25RaW92RVhHbEFNNmdHQUZGeTNjcUhNOTMxNmNNV2RiWjJnV0t1M2dB?oc=5"
+        "title": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压",
+        "summary": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压 虎嗅网。美东时间10月14日Anthropic闭门会后，市场关注其IPO。公司第三季度营收168亿美元、环比增长45%，调整后盈利但增速放缓，投资者估值预期从2万亿美元下调至1.5万亿美元；Anthropic计划10月底交表、11月上市，以支撑5180亿美元算力承诺。",
+        "quote": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压 虎嗅网。美东时间10月14日Anthropic闭门会后，市场关注其IPO。",
+        "source": "虎嗅网",
+        "link": "https://m.huxiu.com/article/4898196.html"
       },
       {
         "tag": "AI",
@@ -480,12 +644,12 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XVVFFS2hidEtxd3ZOZ1lSR1NDZ3V2eUtIck01QU94ZE1DUWlQb3p2LTZ5aHRZVzlCRGUybnFjRjFQd3JFeE51UEQtWGxnTzZuTGIzanVIR3Z4SEFi?oc=5"
       },
       {
-        "tag": "芯片",
-        "title": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压",
-        "summary": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压 虎嗅网。",
-        "quote": "Anthropic冲刺IPO：第三季度营收168亿美元、估值下调至1.5万亿美元，算力承诺与安全叙事承压 虎嗅网。",
+        "tag": "AI",
+        "title": "苹果与Meta合作推动大模型本地运行，AI竞争从模型能力转向交付能力",
+        "summary": "苹果与Meta合作推动大模型本地运行，AI竞争从模型能力转向交付能力 虎嗅网。",
+        "quote": "苹果与Meta合作推动大模型本地运行，AI竞争从模型能力转向交付能力 虎嗅网。",
         "source": "虎嗅网",
-        "link": "https://m.huxiu.com/article/4898196.html"
+        "link": "https://www.huxiu.com/article/4898042.html"
       },
       {
         "tag": "芯片",
@@ -502,6 +666,14 @@
         "quote": "",
         "source": "虎嗅网",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9CbTZ3ZmlOVUMyZWYxeldGOEU3TWNpUEVkNGFmOGxYTVFpRlFDRUlmUDVfbHJPWkh0M1drbG9BUThZZUpqNG9vU2t0QXp4MnRIY3dBWQ?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "老干妈2025年上线AI视觉质检系统 营收54亿元创历史新高",
+        "summary": "老干妈2025年上线AI视觉质检系统 营收54亿元创历史新高 虎嗅网",
+        "quote": "",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51ckMxR3VfS2pRZFlsVnpQeGU4N29pM1M4cVhSTjRsazJDYUlndGNaWEJ0TUhGeTMzV25fMDFINnROcUZtbG84UHVKMkhHSm51bEloVw?oc=5"
       }
     ],
     "copy": {
@@ -516,7 +688,7 @@
     }
   },
   "2026-10-16": {
-    "updatedAt": "2026-10-19 12:31 (Asia/Shanghai)",
+    "updatedAt": "2026-10-20 11:43 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "机器人落地突破",
@@ -598,8 +770,8 @@
       {
         "tag": "机器人",
         "title": "特斯拉Optimus量产审厂首站落地宁波，汽车零部件企业加速切入人形机器人供应链",
-        "summary": "特斯拉Optimus量产审厂首站落地宁波，汽车零部件企业加速切入人形机器人供应链 虎嗅网。",
-        "quote": "特斯拉Optimus量产审厂首站落地宁波，汽车零部件企业加速切入人形机器人供应链 虎嗅网。",
+        "summary": "特斯拉Optimus量产审厂首站落地宁波，汽车零部件企业加速切入人形机器人供应链 虎嗅网。9月中旬，特斯拉团队到宁波启动Optimus人形机器人量产审厂并下达相关订单。宁波汽车零部件企业凭借与新能源汽车产业链高度重合的制造能力、供应链密度和港口物流优势，正加速切入人形机器人赛道，但当前机器人业务营收占比仍低，短期难以改变经济大盘。",
+        "quote": "特斯拉Optimus量产审厂首站落地宁波，汽车零部件企业加速切入人形机器人供应链 虎嗅网。9月中旬，特斯拉团队到宁波启动Optimus人形机器人量产审厂并下达相关订单。",
         "source": "虎嗅网",
         "link": "https://m.huxiu.com/article/4897983.html?type=text"
       },
@@ -633,7 +805,7 @@
         "summary": "上海启动新一代智能制造行动：2028年推动8000台人形机器人进工厂 虎嗅网",
         "quote": "",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIMWZuQ3lqaTlWaUlRbEpDaHZSUEFzMW81ZW9oWDloNV9fR3l0SnF4RzU5ZDF4MEg1R19Mb0RWRTlHbXNEQlllWExNOG5SY0hrMFplRA?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BRm1uTnNfQ1hRcFIwaXVfOFJiVTBPMHc4Slg0a003NzcySWJaOER0UHBrX25HTUtVRlRBVE1LcngxY2JyTGtJMDN3MXljaFlfYXc?oc=5"
       },
       {
         "tag": "芯片",
@@ -1028,178 +1200,6 @@
         "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
         "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
         "🚗 新能源车：比亚迪等厂商把竞争从单车参数，推向补能网络和全栈架构。"
-      ]
-    }
-  },
-  "2026-10-13": {
-    "updatedAt": "2026-10-17 12:15 (Asia/Shanghai)",
-    "breakthroughs": [
-      {
-        "title": "模型与应用突破",
-        "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
-      },
-      {
-        "title": "芯片与算力突破",
-        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
-      },
-      {
-        "title": "机器人落地突破",
-        "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
-      }
-    ],
-    "sectors": [
-      {
-        "name": "AI",
-        "ratio": 60,
-        "color": "#39c2ff"
-      },
-      {
-        "name": "Chip",
-        "ratio": 30,
-        "color": "#8b93ff"
-      },
-      {
-        "name": "Robotics",
-        "ratio": 10,
-        "color": "#42d392"
-      },
-      {
-        "name": "EV",
-        "ratio": 0,
-        "color": "#ffb347"
-      }
-    ],
-    "heatmap": {
-      "cols": [
-        "近1季度",
-        "中期1年",
-        "长期3年"
-      ],
-      "rows": [
-        {
-          "name": "AI",
-          "scores": [
-            9,
-            8,
-            7
-          ]
-        },
-        {
-          "name": "Chip",
-          "scores": [
-            8,
-            8,
-            9
-          ]
-        },
-        {
-          "name": "Robotics",
-          "scores": [
-            7,
-            8,
-            8
-          ]
-        },
-        {
-          "name": "EV",
-          "scores": [
-            8,
-            9,
-            8
-          ]
-        }
-      ]
-    },
-    "news": [
-      {
-        "tag": "AI",
-        "title": "最高支持3.2万个CPU核心！AMD推出Helion智能体AI机架，兼顾纯CPU与GPU混合配置",
-        "summary": "AMD推出Helion智能体AI机架，兼顾纯CPU与GPU混合配置 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "quote": "AMD推出Helion智能体AI机架，兼顾纯CPU与GPU混合配置 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "source": "华尔街见闻",
-        "link": "https://wallstreetcn.com/articles/3783464"
-      },
-      {
-        "tag": "AI",
-        "title": "AMD推出Helion智能体AI机架设计，最高支持32768核，思科戴尔等八厂商联合背书",
-        "summary": "AMD推出Helion智能体AI机架设计，最高支持32768核，思科戴尔等八厂商联合背书 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "quote": "AMD推出Helion智能体AI机架设计，最高支持32768核，思科戴尔等八厂商联合背书 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "source": "华尔街见闻",
-        "link": "https://wallstreetcn.com/articles/3783505"
-      },
-      {
-        "tag": "AI",
-        "title": "押注个人智能体赶超劲敌！Meta推出新模型Muse Wonder，扎克伯格称跻身AI前沿",
-        "summary": "Meta推出新模型Muse Wonder，扎克伯格称跻身AI前沿 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "quote": "Meta推出新模型Muse Wonder，扎克伯格称跻身AI前沿 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "source": "华尔街见闻",
-        "link": "https://wallstreetcn.com/articles/3783469"
-      },
-      {
-        "tag": "AI",
-        "title": "Anthropic披露AI智能体测试越界：Claude曾向美国政府网站提交虚假信息与签证申请",
-        "summary": "Anthropic披露AI智能体测试越界：Claude曾向美国政府网站提交虚假信息与签证申请 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Nek9XQkJBWHlOWUpTVDRUUHBWQ3h0dHQtenZCRW02TVRvM3A1ZDhDWklEeEFIWlZzdVhNU1plZXBvZzNULVlyeTBodTVFMVBnSW5QYlRvV2t4UzVYT3Rz?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "深圳华强：存储芯片供给紧张、需求旺盛格局未变，AI算力驱动高景气周期",
-        "summary": "深圳华强：存储芯片供给紧张、需求旺盛格局未变，AI算力驱动高景气周期 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0zbTlrNEFwLXZDbUVqUXMxaGxYRThJUWhEa0s3NXAzUU9wMVNYNTBFdVlWREF4T0NOLVdqeEt0ejlGbktzRUpUTjMzdmN1M0poVVRV?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "世界机器人大赛青少年决赛举行，具身智能人才争夺前移至青少年机器人教育",
-        "summary": "世界机器人大赛青少年决赛举行，具身智能人才争夺前移至青少年机器人教育 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhSV93NF9STDhjZG9GaUp0NzhfemlSVFYyVXB6VzBOMGlTV2t0a2staW5SSjBUMU1XSXJlaWJjRDRJQU1vaURPanF0ZUo4TlJZTG1VZQ?oc=5"
-      },
-      {
-        "tag": "芯片",
-        "title": "台积电Q3业绩前瞻：2nm放量、AI需求强劲，汇丰最高看至3800新台币",
-        "summary": "台积电Q3业绩前瞻：2nm放量、AI需求强劲，汇丰最高看至3800新台币 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "quote": "台积电Q3业绩前瞻：2nm放量、AI需求强劲，汇丰最高看至3800新台币 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
-        "source": "华尔街见闻",
-        "link": "https://wallstreetcn.com/articles/3783434"
-      },
-      {
-        "tag": "芯片",
-        "title": "财报前夕，美银上调台积电目标价：2nm产能爬坡推高销售预期和利润率",
-        "summary": "财报前夕，美银上调台积电目标价：2nm产能爬坡推高销售预期和利润率 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95ZTgtYnBnVDNQOEwwMy11X0plR1hwSGZLQUFFS3VtZlVpS2ZGbFBDSVFLSU5VeFhIUk1LRk8tTGN1azZ2OExZZDJtSG42Y1M0WTlr?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "报道：微软明年将大规模部署自研AI芯片，目标推理效率提升40%",
-        "summary": "报道：微软明年将大规模部署自研AI芯片，目标推理效率提升40% 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zcWNYaVcxdHBVYjVtOWFfUzZaWk5FUjg1R0taekQwbGJRb0VpZTQzWkhUUkJjWXRZbmVCRmhFQTBuN2hKMWloTndLbG9aWFlqLWhn?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "AI逆向工具REA一周新增7.88万星，智能体接入反汇编工具降低软件功能拆解门槛",
-        "summary": "AI逆向工具REA一周新增7.88万星，智能体接入反汇编工具降低软件功能拆解门槛 虎嗅网",
-        "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94OXA2TWVEZk9YSHpRYnNmVk9ZT2lrNFhYTUJBR3RfMlhNaTE5VE1wVi13Wm44S0NVdmtQdzRxWnJuM2YzRFR4RGlSNU1DR3FlbWxpSQ?oc=5"
-      }
-    ],
-    "copy": {
-      "title": "震惊！硬科技今天信息量爆炸🤯 10 条干货看完就知道钱和趋势往哪走（建议收藏）",
-      "open": "今天的主线很明确：AI 不只是在卷模型能力，已经开始卷交互方式、组织执行和商业落地速度。",
-      "insights": [
-        "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
-        "🧠 芯片：台积电报价和先进制程景气度，继续决定算力链条的利润分配。",
-        "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
-        "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
       ]
     }
   }
