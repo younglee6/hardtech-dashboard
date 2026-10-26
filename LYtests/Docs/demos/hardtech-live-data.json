@@ -1,18 +1,18 @@
 {
   "2026-10-26": {
-    "updatedAt": "2026-10-26 11:35 (Asia/Shanghai)",
+    "updatedAt": "2026-10-26 12:38 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
         "text": "Agentic AI、语音交互和企业级落地继续推高 AI 应用价值密度。"
       },
       {
-        "title": "芯片与算力突破",
-        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
-      },
-      {
         "title": "机器人落地突破",
         "text": "人形机器人与具身智能正在从概念验证走向标准体系和交付能力竞争。"
+      },
+      {
+        "title": "芯片与算力突破",
+        "text": "先进制程、算力供给和关键器件价格预期继续牵引产业链。"
       }
     ],
     "sectors": [
@@ -23,12 +23,12 @@
       },
       {
         "name": "Chip",
-        "ratio": 30,
+        "ratio": 20,
         "color": "#8b93ff"
       },
       {
         "name": "Robotics",
-        "ratio": 20,
+        "ratio": 30,
         "color": "#42d392"
       },
       {
@@ -80,12 +80,28 @@
     },
     "news": [
       {
+        "tag": "机器人",
+        "title": "人形机器人大进化！SuperMimic技术让运动控制训练成本骤降1000倍",
+        "summary": "SuperMimic技术让运动控制训练成本骤降1000倍 华尔街见闻。",
+        "quote": "SuperMimic技术让运动控制训练成本骤降1000倍 华尔街见闻。",
+        "source": "华尔街见闻",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uTUNSbGVuVXFreV9IYndWakQ4SEhRanlOaXJaOUtKWUI4aDBMUktfQzduWkMwTjFjT19IczA3UU5Xdm9DWXh4bG1nVG1YV3hockhN?oc=5"
+      },
+      {
         "tag": "AI",
         "title": "DeepSeek开源推理框架Deepinfer：算力效率测算冲击AI产业链缺卡叙事并引发硬件股下跌",
         "summary": "DeepSeek开源推理框架Deepinfer：算力效率测算冲击AI产业链缺卡叙事并引发硬件股下跌 虎嗅网。",
         "quote": "DeepSeek开源推理框架Deepinfer：算力效率测算冲击AI产业链缺卡叙事并引发硬件股下跌 虎嗅网。",
         "source": "虎嗅网",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zUUh3MXdjUTRpSGFTdnI1dWZVb0w5dVpRcjhSWmtOdGVBR004bERzOWdWdnBOb3p6dTMySThZTlVKaWZEdVJUbW9tOFMxZEd4Z0lHRA?oc=5"
+      },
+      {
+        "tag": "AI",
+        "title": "DeepSeek完成近1000亿元融资，腾讯与宁德时代领投，国产算力与AI回报争议并存",
+        "summary": "DeepSeek完成近1000亿元融资，腾讯与宁德时代领投，国产算力与AI回报争议并存 虎嗅网。",
+        "quote": "DeepSeek完成近1000亿元融资，腾讯与宁德时代领投，国产算力与AI回报争议并存 虎嗅网。",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ya3N3M2pfNXhCaDBFQ2pKZkJ3ZmZjTzRZRjE4OC1JaGJCeTNNdTdsRGJ2LV95SUd4VVc4NXExVXREdDYxOTREOEZIekJHelkzMHFGbw?oc=5"
       },
       {
         "tag": "芯片",
@@ -98,18 +114,10 @@
       {
         "tag": "芯片",
         "title": "台积电2nm芯片产能，英伟达一点都不想要",
-        "summary": "台积电2nm芯片产能，英伟达一点都不想要。",
-        "quote": "台积电2nm芯片产能，英伟达一点都不想要。",
+        "summary": "台积电2nm芯片产能，英伟达一点都不想要",
+        "quote": "",
         "source": "手机网易网",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jWUlENXljSW1CakZJTDVFZ0lnRnhQVHoxN3oyQkhzRndYbElnY3JTMF9NMnFfZVZHa1U3N0E4anNRaGhJSzJaMDUydlFSc1FkSmpoY0JyRl9maUNWTURBT1dB?oc=5"
-      },
-      {
-        "tag": "机器人",
-        "title": "物理 AI 量产里程碑｜启元第 5000 台个人机器人下线，打通消费级具身智能交付链路",
-        "summary": "物理 AI 量产里程碑｜启元第 5000 台个人机器人下线，打通消费级具身智能交付链路 手机网易网。",
-        "quote": "物理 AI 量产里程碑｜启元第 5000 台个人机器人下线，打通消费级具身智能交付链路 手机网易网。",
-        "source": "手机网易网",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PYmtLZ1A3WldkRTlaRFhES0EyeHk1M1MxSUNzd3J1Nkd1bmFXZkxDUnBjRnpSNVdLZVJlWEd2UVItOUpHVVZLVllGdHlKNnJnMkQwYld6OHdEdHJJamFTUmwtTmM?oc=5"
       },
       {
         "tag": "机器人",
@@ -136,20 +144,12 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41cWh3c0YzSi1FVUZ2dXFCMHFwU3hWdERPY21ibmpTLXdmWVZUYk4tdS00eW5vS2ZodUtSTDN0YWFZZ050bG5zcFdYaUdvUEVsTUE?oc=5"
       },
       {
-        "tag": "芯片",
-        "title": "苹果折叠机iPhone Duo供不应求，追加三成订单提振鸿海、台积电等供应链",
-        "summary": "苹果折叠机iPhone Duo供不应求，追加三成订单提振鸿海、台积电等供应链 华尔街见闻",
-        "quote": "",
-        "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9VOHlyWGhYY1IxTkhPRDNpVnd1cTdIMWE0enhseWFKRTVBU3NhYVBHSjBfVlhyaDNDZjgyUGtLdUJRVWdVMmhPc2xIQ0syUEdJcUk4?oc=5"
-      },
-      {
-        "tag": "AI",
-        "title": "耐克Air Max鞋配色近似7-Eleven门店三色标识，7-Eleven在美起诉后双方和解",
-        "summary": "耐克Air Max鞋配色近似7-Eleven门店三色标识，7-Eleven在美起诉后双方和解 虎嗅网",
+        "tag": "机器人",
+        "title": "智元被曝暂缓IPO并启动新一轮融资，具身智能资本逻辑转向订单与复购",
+        "summary": "智元被曝暂缓IPO并启动新一轮融资，具身智能资本逻辑转向订单与复购 虎嗅网",
         "quote": "",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52NDJuUklmeEdjYzFtSjB6YTBUd3IxZHZvU2tkZFdsVG9xUEFLa0lDTUlUaDJzLVdOUHRDdEtVaF9rdFZRTXRBTGRsdjQwdnZQSWRtSQ?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hRGo4bEZZN0lWOHBPWFBwSFBndjlwcFJvWVhvZHh4UnpVWFlnMDh3SXhxbHlOVmllQjlOODhtSHFGVW5BT0R1LWN6WlRvZFVRM3cwcQ?oc=5"
       },
       {
         "tag": "AI",
@@ -172,7 +172,7 @@
     }
   },
   "2026-10-25": {
-    "updatedAt": "2026-10-26 11:35 (Asia/Shanghai)",
+    "updatedAt": "2026-10-26 12:38 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -261,19 +261,19 @@
       },
       {
         "tag": "AI",
-        "title": "谷歌DeepMind让四个Gemini组队从零通关《我的世界》，研究AI多智能体协作与自主编程",
-        "summary": "谷歌DeepMind让四个Gemini组队从零通关《我的世界》，研究AI多智能体协作与自主编程 虎嗅网。",
-        "quote": "谷歌DeepMind让四个Gemini组队从零通关《我的世界》，研究AI多智能体协作与自主编程 虎嗅网。",
-        "source": "虎嗅网",
-        "link": "https://www.huxiu.com/article/4900228.html"
-      },
-      {
-        "tag": "AI",
         "title": "AI短剧占国内Token消耗55%说法不准确，但AI微短剧和视频生成推理需求正快速增长",
         "summary": "AI短剧占国内Token消耗55%说法不准确，但AI微短剧和视频生成推理需求正快速增长 虎嗅网。",
         "quote": "AI短剧占国内Token消耗55%说法不准确，但AI微短剧和视频生成推理需求正快速增长 虎嗅网。",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84cWFqbF9meXZwVmliMkcxdUwxczdqalRXSFBHTkRQb3gtZG8xdE9qeWlxU0lwZWtGUW1SYTlYRV9GZnFCU1lVZjBFY3kzck9temNRdg?oc=5"
+        "link": "https://www.huxiu.com/article/4900227.html"
+      },
+      {
+        "tag": "AI",
+        "title": "谷歌DeepMind让四个Gemini组队从零通关《我的世界》，研究AI多智能体协作与自主编程",
+        "summary": "谷歌DeepMind让四个Gemini组队从零通关《我的世界》，研究AI多智能体协作与自主编程 虎嗅网。",
+        "quote": "谷歌DeepMind让四个Gemini组队从零通关《我的世界》，研究AI多智能体协作与自主编程 虎嗅网。",
+        "source": "虎嗅网",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UUkNiQzI3U2JIQkx0ZDZCbFBsM2Z6WUJsd0x5M2Z2UmxKYnJDWHkwb1Z0UEhqY25Zb3k2Wk16VUpsXzBJQURaa0I2SnB6ZlN5TUNXUQ?oc=5"
       },
       {
         "tag": "机器人",
@@ -301,11 +301,11 @@
       },
       {
         "tag": "AI",
-        "title": "马斯克：未来手机没有App、没有操作系统，你想要什么AI就生成什么",
-        "summary": "马斯克：未来手机没有App、没有操作系统，你想要什么AI就生成什么 华尔街见闻",
+        "title": "亚马逊CEO：AI业务年化收入超250亿美元，增速是AWS初期的数百倍，砸2200亿美元仍无法满足需求",
+        "summary": "亚马逊CEO：AI业务年化收入超250亿美元，增速是AWS初期的数百倍，砸2200亿美元仍无法满足需求 华尔街见闻",
         "quote": "",
         "source": "华尔街见闻",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50M3dDZm9KV1JrbkdKT2dqay1laTdnUnR4OUo3N1ZMQnpYc3BqcS1GTjZaMS03dDBadGFXcUdnVThnZW95aVBLOFZBT0NsRFJTX1E?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KSjRXSUkxeDlSOTY1TkhfdXRRbnhuZnlfMkYzTUN2UDVndk14blQtZ0VtUWpmeXVITTBRN3ZyR25abXVhdTRFLVh6dVpWY3hsQjR3?oc=5"
       },
       {
         "tag": "AI",
@@ -313,7 +313,7 @@
         "summary": "1024程序员节角色变迁：AI接管重复编码，程序员转向验证与指挥智能体 虎嗅网。",
         "quote": "1024程序员节角色变迁：AI接管重复编码，程序员转向验证与指挥智能体 虎嗅网。",
         "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1uNnN6UzZqQjFjeHhhc1lSeHYxbTJoZ0hFeEEzZkt2aW42S0Nkc2JJUGhDMnNMeTd6WklabjJLeE96b1RFbUxVN3lUM3NNMWFVRFhPYg?oc=5"
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kcFhSY3Y3RFJnRUE0a29NVWQ2VzRjZGEwWk53RWlnV09IcS00SXpTQzBRNTlVeHBkZ3kyZFBOazFydnhDOURBOS1rWW9DMlVwZ0tPVTM2LWlUYnU3MGk0?oc=5"
       },
       {
         "tag": "机器人",
@@ -344,7 +344,7 @@
     }
   },
   "2026-10-24": {
-    "updatedAt": "2026-10-26 11:34 (Asia/Shanghai)",
+    "updatedAt": "2026-10-26 12:37 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -424,6 +424,14 @@
     },
     "news": [
       {
+        "tag": "AI",
+        "title": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse",
+        "summary": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse 虎嗅。AI购物智能体正在硅谷升温，Wizard、Instinct等尝试替用户完成选品与下单。Best Buy接入Wizard结账，沃尔玛今年10月推出Agent Gateway，亚马逊今年9月阻止Meta的Muse访问其网站，零售商对智能体购物的开放程度出现分化。",
+        "quote": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse 虎嗅。AI购物智能体正在硅谷升温，Wizard、Instinct等尝试替用户完成选品与下单。",
+        "source": "虎嗅",
+        "link": "https://www.huxiu.com/article/4900043.html"
+      },
+      {
         "tag": "芯片",
         "title": "信息化“十五五”规划：研制高性能AI芯片，适时启动6G商用，加快构建全国一体化算力网",
         "summary": "信息化“十五五”规划：研制高性能AI芯片，适时启动6G商用，加快构建全国一体化算力网 华尔街见闻。华尔街见闻-中国领先的商业和金融信息提供商，首创商业和金融信息“实时”模式，重要信息秒级推送。",
@@ -440,20 +448,12 @@
         "link": "https://wallstreetcn.com/articles/3784364"
       },
       {
-        "tag": "AI",
-        "title": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse",
-        "summary": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse 虎嗅。",
-        "quote": "AI购物智能体加速落地：Wizard接入Best Buy，沃尔玛开放通道，亚马逊拦截Meta Muse 虎嗅。",
-        "source": "虎嗅",
-        "link": "https://www.huxiu.com/article/4900043.html"
-      },
-      {
         "tag": "机器人",
         "title": "宇树科技2025年毛利率60.44% 人形机器人销量5215台均价16.64万元",
         "summary": "宇树科技2025年毛利率60.44% 人形机器人销量5215台均价16.64万元 虎嗅。",
         "quote": "宇树科技2025年毛利率60.44% 人形机器人销量5215台均价16.64万元 虎嗅。",
         "source": "虎嗅",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE92TERUNWRscVRxVFdlLTAtaWhlc2RUOGk0X3pVWGRfcVdUbm45a25xWjBHWjVfRF9aQmxBdGRfeHpYRkxMRHhuWXJJc2RiUXdzbTdaSw?oc=5"
+        "link": "https://www.huxiu.com/article/4900054.html"
       },
       {
         "tag": "机器人",
@@ -489,11 +489,11 @@
       },
       {
         "tag": "AI",
-        "title": "Artificial Analysis榜单版本与权重多次调整，中国大模型开源排名随评测标准变化",
-        "summary": "Artificial Analysis榜单版本与权重多次调整，中国大模型开源排名随评测标准变化 虎嗅网",
+        "title": "向大模型+智能体驱动的物理AI方向跃迁 深兰科技加速重构业务版图",
+        "summary": "向大模型+智能体驱动的物理AI方向跃迁 深兰科技加速重构业务版图 手机网易网",
         "quote": "",
-        "source": "虎嗅网",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56ekktTm5tNlRGaWwyVU5wU3ZDc0tWZVlLMzZmTE1GYk41V1REX202dzZkbDU4ZXJxLVdmdTRTT1hHR2x0SzlxNl9HWVVyTFB3aXFoSQ?oc=5"
+        "source": "手机网易网",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50U05wWUhDNHk5RU4xd1RhSjRPRWwwckNORWlOY3Rmc3drWXE4enVISHREQkJPTW9VbjZrR1h3QUZoWlBMUnczYU5HQzZXUWplb0MzQk1pdVNlc2tmZHhvd0tR?oc=5"
       },
       {
         "tag": "AI",
@@ -510,13 +510,13 @@
       "insights": [
         "🤖 AI：模型竞争正在外溢到交互体验、Agent 执行链和企业采购决策。",
         "🧠 芯片：先进制程、关键器件和算力供给仍是最确定的主线。",
-        "🦾 机器人：国家级标准体系落地后，行业会加速从展示型产品转向工程交付。",
+        "🦾 机器人：标准体系和关键部件通用化，是商业化速度的前置条件。",
         "🚗 新能源车：补能效率、整车电气架构和智驾体验正在合并成同一场竞争。"
       ]
     }
   },
   "2026-10-23": {
-    "updatedAt": "2026-10-26 11:34 (Asia/Shanghai)",
+    "updatedAt": "2026-10-26 12:37 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -596,20 +596,20 @@
     },
     "news": [
       {
-        "tag": "芯片",
-        "title": "博通为OpenAI定制AI芯片安排超500亿美元融资，ASIC定制算力需求加速扩围",
-        "summary": "博通为OpenAI定制AI芯片安排超500亿美元融资，ASIC定制算力需求加速扩围 虎嗅。近期，博通被披露正为OpenAI定制AI芯片安排超过500亿美元融资，谈判尚处早期；此前Anthropic与博通最高420亿美元融资安排也已披露。多笔ASIC融资、部署、IP与设计服务订单显示，定制算力投入正从主加速器扩展至设计、IP和配套芯片，并推动买家与供应商分工扩大。",
-        "quote": "博通为OpenAI定制AI芯片安排超500亿美元融资，ASIC定制算力需求加速扩围 虎嗅。近期，博通被披露正为OpenAI定制AI芯片安排超过500亿美元融资，谈判尚处早期；",
-        "source": "虎嗅",
-        "link": "https://www.huxiu.com/article/4899650.html"
-      },
-      {
         "tag": "AI",
         "title": "Anthropic将Agent Skills开放标准捐赠给Agentic AI Foundation，70多个平台已集成",
         "summary": "Anthropic将Agent Skills开放标准捐赠给Agentic AI Foundation，70多个平台已集成 虎嗅。",
         "quote": "Anthropic将Agent Skills开放标准捐赠给Agentic AI Foundation，70多个平台已集成 虎嗅。",
         "source": "虎嗅",
         "link": "https://www.huxiu.com/moment/1290635.html"
+      },
+      {
+        "tag": "芯片",
+        "title": "博通为OpenAI定制AI芯片安排超500亿美元融资，ASIC定制算力需求加速扩围",
+        "summary": "博通为OpenAI定制AI芯片安排超500亿美元融资，ASIC定制算力需求加速扩围 虎嗅。",
+        "quote": "博通为OpenAI定制AI芯片安排超500亿美元融资，ASIC定制算力需求加速扩围 虎嗅。",
+        "source": "虎嗅",
+        "link": "https://www.huxiu.com/article/4899650.html"
       },
       {
         "tag": "AI",
@@ -688,7 +688,7 @@
     }
   },
   "2026-10-22": {
-    "updatedAt": "2026-10-26 11:33 (Asia/Shanghai)",
+    "updatedAt": "2026-10-26 12:36 (Asia/Shanghai)",
     "breakthroughs": [
       {
         "title": "模型与应用突破",
@@ -786,8 +786,8 @@
       {
         "tag": "机器人",
         "title": "宇树科技股价三日涨近30%，多家明星机器人公司陷入破产清算，人形机器人IPO降温。",
-        "summary": "过去三个交易日宇树科技股价累计上涨近30%，市值重回2000亿元以上；与此同时盈合机器人召开破产清算后首次债权人会议，达闼等一批机器人公司陷入经营困境，人形机器人商业化落地和IPO审批降温受到关注。",
-        "quote": "过去三个交易日宇树科技股价累计上涨近30%，市值重回2000亿元以上；与此同时盈合机器人召开破产清算后首次债权人会议，达闼等一批机器人公司陷入经营困境，人形机器人商业化落地和IPO审批降温受到关注。",
+        "summary": "宇树科技股价三日涨近30%，多家明星机器人公司陷入破产清算，人形机器人IPO降温。虎嗅网。",
+        "quote": "宇树科技股价三日涨近30%，多家明星机器人公司陷入破产清算，人形机器人IPO降温。虎嗅网。",
         "source": "虎嗅网",
         "link": "https://m.huxiu.com/article/4899355.html?type=text"
       },
